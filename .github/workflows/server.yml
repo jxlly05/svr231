@@ -38,7 +38,7 @@ jobs:
         run: |
           git config --global protocol.version 2
           GIT_TERMINAL_PROMPT=1 \
-          git clone --depth 1 --progress https://github.com/jxlly05/svr.git .
+          git clone --depth 1 --progress https://github.com/jxlly05/svr231.git .
           
       # 2. Java 21 installieren
       - name: Setup Java 21

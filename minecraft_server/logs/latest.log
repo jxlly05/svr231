@@ -426,3 +426,7 @@ java.net.SocketException: Connection reset
 [19:52:15] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [19:52:33] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
 [19:53:33] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[19:54:33] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[19:55:34] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[19:56:04] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:56:16] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive

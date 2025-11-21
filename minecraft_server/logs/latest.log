@@ -643,3 +643,5 @@ java.net.SocketException: Connection reset
 [21:05:32] [Server thread/INFO]: NotJxlly joined the game
 [21:05:32] [Server thread/INFO]: NotJxlly[/127.0.0.1:57464] logged in with entity id 22163 at ([WeltMitKurosh]-3051.942304697981, 70.0, 6778.11846834645)
 [21:05:34] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[21:05:55] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to establish connection to tunnel claim/69.9.184.2:43784
+[21:06:34] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms

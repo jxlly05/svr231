@@ -700,3 +700,6 @@ java.net.SocketException: Connection reset
 [21:39:42] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=94.134.105.128:27977, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 108, -109, -71, -35, -45, 81, -85, 94, -122, 105, -128, 109, 73, 66, -67, 89, -122, -85, 8, 105, 32, -36, 30, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, 118, 97, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 38, 37, 0, -123, 6, 30, 111, 102, 102, 101, 114, 115, 45, 108, 97, 117, 100, 101, 114, 100, 97, 108, 101, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 81, -85, 1, -121, -105, 124, 10, -27, 3, -80, -39, -113, -37, -53, 73, -108, -17, -112, -22], tunnelServerId=1, dataCenterId=36}
 [21:39:42] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
 [21:39:42] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
+[21:40:12] [nioEventLoopGroup-2-2/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to establish connection to tunnel claim/69.9.184.2:43784
+[21:40:27] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:40:40] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive

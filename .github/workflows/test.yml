@@ -1,0 +1,33 @@
+name: Virginia Check & Retry
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  check-runner-region:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Detect runner region
+        id: region
+        run: |
+          IP=$(curl -s https://api.ipify.org)
+          REGION=$(curl -s "https://ipinfo.io/$IP/region")
+          echo "Detected region: $REGION"
+          echo "region=$REGION" >> $GITHUB_OUTPUT
+
+      - name: Restart workflow if not Virginia
+        if: ${{ steps.region.outputs.region != 'Virginia' }}
+        env:
+          GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}
+          WORKFLOW_FILE: test.yml
+        run: |
+          echo "❌ Runner not in Virginia, restarting workflow via PAT..."
+          curl -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $GITHUB_PAT" \
+            https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/$WORKFLOW_FILE/dispatches \
+            -d "{\"ref\":\"${GITHUB_REF_NAME}\"}"
+          exit 1
+

@@ -305,3 +305,5 @@ java.net.SocketException: Connection reset
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[19:35:48] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:36:00] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive

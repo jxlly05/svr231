@@ -38,7 +38,7 @@ jobs:
         run: |
           git config --global protocol.version 2
           GIT_TERMINAL_PROMPT=1 \
-          git clone --depth 1 --progress https://github.com/jxlly05/project429.git .
+          git clone --depth 1 --progress https://github.com/jxlly05/svr.git .
           
       # 2. Java 21 installieren
       - name: Setup Java 21
@@ -68,7 +68,7 @@ jobs:
               git config user.name "github-actions"
               git config user.email "github-actions@github.com"
 
-              git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/jxlly05/project429.git
+              git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/jxlly05/svr231.git
         
               git add minecraft_server || true
               git commit -m "Autosave | Minecraft Server" >/dev/null 2>&1 || true
@@ -100,7 +100,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
       
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/jxlly05/project429.git
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/jxlly05/svr231.git
       
           [ -f ".git/index.lock" ] && rm -f .git/index.lock
       

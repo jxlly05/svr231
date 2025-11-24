@@ -1743,3 +1743,13 @@ Caused by: java.lang.ClassNotFoundException: org.bukkit.craftbukkit.v1_21_R5.Cra
 [20:37:35] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [20:37:55] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
 [20:37:55] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[20:38:55] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[20:38:55] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[20:39:55] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[20:39:55] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[20:40:55] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[20:40:55] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[20:41:23] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[20:41:35] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[20:41:55] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[20:41:55] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms

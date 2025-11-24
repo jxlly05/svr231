@@ -1925,3 +1925,6 @@ Caused by: java.lang.ClassNotFoundException: org.bukkit.craftbukkit.v1_21_R5.Cra
 [21:49:44] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [21:49:56] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
 [21:49:56] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[21:50:56] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[21:50:56] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[21:51:20] [Server thread/WARN]: Kurocr7 moved wrongly!

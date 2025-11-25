@@ -5870,3 +5870,5 @@
 [21:21:47] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
 [21:21:47] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
 [21:21:47] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[21:24:28] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:24:41] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive

@@ -3500,3 +3500,6 @@
 [20:34:42] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
 [20:34:42] [Server thread/INFO]: Kurocr7 joined the game
 [20:34:42] [Server thread/INFO]: Kurocr7[/127.0.0.1:42438] logged in with entity id 35968 at ([WeltMitKurosh]-3026.3606429145457, 63.0, 6849.724456470245)
+[20:35:32] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[20:36:11] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[20:36:24] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive

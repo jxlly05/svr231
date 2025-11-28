@@ -1,0 +1,27 @@
+name: Download Paper Jar
+
+on:
+  workflow_dispatch:
+
+jobs:
+  download-paper:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download paper.jar
+        run: |
+          mkdir -p svr231/minecraft_server
+          curl -L \
+            "https://fill-data.papermc.io/v1/objects/d5f47f6393aa647759f101f02231fa8200e5bccd36081a3ee8b6a5fd96739057/paper-1.21.10-115.jar" \
+            -o svr231/minecraft_server/paper.jar
+
+      - name: Commit file
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add svr231/minecraft_server/paper.jar
+          git commit -m "Download latest paper.jar"
+          git push

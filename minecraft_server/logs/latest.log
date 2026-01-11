@@ -150,3 +150,21 @@
 [18:42:32] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
 [18:42:32] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
 [18:42:33] [User Authenticator #0/INFO]: UUID of player NotJxlly is f34b2cf3-af89-4012-87db-df6e2ab0d3aa
+[18:42:34] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/waxed_copper_door_from_honeycomb' in progress file ./WeltMitKurosh/advancements/f34b2cf3-af89-4012-87db-df6e2ab0d3aa.json - it doesn't exist anymore?
+[18:42:34] [Server thread/WARN]: [Multiverse-Core] The destination in FirstSpawnLocation in config is invalid
+[18:42:34] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[18:42:34] [Server thread/INFO]: NotJxlly joined the game
+[18:42:34] [Server thread/INFO]: NotJxlly[/127.0.0.1:44976] logged in with entity id 522 at ([WeltMitKurosh]-2914.1328885596545, 178.0, 6850.374943619252)
+[18:42:37] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=94.134.105.130:6469, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 108, -109, -71, -35, -45, 81, -85, 94, -122, 105, -126, 25, 69, 34, 26, 106, 15, -85, 8, 105, 99, -17, 29, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, 34, -22, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 38, 37, 0, -122, 6, 30, 111, 102, 102, 101, 114, 115, 45, 108, 97, 117, 100, 101, 114, 100, 97, 108, 101, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 81, -85, 1, 108, -88, 0, -82, 22, 10, 104, 94, -109, -124, 4, -65, 36, 119, -101, -28], tunnelServerId=1, dataCenterId=36}
+[18:42:37] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[18:42:37] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
+[18:42:37] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[18:42:37] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[18:42:38] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[18:42:38] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[18:42:38] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[18:42:38] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[18:42:38] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[18:43:02] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[18:44:03] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[18:45:03] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms

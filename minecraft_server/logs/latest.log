@@ -1,206 +1,150 @@
-[15:23:54] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-LTS; Eclipse Adoptium Temurin-21.0.9+10) on Linux 6.11.0-1018-azure (amd64)
-[15:23:54] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.10-115-main@af06383 (2025-11-21T23:42:01Z) for Minecraft 1.21.10
-[15:23:55] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:23:55] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
-[15:23:55] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
+[18:10:28] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-LTS; Eclipse Adoptium Temurin-21.0.9+10) on Linux 6.11.0-1018-azure (amd64)
+[18:10:28] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-91-main@a0f626b (2026-01-09T18:51:51Z) for Minecraft 1.21.11
+[18:10:28] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[18:10:29] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Remapping server...
+[18:10:34] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Done remapping server in 5494ms.
+[18:10:34] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/KeepChunks-1.7.3.jar'...
+[18:10:34] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/NotTooExpensive.jar'...
+[18:10:34] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/multiverse-core-5.3.0.jar'...
+[18:10:34] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Remapping plugin 'plugins/scheduledstop-1.0.0.jar'...
+[18:10:35] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Done remapping plugin 'plugins/scheduledstop-1.0.0.jar' in 186ms.
+[18:10:35] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Remapping plugin 'plugins/PVDC-2.3.3.jar'...
+[18:10:35] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/NotTooExpensive.jar' in 195ms.
+[18:10:35] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/playit-minecraft-plugin.jar'...
+[18:10:35] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/KeepChunks-1.7.3.jar' in 285ms.
+[18:10:35] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/DummyPlayers-1.0-reobf.jar'...
+[18:10:35] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Done remapping plugin 'plugins/PVDC-2.3.3.jar' in 217ms.
+[18:10:35] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Remapping plugin 'plugins/multiverse-inventories-5.1.3.jar'...
+[18:10:35] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/DummyPlayers-1.0-reobf.jar' in 207ms.
+[18:10:35] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Done remapping plugin 'plugins/multiverse-inventories-5.1.3.jar' in 590ms.
+[18:10:36] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/playit-minecraft-plugin.jar' in 978ms.
+[18:10:36] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/multiverse-core-5.3.0.jar' in 1409ms.
+[18:10:36] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
+[18:10:36] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
  - DummyPlayers (1.0), KeepChunks (1.7.3), Multiverse-Core (5.3.0), Multiverse-Inventories (5.1.3), NotTooExpensive (1.3.4), PlayerViewDistanceController (2.3.3), ScheduledStop (1.0.0), playit-gg (0.1.4)
-[15:24:00] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[15:24:02] [ServerMain/INFO]: Loaded 1461 recipes
-[15:24:02] [ServerMain/INFO]: Loaded 1574 advancements
-[15:24:02] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[15:24:02] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 368.6ms
-[15:24:02] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[15:24:02] [Server thread/INFO]: Loading properties
-[15:24:03] [Server thread/INFO]: This server is running Paper version 1.21.10-115-main@af06383 (2025-11-21T23:42:01Z) (Implementing API version 1.21.10-R0.1-SNAPSHOT)
-[15:24:03] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[15:24:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:24:03] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:24:04] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[15:24:04] [Server thread/INFO]: Default game type: ADVENTURE
-[15:24:04] [Server thread/INFO]: Generating keypair
-[15:24:04] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:24:04] [Server thread/INFO]: Using epoll channel type
-[15:24:04] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[15:24:04] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[15:24:05] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.3.0
-[15:24:05] [Server thread/INFO]: [KeepChunks] Loading server plugin KeepChunks v1.7.3
-[15:24:05] [Server thread/INFO]: [NotTooExpensive] Loading server plugin NotTooExpensive v1.3.4
-[15:24:05] [Server thread/INFO]: [ScheduledStop] Loading server plugin ScheduledStop v1.0.0
-[15:24:05] [Server thread/INFO]: [PVDC] Loading server plugin PlayerViewDistanceController v2.3.3
-[15:24:05] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
-[15:24:05] [Server thread/INFO]: [DummyPlayers] Loading server plugin DummyPlayers v1.0
-[15:24:05] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v5.1.3
-[15:24:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:24:05] [Server thread/INFO]: Preparing level "WeltMitKurosh"
-[15:24:05] [Server thread/INFO]: Loading 308 persistent chunks for world 'minecraft:overworld'...
-[15:24:05] [Server thread/INFO]: Preparing spawn area: 3%
-[15:24:06] [Server thread/INFO]: Preparing spawn area: 3%
-[15:24:06] [Server thread/INFO]: Preparing spawn area: 3%
-[15:24:07] [Server thread/INFO]: Prepared spawn area in 2106 ms
-[15:24:07] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[15:24:07] [Server thread/INFO]: Prepared spawn area in 0 ms
-[15:24:07] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[15:24:07] [Server thread/INFO]: Prepared spawn area in 1 ms
-[15:24:07] [Server thread/INFO]: Done preparing level "WeltMitKurosh" (2.854s)
-[15:24:07] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.3.0
-[15:24:09] [Server thread/INFO]: [Multiverse-Core] API service loaded!
-[15:24:09] [Server thread/INFO]: [Multiverse-Core] Version 5.3.0 (API v5.3) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
-[15:24:09] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
-[15:24:09] [Server thread/INFO]: [KeepChunks] Enabling KeepChunks v1.7.3
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[15:24:09] [Server thread/INFO]: 
-[15:24:09] [Server thread/INFO]:  _     _                   _______ _                 _          
-[15:24:09] [Server thread/INFO]: (_)   | |                 (_______) |               | |  v1.7.3
-[15:24:09] [Server thread/INFO]:  _____| |_____ _____ ____  _      | |__  _   _ ____ | |  _  ___ 
-[15:24:09] [Server thread/INFO]: |  _   _) ___ | ___ |  _ \| |     |  _ \| | | |  _ \| |_/ )/___)
-[15:24:09] [Server thread/INFO]: | |  \ \| ____| ____| |_| | |_____| | | | |_| | | | |  _ (|___ |
-[15:24:09] [Server thread/INFO]: |_|   \_)_____)_____)  __/ \______)_| |_|____/|_| |_|_| \_|___/ 
-[15:24:09] [Server thread/INFO]:                     |_|                                         
-[15:24:09] [Server thread/INFO]: 
-[15:24:09] [Server thread/INFO]: [KeepChunks] KeepChunks v1.7.3 has been enabled
-[15:24:09] [Server thread/INFO]: [NotTooExpensive] Enabling NotTooExpensive v1.3.4
-[15:24:09] [Server thread/INFO]: [ScheduledStop] Enabling ScheduledStop v1.0.0
-[15:24:09] [Server thread/INFO]: [ScheduledStop] ShutdownTimer aktiviert.
-[15:24:09] [Server thread/INFO]: [PVDC] Enabling PlayerViewDistanceController v2.3.3
-[15:24:09] [Server thread/INFO]: [PVDC] Plugin started!
-[15:24:09] [Server thread/WARN]: [PVDC] LuckPerms is not running on this server: it is optional, but recommended!
-[15:24:09] [Server thread/WARN]: [PVDC] Ping mode disabled
-[15:24:09] [Update Check Thread/INFO]: [PVDC] Checking for updates...
-[15:24:09] [Server thread/WARN]: [PVDC] Dynamic mode enabled
-[15:24:09] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
-[15:24:09] [Update Check Thread/WARN]: [PVDC] Unable to check for updates! HTTP response code: 404
-[15:24:09] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
-[15:24:09] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
-[15:24:09] [Server thread/INFO]: [DummyPlayers] Enabling DummyPlayers v1.0
-[15:24:09] [Server thread/INFO]: [DummyPlayers] DummyPlayers v1.0 enabled!
-[15:24:09] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.1.3
-[15:24:09] [Server thread/INFO]: [Multiverse-Inventories] The following worlds for group 'default' are not loaded: survival_nether, survival, survival_the_end
-[15:24:09] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
-[15:24:09] [Server thread/INFO]: [Multiverse-Inventories] Version 5.1.3 (API v5.1) Enabled - By dumptruckman and benwoo1110
-[15:24:09] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: offers-lauderdale.gl.joinmc.link
-[15:24:09] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
-[15:24:10] [Thread-5/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:848:4:0:0:0:1, error : java.net.SocketException: Network is unreachable
-[15:24:10] [Server thread/INFO]: [spark] Starting background profiler...
-[15:24:10] [Server thread/INFO]: Running delayed init tasks
-[15:24:10] [Server thread/INFO]: Checking for conflicts in groups...
-[15:24:10] [Server thread/INFO]: No group conflicts found!
-[15:24:10] [Server thread/INFO]: Done (17.569s)! For help, type "help"
-[15:24:10] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
-[15:24:16] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=94.134.105.153:5931, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 108, -109, -71, -35, -45, 81, -85, 94, -122, 105, -103, 23, 43, 64, 8, -114, -94, -85, 8, 105, 93, 41, 32, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, 67, 125, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 38, 37, 0, -123, 6, 30, 111, 102, 102, 101, 114, 115, 45, 108, 97, 117, 100, 101, 114, 100, 97, 108, 101, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 81, -85, 1, -89, 92, 83, 0, -33, -11, -90, -109, 37, 0, 78, -93, -12, -2, 51, 0], tunnelServerId=1, dataCenterId=36}
-[15:24:16] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[15:24:16] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
-[15:24:16] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[15:24:16] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[15:24:16] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[15:24:16] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[15:24:16] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[15:24:16] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[15:24:16] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[15:24:17] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=94.134.105.153:5947, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 108, -109, -71, -35, -45, 81, -85, 94, -122, 105, -103, 23, 59, 125, 65, 70, 8, -85, 8, 105, 93, 41, 33, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, -114, -29, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 38, 37, 0, -123, 6, 30, 111, 102, 102, 101, 114, 115, 45, 108, 97, 117, 100, 101, 114, 100, 97, 108, 101, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 81, -85, 2, -58, 118, -70, -41, 102, -26, 21, -50, 65, 36, -126, 79, 2, 29, 83, 85], tunnelServerId=1, dataCenterId=36}
-[15:24:17] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[15:24:17] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
-[15:24:17] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[15:24:17] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[15:24:17] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[15:24:17] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[15:24:17] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[15:24:17] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[15:24:17] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[15:24:18] [User Authenticator #0/INFO]: UUID of player NotJxlly is f34b2cf3-af89-4012-87db-df6e2ab0d3aa
-[15:24:19] [Server thread/WARN]: [Multiverse-Core] The destination in FirstSpawnLocation in config is invalid
-[15:24:20] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
-[15:24:20] [Server thread/INFO]: NotJxlly joined the game
-[15:24:20] [Server thread/INFO]: NotJxlly[/127.0.0.1:55972] logged in with entity id 555 at ([WeltMitKurosh]-3051.2565024495307, 63.0, 6826.735191759285)
-[15:25:11] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
-[15:26:12] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
-[15:27:09] [Server thread/INFO]: NotJxlly issued server command: /stop
-[15:27:09] [Server thread/INFO]: [NotJxlly: Stopping the server]
-[15:27:09] [Server thread/INFO]: Stopping server
-[15:27:09] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v5.1.3
-[15:27:09] [Server thread/INFO]: [DummyPlayers] Disabling DummyPlayers v1.0
-[15:27:09] [Server thread/INFO]: [DummyPlayers] All dummies removed. Plugin disabled!
-[15:27:09] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
-[15:27:09] [Server thread/INFO]: [PVDC] Disabling PlayerViewDistanceController v2.3.3
-[15:27:09] [Server thread/INFO]: [PVDC] Plugin shut down!
-[15:27:09] [Server thread/INFO]: [ScheduledStop] Disabling ScheduledStop v1.0.0
-[15:27:09] [Server thread/INFO]: [ScheduledStop] ShutdownTimer deaktiviert.
-[15:27:09] [Server thread/INFO]: [NotTooExpensive] Disabling NotTooExpensive v1.3.4
-[15:27:09] [Server thread/INFO]: [KeepChunks] Disabling KeepChunks v1.7.3
-[15:27:09] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.3.0
-[15:27:09] [Server thread/INFO]: Saving players
-[15:27:09] [nioEventLoopGroup-2-4/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to minecraft server
-[15:27:09] [nioEventLoopGroup-2-4/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to minecraft server
-[15:27:09] [Server thread/INFO]: NotJxlly lost connection: Server closed
-[15:27:09] [Server thread/INFO]: NotJxlly left the game
-[15:27:09] [Server thread/INFO]: Saving worlds
-[15:27:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WeltMitKurosh]'/minecraft:overworld
-[15:27:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WeltMitKurosh'
-[15:27:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WeltMitKurosh'
-[15:27:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WeltMitKurosh'
-[15:27:11] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] control channel shutdown
-[15:27:19] [Server thread/INFO]: [ChunkHolderManager] Saved 5753 block chunks, 5753 entity chunks, 0 poi chunks in world 'WeltMitKurosh' in 10.12s
-[15:27:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WeltMitKurosh'
-[15:27:19] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WeltMitKurosh'
-[15:27:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WeltMitKurosh_nether]'/minecraft:the_nether
-[15:27:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WeltMitKurosh_nether'
-[15:27:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WeltMitKurosh_nether'
-[15:27:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WeltMitKurosh_nether'
-[15:27:19] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'WeltMitKurosh_nether' in 0.00s
-[15:27:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WeltMitKurosh_nether'
-[15:27:19] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WeltMitKurosh_nether'
-[15:27:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WeltMitKurosh_the_end]'/minecraft:the_end
-[15:27:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WeltMitKurosh_the_end'
-[15:27:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WeltMitKurosh_the_end'
-[15:27:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WeltMitKurosh_the_end'
-[15:27:19] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'WeltMitKurosh_the_end' in 0.00s
-[15:27:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WeltMitKurosh_the_end'
-[15:27:19] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WeltMitKurosh_the_end'
-[15:27:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (WeltMitKurosh): All chunks are saved
-[15:27:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:27:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:27:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[15:27:19] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[15:27:19] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[15:27:19] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[15:27:19] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[18:10:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[18:10:43] [ServerMain/INFO]: Loaded 1470 recipes
+[18:10:43] [ServerMain/INFO]: Loaded 1584 advancements
+[18:10:43] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[18:10:43] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 488.6ms
+[18:10:43] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[18:10:43] [Server thread/INFO]: Loading properties
+[18:10:43] [Server thread/INFO]: This server is running Paper version 1.21.11-91-main@a0f626b (2026-01-09T18:51:51Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[18:10:44] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[18:10:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:10:44] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:10:44] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[18:10:45] [Server thread/INFO]: Default game type: ADVENTURE
+[18:10:45] [Server thread/INFO]: Generating keypair
+[18:10:45] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:10:45] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:10:45] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[18:10:45] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.3.0
+[18:10:45] [Server thread/INFO]: [KeepChunks] Loading server plugin KeepChunks v1.7.3
+[18:10:45] [Server thread/INFO]: [NotTooExpensive] Loading server plugin NotTooExpensive v1.3.4
+[18:10:45] [Server thread/INFO]: [ScheduledStop] Loading server plugin ScheduledStop v1.0.0
+[18:10:45] [Server thread/INFO]: [PVDC] Loading server plugin PlayerViewDistanceController v2.3.3
+[18:10:45] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
+[18:10:45] [Server thread/INFO]: [DummyPlayers] Loading server plugin DummyPlayers v1.0
+[18:10:45] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v5.1.3
+[18:10:45] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:10:45] [Server thread/INFO]: Preparing level "WeltMitKurosh"
+[18:10:45] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[18:10:45] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
+[18:10:46] [Server thread/INFO]: Loading 308 persistent chunks for world 'minecraft:overworld'...
+[18:10:46] [Server thread/INFO]: Preparing spawn area: 3%
+[18:10:46] [Server thread/INFO]: Preparing spawn area: 3%
+[18:10:47] [Server thread/INFO]: Preparing spawn area: 3%
+[18:10:48] [Server thread/INFO]: Prepared spawn area in 2441 ms
+[18:10:48] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[18:10:48] [Server thread/INFO]: Prepared spawn area in 1 ms
+[18:10:48] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[18:10:48] [Server thread/INFO]: Prepared spawn area in 1 ms
+[18:10:48] [Server thread/INFO]: Done preparing level "WeltMitKurosh" (3.147s)
+[18:10:48] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.3.0
+[18:10:49] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[18:10:49] [Server thread/INFO]: [Multiverse-Core] Version 5.3.0 (API v5.3) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[18:10:49] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[18:10:49] [Server thread/INFO]: [KeepChunks] Enabling KeepChunks v1.7.3
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[18:10:49] [Server thread/INFO]: 
+[18:10:49] [Server thread/INFO]:  _     _                   _______ _                 _          
+[18:10:49] [Server thread/INFO]: (_)   | |                 (_______) |               | |  v1.7.3
+[18:10:49] [Server thread/INFO]:  _____| |_____ _____ ____  _      | |__  _   _ ____ | |  _  ___ 
+[18:10:49] [Server thread/INFO]: |  _   _) ___ | ___ |  _ \| |     |  _ \| | | |  _ \| |_/ )/___)
+[18:10:49] [Server thread/INFO]: | |  \ \| ____| ____| |_| | |_____| | | | |_| | | | |  _ (|___ |
+[18:10:49] [Server thread/INFO]: |_|   \_)_____)_____)  __/ \______)_| |_|____/|_| |_|_| \_|___/ 
+[18:10:49] [Server thread/INFO]:                     |_|                                         
+[18:10:49] [Server thread/INFO]: 
+[18:10:49] [Server thread/INFO]: [KeepChunks] KeepChunks v1.7.3 has been enabled
+[18:10:49] [Server thread/INFO]: [NotTooExpensive] Enabling NotTooExpensive v1.3.4
+[18:10:49] [Server thread/INFO]: [ScheduledStop] Enabling ScheduledStop v1.0.0
+[18:10:49] [Server thread/INFO]: [ScheduledStop] ShutdownTimer aktiviert.
+[18:10:49] [Server thread/INFO]: [PVDC] Enabling PlayerViewDistanceController v2.3.3
+[18:10:49] [Server thread/INFO]: [PVDC] Plugin started!
+[18:10:50] [Server thread/WARN]: [PVDC] LuckPerms is not running on this server: it is optional, but recommended!
+[18:10:50] [Server thread/WARN]: [PVDC] Ping mode disabled
+[18:10:50] [Update Check Thread/INFO]: [PVDC] Checking for updates...
+[18:10:50] [Server thread/WARN]: [PVDC] Dynamic mode enabled
+[18:10:50] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
+[18:10:50] [Update Check Thread/WARN]: [PVDC] Unable to check for updates! HTTP response code: 404
+[18:10:50] [Server thread/INFO]: [DummyPlayers] Enabling DummyPlayers v1.0
+[18:10:50] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
+[18:10:50] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[18:10:50] [Server thread/INFO]: [DummyPlayers] DummyPlayers v1.0 enabled!
+[18:10:50] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.1.3
+[18:10:50] [Server thread/INFO]: [Multiverse-Inventories] The following worlds for group 'default' are not loaded: survival_nether, survival, survival_the_end
+[18:10:51] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
+[18:10:51] [Server thread/INFO]: [Multiverse-Inventories] Version 5.1.3 (API v5.1) Enabled - By dumptruckman and benwoo1110
+[18:10:51] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: offers-lauderdale.gl.joinmc.link
+[18:10:51] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
+[18:10:51] [Thread-5/INFO]: playit.gg: tunnel setup
+[18:10:51] [Thread-5/INFO]: playit.gg: offers-lauderdale.gl.joinmc.link
+[18:10:51] [Server thread/INFO]: [spark] Starting background profiler...
+[18:10:52] [Thread-5/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:848:4:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[18:10:52] [Server thread/INFO]: Running delayed init tasks
+[18:10:52] [Server thread/INFO]: Checking for conflicts in groups...
+[18:10:52] [Server thread/INFO]: No group conflicts found!
+[18:10:52] [Server thread/INFO]: Done (25.667s)! For help, type "help"
+[18:10:52] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend

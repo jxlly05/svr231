@@ -160,8 +160,15 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: minecraft-server-data-${{ github.run_id }}
-          path: minecraft_server/
-          retention-days: 7
+          path: |
+            minecraft_server/
+            !minecraft_server/flatworld
+            !minecraft_server/Island
+            !minecraft_server/Luebeck
+            !minecraft_server/Survival
+            !minecraft_server/Survival_nether
+            !minecraft_server/Survival_the_end
+          retention-days: 90
 
       # 5. Finale ID in Datei schreiben und pushen
       - name: Save Artifact ID and Force-push

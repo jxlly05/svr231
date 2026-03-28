@@ -143,8 +143,50 @@ jobs:
             done
           } &
           AUTOSAVE_PID=$!
-        
           echo "[Autosave] Hintergrundprozess gestartet mit PID $AUTOSAVE_PID"
+
+
+          echo "[World-DL] Starte Hintergrund-Download für fehlende Welten..."
+          {
+            # Liste der Welten, die geprüft werden sollen
+            WORLDS=("flatworld" "Island" "Luebeck" "Survival" "Survival_nether" "Survival_the_end")
+            
+            for WORLD in "${WORLDS[@]}"; do
+              # Prüfen, ob der Ordner NICHT existiert (-d prüft auf Verzeichnisse, ! verneint das)
+              if [ ! -d "$GITHUB_WORKSPACE/minecraft_server/$WORLD" ]; then
+                echo "[World-DL] Welt '$WORLD' fehlt. Starte gezielten Download..."
+                
+                # Temporäres Verzeichnis erstellen, um den Hauptordner nicht zu stören
+                TEMP_DIR=$(mktemp -d)
+                cd "$TEMP_DIR"
+                
+                # Schneller Sparse-Checkout nur für diesen einen Ordner
+                git init -q
+                git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/jxlly05/svr231.git
+                git config core.sparseCheckout true
+                echo "minecraft_server/$WORLD/" >> .git/info/sparse-checkout
+                
+                # Nur die Dateien dieses Ordners herunterladen
+                git pull -q --depth=1 origin main
+                
+                # Welt in den echten Server-Ordner verschieben
+                if [ -d "minecraft_server/$WORLD" ]; then
+                  mv "minecraft_server/$WORLD" "$GITHUB_WORKSPACE/minecraft_server/"
+                  echo "[World-DL] Welt '$WORLD' wurde erfolgreich heruntergeladen und bereitgestellt."
+                else
+                  echo "[World-DL] FEHLER: Welt '$WORLD' konnte im Repository nicht gefunden werden."
+                fi
+                
+                # Aufräumen
+                rm -rf "$TEMP_DIR"
+              else
+                echo "[World-DL] Welt '$WORLD' existiert bereits. Wird übersprungen."
+              fi
+            done
+            
+            echo "[World-DL] Alle Welten-Prüfungen abgeschlossen."
+          } &
+
         
           # Minecraft-Server starten
           cd "$GITHUB_WORKSPACE/minecraft_server"

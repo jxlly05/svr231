@@ -48,14 +48,13 @@ jobs:
           else
             echo "[Init] Artifact ID gefunden: $ARTIFACT_ID. Überspringe kompletten Repo-Clone."
             
-            # --- WICHTIG: Git minimal initialisieren, damit der Push später nicht den Workflow löscht ---
-            git init
-            git branch -M main
-            git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/jxlly05/svr231.git
-            git fetch --depth 1 origin main
-            git reset --mixed origin/main
-            git checkout origin/main -- .github
-            # ---------------------------------------------------------------------------------------------
+            # --- SCHNELLE GIT-INITIALISIERUNG ---
+            echo "[Init] Lade Git-Struktur extrem schnell (ohne Dateiinhalte)..."
+            git clone --depth 1 --filter=blob:none --no-checkout https://github.com/jxlly05/svr231.git .
+            
+            echo "[Init] Stelle nur den .github Ordner wieder her..."
+            git checkout HEAD -- .github
+            # ------------------------------------
             
             echo "[Init] Lade Artefakt herunter..."
             mkdir -p minecraft_server

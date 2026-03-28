@@ -240,3 +240,4 @@
 [17:08:53] [Server thread/WARN]: NotJxlly moved wrongly!
 [17:09:00] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: ff3783d3-1f5b-48aa-8784-9701259be34f, mapped to Chicken['Chicken'/1549, uuid='ff3783d3-1f5b-48aa-8784-9701259be34f', l='ServerLevel[WeltMitKurosh]', x=-3550.83, y=68.00, z=6724.24, cpos=[-222, 420], tl=0, v=true], can't add Chicken['Chicken'/1584, uuid='ff3783d3-1f5b-48aa-8784-9701259be34f', l='ServerLevel[WeltMitKurosh]', x=-3557.13, y=68.00, z=6719.79, cpos=[-223, 419], tl=0, v=false]
 [17:09:41] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[17:10:41] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms

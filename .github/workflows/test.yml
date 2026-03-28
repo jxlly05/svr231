@@ -1,4 +1,4 @@
-name: Server Start - Fast - Low Ping
+name: Fast Server Start
 
 on:
   workflow_dispatch:

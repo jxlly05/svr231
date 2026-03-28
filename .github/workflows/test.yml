@@ -7,24 +7,20 @@ permissions:
   contents: write
 
 jobs:
-  start-server:
+  start:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Repo auschecken (WICHTIG!)
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      # 2. Steuerdatei prüfen
-      - name: Check artifact control file
+      # 1. Steuerdatei prüfen (remote)
+      - name: Check control file
         id: control
         run: |
-          FILE="minecraft_server/artifact-version-id.txt"
+          URL="https://raw.githubusercontent.com/jxlly05/svr231/refs/heads/main/minecraft_server/artifact-version-id.txt"
 
-          echo "Prüfe Datei: $FILE"
+          echo "Prüfe: $URL"
 
-          if [ -f "$FILE" ]; then
-            VALUE=$(tr -d '\r\n ' < "$FILE")
+          if curl -f -s "$URL" -o control.txt; then
+            VALUE=$(tr -d '\r\n ' < control.txt)
             echo "Datei gefunden: [$VALUE]"
 
             if [ "$VALUE" = "none" ]; then
@@ -33,12 +29,15 @@ jobs:
               echo "artifact_state=exists" >> $GITHUB_OUTPUT
               echo "artifact_id=$VALUE" >> $GITHUB_OUTPUT
             fi
+
           else
-            echo "Datei existiert nicht"
+            echo "Datei nicht gefunden → erstelle none"
+            echo "none" > control.txt
+
             echo "artifact_state=none" >> $GITHUB_OUTPUT
           fi
 
-      # 3. Artifact laden
+      # 2. Artifact laden (falls ID vorhanden)
       - name: Download artifact
         if: steps.control.outputs.artifact_state == 'exists'
         uses: actions/download-artifact@v4
@@ -47,21 +46,33 @@ jobs:
           path: minecraft_server
         continue-on-error: true
 
-      # 4. Fallback: KEIN git clone!
-      - name: Fallback setup
-        if: steps.control.outputs.artifact_state != 'exists'
+      # 3. Fallback: Git Clone (nur wenn none)
+      - name: Clone repo (fallback)
+        if: steps.control.outputs.artifact_state == 'none'
         run: |
-          echo "Kein Artifact → verwende Repo-Stand (kein clone nötig)"
+          echo "Clone in separates Verzeichnis"
 
-      # 5. Java installieren
-      - name: Setup Java 21
+          git config --global protocol.version 2
+
+          git clone --depth 1 \
+            https://github.com/jxlly05/svr231.git \
+            repo
+
+          # Arbeitsverzeichnis umstellen
+          mv repo/* .
+          mv repo/.* . 2>/dev/null || true
+
+          rm -rf repo
+
+      # 4. Java installieren
+      - name: Setup Java
         uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: 21
 
-      # 6. Server starten + Autosave
-      - name: Start Server + Autosave
+      # 5. Server starten + Autosave
+      - name: Start server
         run: |
           echo "Starte Autosave..."
 
@@ -72,23 +83,24 @@ jobs:
               git config user.name "github-actions"
               git config user.email "github-actions@github.com"
 
+              git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/jxlly05/svr231.git
+
               git add minecraft_server || true
               git commit -m "Autosave" >/dev/null 2>&1 || true
               git push origin HEAD:main --force >/dev/null 2>&1 || true
 
-              echo "Autosave done"
               sleep 60
             done
           } &
+
           AUTOSAVE_PID=$!
 
           cd minecraft_server
-
           java -Xms14G -Xmx14G -jar paper.jar --nogui
 
           kill "$AUTOSAVE_PID" 2>/dev/null || true
 
-      # 7. Artifact hochladen
+      # 6. Artifact hochladen
       - name: Upload artifact
         id: upload
         uses: actions/upload-artifact@v4
@@ -96,17 +108,17 @@ jobs:
           name: minecraft-server
           path: minecraft_server
 
-      # 8. Artifact-ID speichern
-      - name: Write artifact id
+      # 7. Artifact-ID speichern
+      - name: Save artifact ID
         run: |
           echo "${{ steps.upload.outputs.artifact-id }}" > minecraft_server/artifact-version-id.txt
 
-      # 9. Push Änderungen
+      # 8. Push
       - name: Push changes
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
           git add minecraft_server
-          git commit -m "Update state" || echo "No changes"
+          git commit -m "Update" || echo "No changes"
           git push origin HEAD:main

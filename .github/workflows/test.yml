@@ -5,120 +5,152 @@ on:
 
 permissions:
   contents: write
+  actions: read # Wird für den gh api Download benötigt
 
 jobs:
-  start:
+  check-runner-region-and-start-server:
     runs-on: ubuntu-latest
-
     steps:
-      # 1. Steuerdatei prüfen (remote)
-      - name: Check control file
-        id: control
+      # 1. Datei prüfen und bedingt Klonen oder Artefakt laden
+      - name: Check Artifact Status and Prepare Files
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          echo "[Init] Prüfe artifact-version-id.txt via URL..."
           URL="https://raw.githubusercontent.com/jxlly05/svr231/refs/heads/main/minecraft_server/artifact-version-id.txt"
-
-          echo "Prüfe: $URL"
-
-          if curl -f -s "$URL" -o control.txt; then
-            VALUE=$(tr -d '\r\n ' < control.txt)
-            echo "Datei gefunden: [$VALUE]"
-
-            if [ "$VALUE" = "none" ]; then
-              echo "artifact_state=none" >> $GITHUB_OUTPUT
-            else
-              echo "artifact_state=exists" >> $GITHUB_OUTPUT
-              echo "artifact_id=$VALUE" >> $GITHUB_OUTPUT
-            fi
-
+          
+          # Datei herunterladen und HTTP-Status prüfen
+          HTTP_STATUS=$(curl -s -o remote_id.txt -w "%{http_code}" "$URL")
+          ARTIFACT_ID="none"
+          
+          if [ "$HTTP_STATUS" == "200" ]; then
+            # Lese Inhalt und entferne eventuelle Zeilenumbrüche
+            ARTIFACT_ID=$(cat remote_id.txt | tr -d '\r' | tr -d '\n')
+          fi
+          
+          if [ "$ARTIFACT_ID" == "none" ] || [ -z "$ARTIFACT_ID" ]; then
+            echo "[Init] Status ist 'none' oder URL nicht erreichbar. Klone das gesamte Repository..."
+            git config --global protocol.version 2
+            GIT_TERMINAL_PROMPT=1 \
+            git clone --depth 1 --progress https://github.com/jxlly05/svr231.git .
+            
+            # Fallback, falls die Datei komplett gefehlt hat
+            mkdir -p minecraft_server
+            echo "none" > minecraft_server/artifact-version-id.txt
           else
-            echo "Datei nicht gefunden → erstelle none"
-            echo "none" > control.txt
-
-            echo "artifact_state=none" >> $GITHUB_OUTPUT
+            echo "[Init] Artifact ID gefunden: $ARTIFACT_ID. Überspringe kompletten Repo-Clone."
+            
+            # --- WICHTIG: Git minimal initialisieren, damit der Push später nicht den Workflow löscht ---
+            git init
+            git branch -M main
+            git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/jxlly05/svr231.git
+            git fetch --depth 1 origin main
+            git reset --mixed origin/main
+            git checkout origin/main -- .github
+            # ---------------------------------------------------------------------------------------------
+            
+            echo "[Init] Lade Artefakt herunter..."
+            mkdir -p minecraft_server
+            gh api "/repos/jxlly05/svr231/actions/artifacts/$ARTIFACT_ID/zip" > server_data.zip
+            
+            if [ -s server_data.zip ]; then
+              unzip -q server_data.zip -d minecraft_server/
+              rm server_data.zip
+              echo "[Init] Server-Daten aus Artefakt erfolgreich wiederhergestellt."
+            else
+              echo "[Init] FEHLER beim Artefakt-Download! Fallback: Klone das Repo..."
+              git clone --depth 1 https://github.com/jxlly05/svr231.git temp_repo
+              mv temp_repo/minecraft_server/* ./minecraft_server/
+              rm -rf temp_repo
+              echo "none" > minecraft_server/artifact-version-id.txt
+            fi
           fi
 
-      # 2. Artifact laden (falls ID vorhanden)
-      - name: Download artifact
-        if: steps.control.outputs.artifact_state == 'exists'
-        uses: actions/download-artifact@v4
-        with:
-          name: minecraft-server
-          path: minecraft_server
-        continue-on-error: true
-
-      # 3. Fallback: Git Clone (nur wenn none)
-      - name: Clone repo (fallback)
-        if: steps.control.outputs.artifact_state == 'none'
-        run: |
-          echo "Clone in separates Verzeichnis"
-
-          git config --global protocol.version 2
-
-          git clone --depth 1 \
-            https://github.com/jxlly05/svr231.git \
-            repo
-
-          # Arbeitsverzeichnis umstellen
-          mv repo/* .
-          mv repo/.* . 2>/dev/null || true
-
-          rm -rf repo
-
-      # 4. Java installieren
-      - name: Setup Java
+      # 2. Java 21 installieren
+      - name: Setup Java 21
         uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: 21
 
-      # 5. Server starten + Autosave
-      - name: Start server
+      # 3. Autosave + Minecraft Server Start
+      - name: Start AutoSave & Minecraft Server
         run: |
-          echo "Starte Autosave..."
+          echo "[Autosave] Starte Hintergrund-Autosave-Prozess..."
 
           {
             while true; do
-              echo "none" > minecraft_server/artifact-version-id.txt
-
+              cd "$GITHUB_WORKSPACE"
               git config user.name "github-actions"
               git config user.email "github-actions@github.com"
-
               git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/jxlly05/svr231.git
-
+              
+              # Während der Server läuft, steht immer 'none' in der Datei
+              echo "none" > minecraft_server/artifact-version-id.txt
+        
               git add minecraft_server || true
-              git commit -m "Autosave" >/dev/null 2>&1 || true
+              git commit -m "Autosave | Minecraft Server" >/dev/null 2>&1 || true
               git push origin HEAD:main --force >/dev/null 2>&1 || true
-
+        
+              echo "[Autosave] Repo save done"
               sleep 60
             done
           } &
-
           AUTOSAVE_PID=$!
-
-          cd minecraft_server
-          java -Xms14G -Xmx14G -jar paper.jar --nogui
-
+        
+          echo "[Autosave] Hintergrundprozess gestartet mit PID $AUTOSAVE_PID"
+        
+          # Minecraft-Server starten
+          cd "$GITHUB_WORKSPACE/minecraft_server"
+          java -Xms14G -Xmx14G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -jar paper.jar --nogui
+        
+          echo "[Autosave] beende Autosave-Prozess..."
           kill "$AUTOSAVE_PID" 2>/dev/null || true
+          echo "[Autosave] Autosave vollständig gestoppt."
 
-      # 6. Artifact hochladen
-      - name: Upload artifact
-        id: upload
+      # 4. Artefakt erstellen
+      - name: Upload Server Artifact
+        id: server_upload
         uses: actions/upload-artifact@v4
         with:
-          name: minecraft-server
-          path: minecraft_server
+          name: minecraft-server-data-${{ github.run_id }}
+          path: minecraft_server/
+          retention-days: 7
 
-      # 7. Artifact-ID speichern
-      - name: Save artifact ID
+      # 5. Finale ID in Datei schreiben und pushen
+      - name: Save Artifact ID and Force-push
         run: |
-          echo "${{ steps.upload.outputs.artifact-id }}" > minecraft_server/artifact-version-id.txt
-
-      # 8. Push
-      - name: Push changes
-        run: |
+          sleep 5
+          cd "$GITHUB_WORKSPACE"
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/jxlly05/svr231.git
+       
+          [ -f ".git/index.lock" ] && rm -f .git/index.lock
+       
+          NEW_ARTIFACT_ID="${{ steps.server_upload.outputs.artifact-id }}"
+          echo "[Final Push] Schreibe neue Artifact-ID in Datei: $NEW_ARTIFACT_ID"
+          echo "$NEW_ARTIFACT_ID" > minecraft_server/artifact-version-id.txt
+       
           git add minecraft_server
-          git commit -m "Update" || echo "No changes"
-          git push origin HEAD:main
+          git reset HEAD .github || true
+       
+          git commit -m "Finaler Push | Artifact ID: $NEW_ARTIFACT_ID" || echo "No changes to commit"
+       
+          max_attempts=3
+          attempt=1
+          while [ $attempt -le $max_attempts ]; do
+            echo "[Final Push] (Versuch $attempt/$max_attempts) Versuche, Änderungen zu pushen..."
+            if git push origin HEAD:main --force; then
+              echo "[Final Push] Push erfolgreich!"
+              break
+            else
+              if [ $attempt -eq $max_attempts ]; then
+                echo "[Final Push] Push fehlgeschlagen. Breche ab."
+                exit 1
+              fi
+              echo "[Final Push] Push fehlgeschlagen, warte 10 Sekunden..."
+              sleep 10
+            fi
+            attempt=$((attempt + 1))
+          done

@@ -1,12 +1,23 @@
 bots:
+- name: BastiGHG
+  uuid: b4a8f296-4935-44b4-8c65-e018d04e1cbe
+  display-name: BastiGHG
+  spawned-by: NotJxlly
+  spawned-by-uuid: f34b2cf3-af89-4012-87db-df6e2ab0d3aa
+  world: WeltMitKurosh
+  x: -3443.300000011921
+  y: 286.0
+  z: 6979.451889008693
+  yaw: -86.23185729980469
+  pitch: 87.55421447753906
 - name: GommeHD
   uuid: dcd5ed31-bb5a-4237-9a6d-56cda24346d1
   display-name: GommeHD
   spawned-by: NotJxlly
   spawned-by-uuid: f34b2cf3-af89-4012-87db-df6e2ab0d3aa
   world: WeltMitKurosh
-  x: -3060.4284207436017
+  x: -3062.699999988079
   y: 70.0
-  z: 6782.834811126489
-  yaw: -152.48240661621094
-  pitch: -9.468955133873358E-12
+  z: 6782.35276895981
+  yaw: 16.83951759338379
+  pitch: 3.056971549987793

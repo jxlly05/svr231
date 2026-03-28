@@ -146,45 +146,60 @@ jobs:
           echo "[Autosave] Hintergrundprozess gestartet mit PID $AUTOSAVE_PID"
 
 
-          echo "[World-DL] Starte Hintergrund-Download für fehlende Welten..."
+
+
           {
-            # Liste der Welten, die geprüft werden sollen
+            echo "[World-DL] Prüfe auf fehlende Welten..."
+          
+            # Liste aller benötigten Welten
             WORLDS=("flatworld" "Island" "Luebeck" "Survival" "Survival_nether" "Survival_the_end")
-            
+            MISSING_WORLDS=()
+          
+            # 1. Herausfinden, was überhaupt fehlt
             for WORLD in "${WORLDS[@]}"; do
-              # Prüfen, ob der Ordner NICHT existiert (-d prüft auf Verzeichnisse, ! verneint das)
               if [ ! -d "$GITHUB_WORKSPACE/minecraft_server/$WORLD" ]; then
-                echo "[World-DL] Welt '$WORLD' fehlt. Starte gezielten Download..."
-                
-                # Temporäres Verzeichnis erstellen, um den Hauptordner nicht zu stören
-                TEMP_DIR=$(mktemp -d)
-                cd "$TEMP_DIR"
-                
-                # Schneller Sparse-Checkout nur für diesen einen Ordner
-                git init -q
-                git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/jxlly05/svr231.git
-                git config core.sparseCheckout true
-                echo "minecraft_server/$WORLD/" >> .git/info/sparse-checkout
-                
-                # Nur die Dateien dieses Ordners herunterladen
-                git pull -q --depth=1 origin main
-                
-                # Welt in den echten Server-Ordner verschieben
+                MISSING_WORLDS+=("$WORLD")
+              else
+                echo "[World-DL] Welt '$WORLD' existiert bereits. Wird übersprungen."
+              fi
+            done
+          
+            # 2. Nur wenn wirklich etwas fehlt, wird Git angeworfen
+            if [ ${#MISSING_WORLDS[@]} -gt 0 ]; then
+              echo "[World-DL] Fehlende Welten gefunden: ${MISSING_WORLDS[*]}. Starte gebündelten Download..."
+            
+              TEMP_DIR=$(mktemp -d)
+              cd "$TEMP_DIR"
+            
+              # Repo-Struktur in unter 1 Sekunde laden (ohne Dateiinhalte)
+              git clone --depth 1 --filter=blob:none --sparse https://github.com/jxlly05/svr231.git .
+            
+              # Sparse-Checkout Liste für Git zusammenbauen
+              SPARSE_PATHS=()
+              for WORLD in "${MISSING_WORLDS[@]}"; do
+                SPARSE_PATHS+=("minecraft_server/$WORLD/")
+              done
+            
+              # Git sagen: "Lade NUR diese spezifischen Welten-Ordner herunter!"
+              git sparse-checkout set "${SPARSE_PATHS[@]}"
+            
+              # 3. Heruntergeladene Welten in den echten Server-Ordner schieben
+              for WORLD in "${MISSING_WORLDS[@]}"; do
                 if [ -d "minecraft_server/$WORLD" ]; then
                   mv "minecraft_server/$WORLD" "$GITHUB_WORKSPACE/minecraft_server/"
                   echo "[World-DL] Welt '$WORLD' wurde erfolgreich heruntergeladen und bereitgestellt."
                 else
                   echo "[World-DL] FEHLER: Welt '$WORLD' konnte im Repository nicht gefunden werden."
                 fi
-                
-                # Aufräumen
-                rm -rf "$TEMP_DIR"
-              else
-                echo "[World-DL] Welt '$WORLD' existiert bereits. Wird übersprungen."
-              fi
-            done
+              done
             
-            echo "[World-DL] Alle Welten-Prüfungen abgeschlossen."
+              # Aufräumen
+              cd "$GITHUB_WORKSPACE"
+              rm -rf "$TEMP_DIR"
+              echo "[World-DL] Download und Bereitstellung abgeschlossen."
+            else
+              echo "[World-DL] Alle Welten sind bereits vorhanden. Kein Download nötig."
+            fi
           } &
 
         

@@ -247,3 +247,21 @@
 [17:11:54] [Server thread/INFO]: NotJxlly issued server command: /playit tunnel get-address NotJxlly
 [17:11:54] [Server thread/INFO]: playit.gg: offers-lauderdale.gl.joinmc.link
 [17:12:01] [Server thread/INFO]: NotJxlly issued server command: /playit prop
+[17:12:35] [Server thread/INFO]: NotJxlly issued server command: /playit tunnel get-address
+[17:12:35] [Server thread/INFO]: playit.gg: offers-lauderdale.gl.joinmc.link
+[17:12:41] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[17:12:47] [Server thread/INFO]: NotJxlly issued server command: /playit prop get mc-timeout-sec
+[17:12:53] [Server thread/INFO]: NotJxlly issued server command: /playit account
+[17:12:57] [Server thread/INFO]: NotJxlly issued server command: /playit account guest-login-link
+[17:12:58] [Thread-12/WARN]: [gg.playit.minecraft.PlayitBukkit] failed to create guest secret: gg.playit.api.ApiError: Api error code: 400, req: {"type":"create-guest-session"}, res: {"type":"error","code":400,"message":"must be guest account"}
+[17:13:07] [Server thread/INFO]: NotJxlly issued server command: /playit agent restart
+[17:13:07] [Thread-13/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
+[17:13:07] [Thread-13/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[17:13:07] [Server thread/INFO]: playit.gg: restarting connection as requested by: NotJxlly
+[17:13:07] [Thread-13/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: offers-lauderdale.gl.joinmc.link
+[17:13:07] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
+[17:13:07] [Thread-13/INFO]: playit.gg: tunnel setup
+[17:13:07] [Thread-13/INFO]: playit.gg: offers-lauderdale.gl.joinmc.link
+[17:13:07] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] control channel shutdown
+[17:13:08] [Thread-13/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:84c:16:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[17:13:08] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend

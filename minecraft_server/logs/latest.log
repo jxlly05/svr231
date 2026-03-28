@@ -265,3 +265,52 @@
 [17:13:07] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] control channel shutdown
 [17:13:08] [Thread-13/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:84c:16:0:0:0:1, error : java.net.SocketException: Network is unreachable
 [17:13:08] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[17:13:25] [Server thread/INFO]: NotJxlly issued server command: /playit agent reset
+[17:13:28] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] control channel shutdown
+[17:13:28] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key not set, generate claim code: 5489b1f738f11b13
+[17:13:28] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:13:28] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
+[17:13:31] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:13:31] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
+[17:13:34] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:13:34] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
+[17:13:37] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:13:37] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
+[17:13:40] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:13:40] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
+[17:13:41] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[17:13:43] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:13:43] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
+[17:13:46] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:13:46] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
+[17:13:49] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:13:49] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
+[17:13:52] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:13:53] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
+[17:13:56] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:13:56] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
+[17:13:59] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:13:59] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
+[17:14:02] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:14:02] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
+[17:14:05] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:14:05] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
+[17:14:08] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:14:08] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
+[17:14:11] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:14:11] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
+[17:14:14] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[17:14:14] [Server thread/INFO]: NotJxlly lost connection: Disconnected
+[17:14:14] [Server thread/INFO]: NotJxlly left the game
+[17:14:14] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:14:14] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
+[17:14:17] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:14:17] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
+[17:14:20] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:14:20] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
+[17:14:23] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:14:23] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
+[17:14:26] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:14:26] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
+[17:14:29] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:14:29] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13

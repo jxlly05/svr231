@@ -19,20 +19,28 @@ jobs:
           echo "[Init] Prüfe artifact-version-id.txt via URL..."
           URL="https://raw.githubusercontent.com/jxlly05/svr231/refs/heads/main/minecraft_server/artifact-version-id.txt"
           
-          # Datei herunterladen und HTTP-Status prüfen
-          HTTP_STATUS=$(curl -s -o remote_id.txt -w "%{http_code}" "$URL")
+          # Wir speichern die Datei in /tmp/, damit das Arbeitsverzeichnis für Git komplett leer bleibt
+          HTTP_STATUS=$(curl -s -o /tmp/remote_id.txt -w "%{http_code}" "$URL")
           ARTIFACT_ID="none"
           
           if [ "$HTTP_STATUS" == "200" ]; then
             # Lese Inhalt und entferne eventuelle Zeilenumbrüche
-            ARTIFACT_ID=$(cat remote_id.txt | tr -d '\r' | tr -d '\n')
+            ARTIFACT_ID=$(cat /tmp/remote_id.txt | tr -d '\r' | tr -d '\n')
           fi
           
           if [ "$ARTIFACT_ID" == "none" ] || [ -z "$ARTIFACT_ID" ]; then
             echo "[Init] Status ist 'none' oder URL nicht erreichbar. Klone das gesamte Repository..."
             git config --global protocol.version 2
+            
+            # Klonen in einen temporären Ordner und dann verschieben, um den "already exists" Fehler sicher zu umgehen
             GIT_TERMINAL_PROMPT=1 \
-            git clone --depth 1 --progress https://github.com/jxlly05/svr231.git .
+            git clone --depth 1 --progress https://github.com/jxlly05/svr231.git temp_repo
+            
+            # dotglob sorgt dafür, dass auch versteckte Dateien wie .git und .github verschoben werden
+            shopt -s dotglob
+            mv temp_repo/* .
+            rm -rf temp_repo
+            shopt -u dotglob
             
             # Fallback, falls die Datei komplett gefehlt hat
             mkdir -p minecraft_server
@@ -60,12 +68,15 @@ jobs:
             else
               echo "[Init] FEHLER beim Artefakt-Download! Fallback: Klone das Repo..."
               git clone --depth 1 https://github.com/jxlly05/svr231.git temp_repo
-              mv temp_repo/minecraft_server/* ./minecraft_server/
+              shopt -s dotglob
+              mv temp_repo/* .
               rm -rf temp_repo
+              shopt -u dotglob
               echo "none" > minecraft_server/artifact-version-id.txt
             fi
           fi
 
+          
       # 2. Java 21 installieren
       - name: Setup Java 21
         uses: actions/setup-java@v5

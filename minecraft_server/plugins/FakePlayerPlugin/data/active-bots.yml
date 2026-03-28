@@ -8,16 +8,5 @@ bots:
   x: -3443.300000011921
   y: 286.0
   z: 6979.300000011921
-  yaw: -142.06748962402344
-  pitch: 39.26110076904297
-- name: GommeHD
-  uuid: dcd5ed31-bb5a-4237-9a6d-56cda24346d1
-  display-name: GommeHD
-  spawned-by: NotJxlly
-  spawned-by-uuid: f34b2cf3-af89-4012-87db-df6e2ab0d3aa
-  world: WeltMitKurosh
-  x: -3062.699999988079
-  y: 70.0
-  z: 6782.187769311177
-  yaw: 8.425309181213379
-  pitch: -0.15311405062675476
+  yaw: -31.214996337890625
+  pitch: -37.248565673828125

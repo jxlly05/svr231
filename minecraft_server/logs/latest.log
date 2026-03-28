@@ -209,3 +209,5 @@
 [19:01:32] [Server thread/WARN]: [Multiverse-Core] The destination in FirstSpawnLocation in config is invalid
 [19:01:33] [Server thread/INFO]: NotJxlly joined the game
 [19:01:33] [Server thread/INFO]: NotJxlly[/94.134.105.163:3119] logged in with entity id 573 at ([WeltMitKurosh]-3437.2090338539365, 160.0, 6975.230863075375)
+[19:02:33] [Server thread/INFO]: NotJxlly issued server command: /fpp despawn GommeHD
+[19:02:33] [Server thread/INFO]: GommeHD left the game

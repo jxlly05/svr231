@@ -1,0 +1,12 @@
+bots:
+- name: Aphmau
+  uuid: 5c08ab46-1b21-4b51-8230-e92d0f5766b0
+  display-name: Aphmau
+  spawned-by: NotJxlly
+  spawned-by-uuid: f34b2cf3-af89-4012-87db-df6e2ab0d3aa
+  world: WeltMitKurosh
+  x: -2981.355682979111
+  y: 47.0
+  z: 6928.230571252526
+  yaw: 67.46688079833984
+  pitch: 20.381013870239258

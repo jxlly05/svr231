@@ -194,3 +194,11 @@
 [18:24:36] [Server thread/INFO]: NotJxlly[/94.134.105.163:3245] logged in with entity id 947 at ([WeltMitKurosh]-3051.600964898006, 70.0, 6781.576248017671)
 [18:26:30] [Server thread/INFO]: NotJxlly issued server command: /ping
 [18:26:47] [Server thread/INFO]: NotJxlly issued server command: /fakeplayer
+[18:26:51] [Server thread/INFO]: NotJxlly issued server command: /fpp
+[18:26:53] [Server thread/INFO]: NotJxlly issued server command: /fpp help
+[18:26:56] [Server thread/INFO]: NotJxlly issued server command: /fpp spawn
+[18:26:56] [Server thread/INFO]: ZombieCleo joined the game
+[18:27:06] [Server thread/INFO]: ZombieCleo left the game
+[18:27:20] [Server thread/INFO]: NotJxlly issued server command: /fpp spawn
+[18:27:20] [Server thread/INFO]: Aphmau joined the game
+[18:27:50] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive

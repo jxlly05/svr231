@@ -211,3 +211,9 @@
 [22:24:56] [Server thread/INFO]: NotJxlly[/94.134.105.163:3129] logged in with entity id 841 at ([WeltMitKurosh]-2915.1680435020403, 177.0, 6849.699999988079)
 [22:25:12] [Server thread/INFO]: NotJxlly issued server command: /tps
 [22:25:41] [Server thread/INFO]: NotJxlly issued server command: /mv load Island
+[22:25:54] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[22:25:58] [Server thread/INFO]: NotJxlly issued server command: /mv load Luebeck
+[22:26:01] [Server thread/INFO]: NotJxlly issued server command: /mv load flatworld
+[22:26:01] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:flatworld'...
+[22:26:01] [Server thread/INFO]: Prepared spawn area in 0 ms
+[22:26:16] [Server thread/INFO]: NotJxlly issued server command: /mv tp flatworld

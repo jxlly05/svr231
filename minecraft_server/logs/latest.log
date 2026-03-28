@@ -1,486 +1,184 @@
-[17:07:15] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-LTS; Eclipse Adoptium Temurin-21.0.10+7) on Linux 6.17.0-1008-azure (amd64)
-[17:07:15] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-127-main@bd74bf6 (2026-03-10T02:55:23Z) for Minecraft 1.21.11
-[17:07:15] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[17:07:16] [Paper Plugin Remapper Thread - 1/INFO]: [ReobfServer] Remapping server...
-[17:07:22] [Paper Plugin Remapper Thread - 1/INFO]: [ReobfServer] Done remapping server in 5650ms.
-[17:07:22] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/fpp-1.4.23.jar'...
-[17:07:22] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/multiverse-inventories-5.1.3.jar'...
-[17:07:22] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/KeepChunks-1.7.3.jar'...
-[17:07:22] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/PVDC-2.3.3.jar'...
-[17:07:22] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/PVDC-2.3.3.jar' in 224ms.
-[17:07:22] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/multiverse-core-5.3.0.jar'...
-[17:07:22] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/KeepChunks-1.7.3.jar' in 238ms.
-[17:07:22] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/NotTooExpensive.jar'...
-[17:07:22] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/fpp-1.4.23.jar' in 295ms.
-[17:07:22] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/playit-minecraft-plugin.jar'...
-[17:07:22] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/NotTooExpensive.jar' in 183ms.
-[17:07:22] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/scheduledstop-1.0.0.jar'...
-[17:07:22] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/scheduledstop-1.0.0.jar' in 66ms.
-[17:07:22] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/multiverse-inventories-5.1.3.jar' in 621ms.
-[17:07:23] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/playit-minecraft-plugin.jar' in 774ms.
-[17:07:23] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/multiverse-core-5.3.0.jar' in 1172ms.
-[17:07:23] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
-[17:07:23] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
- - FakePlayerPlugin (1.4.23), KeepChunks (1.7.3), Multiverse-Core (5.3.0), Multiverse-Inventories (5.1.3), NotTooExpensive (1.3.4), PlayerViewDistanceController (2.3.3), ScheduledStop (1.0.0), playit-gg (0.1.4)
-[17:07:28] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[17:07:30] [ServerMain/INFO]: Loaded 1470 recipes
-[17:07:30] [ServerMain/INFO]: Loaded 1584 advancements
-[17:07:30] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[17:07:30] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 366.0ms
-[17:07:30] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[17:07:30] [Server thread/INFO]: Loading properties
-[17:07:31] [Server thread/INFO]: This server is running Paper version 1.21.11-127-main@bd74bf6 (2026-03-10T02:55:23Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[17:07:31] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[17:07:31] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:07:31] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:07:32] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[17:07:32] [Server thread/INFO]: Default game type: ADVENTURE
-[17:07:32] [Server thread/INFO]: Generating keypair
-[17:07:32] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:07:32] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[17:07:32] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[17:07:32] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.3.0
-[17:07:32] [Server thread/INFO]: [FakePlayerPlugin] Loading server plugin FakePlayerPlugin v1.4.23
-[17:07:32] [Server thread/INFO]: [KeepChunks] Loading server plugin KeepChunks v1.7.3
-[17:07:32] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v5.1.3
-[17:07:32] [Server thread/INFO]: [PVDC] Loading server plugin PlayerViewDistanceController v2.3.3
-[17:07:32] [Server thread/INFO]: [NotTooExpensive] Loading server plugin NotTooExpensive v1.3.4
-[17:07:32] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
-[17:07:32] [Server thread/INFO]: [ScheduledStop] Loading server plugin ScheduledStop v1.0.0
-[17:07:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:07:32] [Server thread/INFO]: Preparing level "WeltMitKurosh"
-[17:07:33] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
-[17:07:33] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
-[17:07:33] [Server thread/INFO]: Loading 308 persistent chunks for world 'minecraft:overworld'...
-[17:07:33] [Server thread/INFO]: Preparing spawn area: 3%
-[17:07:34] [Server thread/INFO]: Preparing spawn area: 3%
-[17:07:34] [Server thread/INFO]: Preparing spawn area: 3%
-[17:07:36] [Server thread/INFO]: Prepared spawn area in 2312 ms
-[17:07:36] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[17:07:36] [Server thread/INFO]: Preparing spawn area: 100%
-[17:07:36] [Server thread/INFO]: Prepared spawn area in 1 ms
-[17:07:36] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[17:07:36] [Server thread/INFO]: Preparing spawn area: 100%
-[17:07:36] [Server thread/INFO]: Prepared spawn area in 1 ms
-[17:07:36] [Server thread/INFO]: Done preparing level "WeltMitKurosh" (3.284s)
-[17:07:36] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.3.0
-[17:07:37] [Server thread/INFO]: [Multiverse-Core] API service loaded!
-[17:07:37] [Server thread/INFO]: [Multiverse-Core] Version 5.3.0 (API v5.3) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
-[17:07:37] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
-[17:07:37] [Server thread/INFO]: [FakePlayerPlugin] Enabling FakePlayerPlugin v1.4.23
-[17:07:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ConfigMigrator: no existing config.yml — skipping migration.
-[17:07:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Loading Config ────────────────────────────────
-[17:07:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Loading Skin Repository ───────────────────────
-[17:07:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Connecting Database ───────────────────────────
-[17:07:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Database connected via SQLite (plugins/FakePlayerPlugin/data/fpp.db).
-[17:07:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Initialising Subsystems ───────────────────────
-[17:07:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Registering Commands ──────────────────────────
-[17:07:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Registering Listeners ─────────────────────────
-[17:07:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics: Initialising FastStats (token=376511af...)
-[17:07:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics: extracted faststats-core.jar (35 KB)
-[17:07:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics: extracted faststats-bukkit.jar (8 KB)
-[17:07:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics: [1/3] Creating ErrorTracker...
-[17:07:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics:       ErrorTracker ✔
-[17:07:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics: [2/3] Building BukkitMetrics...
-[17:07:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics:       BukkitMetrics built ✔
-[17:07:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics: [3/3] Calling ready()...
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] --------------------------------------------------------------------------------
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] This plugin uses FastStats to collect anonymous usage statistics.
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] No personal or identifying information is ever collected.
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] To opt out, set 'enabled=false' in the metrics configuration file.
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] Learn more at: https://faststats.dev/info
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] 
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] Since this is your first start with FastStats, metrics submission will not start
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] until you restart the server to allow you to opt out if you prefer.
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] --------------------------------------------------------------------------------
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics: FastStats connected and reporting ✔
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ══════════════════════════════════════════════════
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   ꜰᴀᴋᴇ ᴘʟᴀʏᴇʀ ᴘʟᴜɢɪɴ  v1.4.23
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Author  : El_Pepes
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Link    : https://modrinth.com/plugin/fake-player-plugin-(fpp)
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ──────────────────────────────────────────────────
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Configuration ─────────────────────────────────
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Skin mode ......... auto (guaranteed → Notch)
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Name pool ......... 297 names
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Msg pool .......... 989 messages
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Max bots .......... 1000
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Config version .... v25 ✔
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Subsystems ────────────────────────────────────
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✔] Server compat ..... OK
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✔] Database .......... SQLite (local)
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✔] Physical bodies ... enabled
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✔] Persistence ....... enabled
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✔] Chunk loading ..... enabled
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✘] Bot swap .......... disabled
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✘] Fake chat ......... disabled
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✘] LuckPerms ......... not installed
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✔] Metrics ........... reporting
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ──────────────────────────────────────────────────
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Plugin started successfully! Type /fpp for help.
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Started in 405 ms
-[17:07:38] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ══════════════════════════════════════════════════
-[17:07:38] [Server thread/INFO]: [KeepChunks] Enabling KeepChunks v1.7.3
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[17:07:38] [Server thread/INFO]: 
-[17:07:38] [Server thread/INFO]:  _     _                   _______ _                 _          
-[17:07:38] [Server thread/INFO]: (_)   | |                 (_______) |               | |  v1.7.3
-[17:07:38] [Server thread/INFO]:  _____| |_____ _____ ____  _      | |__  _   _ ____ | |  _  ___ 
-[17:07:38] [Server thread/INFO]: |  _   _) ___ | ___ |  _ \| |     |  _ \| | | |  _ \| |_/ )/___)
-[17:07:38] [Server thread/INFO]: | |  \ \| ____| ____| |_| | |_____| | | | |_| | | | |  _ (|___ |
-[17:07:38] [Server thread/INFO]: |_|   \_)_____)_____)  __/ \______)_| |_|____/|_| |_|_| \_|___/ 
-[17:07:38] [Server thread/INFO]:                     |_|                                         
-[17:07:38] [Server thread/INFO]: 
-[17:07:38] [Server thread/INFO]: [KeepChunks] KeepChunks v1.7.3 has been enabled
-[17:07:38] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.1.3
-[17:07:38] [Server thread/INFO]: [Multiverse-Inventories] The following worlds for group 'default' are not loaded: survival_nether, survival, survival_the_end
-[17:07:38] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
-[17:07:38] [Server thread/INFO]: [Multiverse-Inventories] Version 5.1.3 (API v5.1) Enabled - By dumptruckman and benwoo1110
-[17:07:38] [Server thread/INFO]: [PVDC] Enabling PlayerViewDistanceController v2.3.3
-[17:07:38] [Server thread/INFO]: [PVDC] Plugin started!
-[17:07:38] [Server thread/WARN]: [PVDC] LuckPerms is not running on this server: it is optional, but recommended!
-[17:07:38] [Server thread/WARN]: [PVDC] Ping mode disabled
-[17:07:38] [Update Check Thread/INFO]: [PVDC] Checking for updates...
-[17:07:38] [Server thread/WARN]: [PVDC] Dynamic mode enabled
-[17:07:38] [Server thread/INFO]: [NotTooExpensive] Enabling NotTooExpensive v1.3.4
-[17:07:38] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
-[17:07:38] [Update Check Thread/WARN]: [PVDC] Unable to check for updates! HTTP response code: 404
-[17:07:39] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
-[17:07:39] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
-[17:07:39] [Server thread/INFO]: [ScheduledStop] Enabling ScheduledStop v1.0.0
-[17:07:39] [Server thread/INFO]: [ScheduledStop] ShutdownTimer aktiviert.
-[17:07:39] [Server thread/INFO]: [spark] Starting background profiler...
-[17:07:39] [Server thread/INFO]: Running delayed init tasks
-[17:07:39] [Server thread/INFO]: Checking for conflicts in groups...
-[17:07:39] [Server thread/INFO]: No group conflicts found!
-[17:07:39] [Server thread/INFO]: Done (26.131s)! For help, type "help"
-[17:07:39] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: offers-lauderdale.gl.joinmc.link
-[17:07:39] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
-[17:07:39] [Thread-5/INFO]: playit.gg: tunnel setup
-[17:07:39] [Thread-5/INFO]: playit.gg: offers-lauderdale.gl.joinmc.link
-[17:07:40] [Thread-5/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:84c:16:0:0:0:1, error : java.net.SocketException: Network is unreachable
-[17:07:40] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
-[17:07:40] [Server thread/WARN]: [FakePlayerPlugin] [ꜰᴘᴘ] Update available! v1.4.23 → v1.4.28 | Download: https://modrinth.com/plugin/fake-player-plugin-(fpp)
-[17:08:17] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=94.134.105.163:3018, claimAddress=69.9.190.2:43784, claimToken=[44, 0, 108, -109, -71, -35, -45, 81, -85, 94, -122, 105, -93, 11, -54, 50, 82, 83, -73, -85, 8, 105, -56, 11, 1, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, 14, -110, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 2, 0, 5, 0, 38, 37, 0, -122, 6, 30, 111, 102, 102, 101, 114, 115, 45, 108, 97, 117, 100, 101, 114, 100, 97, 108, 101, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 81, -85, 1, 67, 33, -72, 69, -102, -103, -18, -66, 39, 93, -117, 85, 8, -67, 52, -24], tunnelServerId=2, dataCenterId=36}
-[17:08:17] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[17:08:17] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.190.2:43784 to claim client
-[17:08:17] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[17:08:17] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[17:08:17] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[17:08:17] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[17:08:17] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[17:08:17] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[17:08:17] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[17:08:23] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=94.134.105.163:3050, claimAddress=69.9.190.2:43784, claimToken=[44, 0, 108, -109, -71, -35, -45, 81, -85, 94, -122, 105, -93, 11, -22, -71, -68, -100, 15, -85, 8, 105, -56, 11, 7, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, 55, -22, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 2, 0, 8, 0, 38, 37, 0, -122, 6, 30, 111, 102, 102, 101, 114, 115, 45, 108, 97, 117, 100, 101, 114, 100, 97, 108, 101, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 81, -85, 1, 96, 72, -31, -113, -85, 64, 123, -87, -4, 54, -69, 37, 20, -71, 68, 50], tunnelServerId=2, dataCenterId=36}
-[17:08:23] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[17:08:23] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.190.2:43784 to claim client
-[17:08:23] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[17:08:23] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[17:08:23] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[17:08:23] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[17:08:23] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[17:08:23] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[17:08:23] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[17:08:25] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=94.134.105.163:3051, claimAddress=69.9.190.2:43784, claimToken=[44, 0, 108, -109, -71, -35, -45, 81, -85, 94, -122, 105, -93, 11, -21, 64, -74, 70, 94, -85, 8, 105, -56, 11, 9, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, -11, 57, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 2, 0, 12, 0, 38, 37, 0, -122, 6, 30, 111, 102, 102, 101, 114, 115, 45, 108, 97, 117, 100, 101, 114, 100, 97, 108, 101, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 81, -85, 2, 12, 41, -48, 16, 91, 18, -85, 48, -34, -47, 124, -96, 74, -85, -33, 9], tunnelServerId=2, dataCenterId=36}
-[17:08:25] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[17:08:25] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.190.2:43784 to claim client
-[17:08:25] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[17:08:25] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[17:08:25] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[17:08:25] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[17:08:25] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[17:08:25] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[17:08:25] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[17:08:26] [User Authenticator #0/INFO]: UUID of player NotJxlly is f34b2cf3-af89-4012-87db-df6e2ab0d3aa
-[17:08:27] [Server thread/WARN]: [Multiverse-Core] The destination in FirstSpawnLocation in config is invalid
-[17:08:28] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
-[17:08:28] [Server thread/INFO]: NotJxlly joined the game
-[17:08:28] [Server thread/INFO]: NotJxlly[/127.0.0.1:57634] logged in with entity id 563 at ([WeltMitKurosh]-3025.624370680191, 67.0, 7150.69140972097)
-[17:08:41] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
-[17:08:53] [Server thread/WARN]: NotJxlly moved wrongly!
-[17:09:00] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: ff3783d3-1f5b-48aa-8784-9701259be34f, mapped to Chicken['Chicken'/1549, uuid='ff3783d3-1f5b-48aa-8784-9701259be34f', l='ServerLevel[WeltMitKurosh]', x=-3550.83, y=68.00, z=6724.24, cpos=[-222, 420], tl=0, v=true], can't add Chicken['Chicken'/1584, uuid='ff3783d3-1f5b-48aa-8784-9701259be34f', l='ServerLevel[WeltMitKurosh]', x=-3557.13, y=68.00, z=6719.79, cpos=[-223, 419], tl=0, v=false]
-[17:09:41] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
-[17:10:41] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
-[17:11:41] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
-[17:11:41] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[17:11:54] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[17:11:54] [Server thread/INFO]: NotJxlly issued server command: /playit tunnel get-address NotJxlly
-[17:11:54] [Server thread/INFO]: playit.gg: offers-lauderdale.gl.joinmc.link
-[17:12:01] [Server thread/INFO]: NotJxlly issued server command: /playit prop
-[17:12:35] [Server thread/INFO]: NotJxlly issued server command: /playit tunnel get-address
-[17:12:35] [Server thread/INFO]: playit.gg: offers-lauderdale.gl.joinmc.link
-[17:12:41] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
-[17:12:47] [Server thread/INFO]: NotJxlly issued server command: /playit prop get mc-timeout-sec
-[17:12:53] [Server thread/INFO]: NotJxlly issued server command: /playit account
-[17:12:57] [Server thread/INFO]: NotJxlly issued server command: /playit account guest-login-link
-[17:12:58] [Thread-12/WARN]: [gg.playit.minecraft.PlayitBukkit] failed to create guest secret: gg.playit.api.ApiError: Api error code: 400, req: {"type":"create-guest-session"}, res: {"type":"error","code":400,"message":"must be guest account"}
-[17:13:07] [Server thread/INFO]: NotJxlly issued server command: /playit agent restart
-[17:13:07] [Thread-13/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
-[17:13:07] [Thread-13/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
-[17:13:07] [Server thread/INFO]: playit.gg: restarting connection as requested by: NotJxlly
-[17:13:07] [Thread-13/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: offers-lauderdale.gl.joinmc.link
-[17:13:07] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
-[17:13:07] [Thread-13/INFO]: playit.gg: tunnel setup
-[17:13:07] [Thread-13/INFO]: playit.gg: offers-lauderdale.gl.joinmc.link
-[17:13:07] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] control channel shutdown
-[17:13:08] [Thread-13/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:84c:16:0:0:0:1, error : java.net.SocketException: Network is unreachable
-[17:13:08] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
-[17:13:25] [Server thread/INFO]: NotJxlly issued server command: /playit agent reset
-[17:13:28] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] control channel shutdown
-[17:13:28] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key not set, generate claim code: 5489b1f738f11b13
-[17:13:28] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:13:28] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:13:31] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:13:31] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:13:34] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:13:34] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:13:37] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:13:37] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:13:40] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:13:40] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:13:41] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
-[17:13:43] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:13:43] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:13:46] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:13:46] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:13:49] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:13:49] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:13:52] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:13:53] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:13:56] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:13:56] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:13:59] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:13:59] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:14:02] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:14:02] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:14:05] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:14:05] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:14:08] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:14:08] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:14:11] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:14:11] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:14:14] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[17:14:14] [Server thread/INFO]: NotJxlly lost connection: Disconnected
-[17:14:14] [Server thread/INFO]: NotJxlly left the game
-[17:14:14] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:14:14] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:14:17] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:14:17] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:14:20] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:14:20] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:14:23] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:14:23] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:14:26] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:14:26] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:14:29] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:14:29] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:14:32] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:14:32] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:14:35] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:14:35] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:14:38] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:14:38] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:14:41] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:14:41] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:14:44] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:14:45] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:14:48] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:14:48] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:14:51] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:14:51] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:14:54] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:14:54] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:14:57] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:14:57] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:15:00] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:15:00] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:15:03] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:15:03] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:15:06] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:15:06] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:15:09] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:15:09] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:15:12] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:15:12] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:15:15] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:15:15] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:15:18] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:15:18] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:15:21] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:15:21] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:15:24] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:15:24] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:15:27] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:15:27] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:15:30] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:15:30] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:15:33] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:15:33] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:15:36] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:15:37] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:15:40] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:15:40] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:15:43] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:15:43] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:15:46] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:15:46] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:15:49] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:15:49] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:15:52] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:15:52] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:15:55] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:15:55] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:15:58] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:15:58] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:16:01] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:16:01] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:16:04] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:16:04] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:16:07] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:16:07] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:16:10] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:16:10] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:16:13] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:16:13] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:16:16] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:16:16] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:16:19] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:16:19] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:16:22] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:16:22] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:16:25] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:16:25] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:16:28] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:16:28] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:16:31] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:16:32] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:16:35] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:16:35] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:16:38] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:16:38] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:16:41] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:16:41] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:16:44] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:16:44] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:16:47] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:16:47] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:16:50] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:16:50] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:16:53] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:16:53] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:16:56] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:16:56] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:16:59] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:16:59] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:17:02] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:17:02] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:17:05] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:17:05] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:17:08] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:17:08] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:17:11] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:17:11] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:17:14] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:17:14] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:17:17] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:17:17] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:17:20] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:17:20] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:17:23] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:17:24] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:17:27] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:17:27] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:17:30] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:17:30] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:17:33] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:17:33] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:17:36] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:17:36] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:17:39] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:17:39] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:17:42] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:17:42] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:17:45] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:17:45] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:17:48] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:17:48] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:17:51] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:17:51] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:17:54] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:17:54] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:17:57] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:17:57] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:18:00] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:18:00] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:18:03] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:18:03] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:18:06] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:18:06] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:18:09] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:18:09] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:18:12] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:18:12] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:18:15] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:18:16] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:18:19] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:18:19] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:18:22] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:18:22] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:18:25] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:18:25] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:18:28] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:18:28] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:18:31] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:18:31] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:18:34] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:18:34] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:18:37] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:18:37] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:18:40] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:18:40] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:18:43] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:18:43] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:18:46] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:18:46] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
-[17:18:49] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[17:18:49] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/5489b1f738f11b13
+[17:25:22] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-LTS; Eclipse Adoptium Temurin-21.0.10+7) on Linux 6.17.0-1008-azure (amd64)
+[17:25:22] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-127-main@bd74bf6 (2026-03-10T02:55:23Z) for Minecraft 1.21.11
+[17:25:22] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[17:25:23] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[17:25:23] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+ - FakePlayerPlugin (1.4.23), KeepChunks (1.7.3), Multiverse-Core (5.3.0), Multiverse-Inventories (5.1.3), NotTooExpensive (1.3.4), ScheduledStop (1.0.0), playit-gg (0.1.4)
+[17:25:28] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[17:25:29] [ServerMain/INFO]: Loaded 1470 recipes
+[17:25:29] [ServerMain/INFO]: Loaded 1584 advancements
+[17:25:29] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[17:25:30] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 441.4ms
+[17:25:30] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[17:25:30] [Server thread/INFO]: Loading properties
+[17:25:30] [Server thread/INFO]: This server is running Paper version 1.21.11-127-main@bd74bf6 (2026-03-10T02:55:23Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[17:25:30] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[17:25:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:25:30] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:25:31] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[17:25:32] [Server thread/INFO]: Default game type: ADVENTURE
+[17:25:32] [Server thread/INFO]: Generating keypair
+[17:25:32] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:25:32] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[17:25:32] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[17:25:32] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.3.0
+[17:25:32] [Server thread/INFO]: [FakePlayerPlugin] Loading server plugin FakePlayerPlugin v1.4.23
+[17:25:32] [Server thread/INFO]: [KeepChunks] Loading server plugin KeepChunks v1.7.3
+[17:25:32] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v5.1.3
+[17:25:32] [Server thread/INFO]: [NotTooExpensive] Loading server plugin NotTooExpensive v1.3.4
+[17:25:32] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
+[17:25:32] [Server thread/INFO]: [ScheduledStop] Loading server plugin ScheduledStop v1.0.0
+[17:25:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:25:32] [Server thread/INFO]: Preparing level "WeltMitKurosh"
+[17:25:32] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[17:25:32] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
+[17:25:33] [Server thread/INFO]: Loading 308 persistent chunks for world 'minecraft:overworld'...
+[17:25:33] [Server thread/INFO]: Preparing spawn area: 3%
+[17:25:33] [Server thread/INFO]: Preparing spawn area: 3%
+[17:25:34] [Server thread/INFO]: Preparing spawn area: 3%
+[17:25:35] [Server thread/INFO]: Prepared spawn area in 2086 ms
+[17:25:35] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[17:25:35] [Server thread/INFO]: Preparing spawn area: 100%
+[17:25:35] [Server thread/INFO]: Prepared spawn area in 1 ms
+[17:25:35] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[17:25:35] [Server thread/INFO]: Preparing spawn area: 100%
+[17:25:35] [Server thread/INFO]: Prepared spawn area in 1 ms
+[17:25:35] [Server thread/INFO]: Done preparing level "WeltMitKurosh" (2.963s)
+[17:25:35] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.3.0
+[17:25:36] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[17:25:36] [Server thread/INFO]: [Multiverse-Core] Version 5.3.0 (API v5.3) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[17:25:36] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[17:25:36] [Server thread/INFO]: [FakePlayerPlugin] Enabling FakePlayerPlugin v1.4.23
+[17:25:36] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Loading Config ────────────────────────────────
+[17:25:36] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Loading Skin Repository ───────────────────────
+[17:25:36] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Connecting Database ───────────────────────────
+[17:25:36] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Database connected via SQLite (plugins/FakePlayerPlugin/data/fpp.db).
+[17:25:36] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Initialising Subsystems ───────────────────────
+[17:25:36] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Registering Commands ──────────────────────────
+[17:25:36] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Registering Listeners ─────────────────────────
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics: Initialising FastStats (token=376511af...)
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics: [1/3] Creating ErrorTracker...
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics:       ErrorTracker ✔
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics: [2/3] Building BukkitMetrics...
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics:       BukkitMetrics built ✔
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics: [3/3] Calling ready()...
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics: FastStats connected and reporting ✔
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ══════════════════════════════════════════════════
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   ꜰᴀᴋᴇ ᴘʟᴀʏᴇʀ ᴘʟᴜɢɪɴ  v1.4.23
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Author  : El_Pepes
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Link    : https://modrinth.com/plugin/fake-player-plugin-(fpp)
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ──────────────────────────────────────────────────
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Configuration ─────────────────────────────────
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Skin mode ......... auto (guaranteed → Notch)
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Name pool ......... 297 names
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Msg pool .......... 989 messages
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Max bots .......... 1000
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Config version .... v25 ✔
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Subsystems ────────────────────────────────────
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✔] Server compat ..... OK
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✔] Database .......... SQLite (local)
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✔] Physical bodies ... enabled
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✔] Persistence ....... enabled
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✔] Chunk loading ..... enabled
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✘] Bot swap .......... disabled
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✘] Fake chat ......... disabled
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✘] LuckPerms ......... not installed
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✔] Metrics ........... reporting
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ──────────────────────────────────────────────────
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Plugin started successfully! Type /fpp for help.
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Started in 407 ms
+[17:25:37] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ══════════════════════════════════════════════════
+[17:25:37] [Server thread/INFO]: [KeepChunks] Enabling KeepChunks v1.7.3
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[17:25:37] [Server thread/INFO]: 
+[17:25:37] [Server thread/INFO]:  _     _                   _______ _                 _          
+[17:25:37] [Server thread/INFO]: (_)   | |                 (_______) |               | |  v1.7.3
+[17:25:37] [Server thread/INFO]:  _____| |_____ _____ ____  _      | |__  _   _ ____ | |  _  ___ 
+[17:25:37] [Server thread/INFO]: |  _   _) ___ | ___ |  _ \| |     |  _ \| | | |  _ \| |_/ )/___)
+[17:25:37] [Server thread/INFO]: | |  \ \| ____| ____| |_| | |_____| | | | |_| | | | |  _ (|___ |
+[17:25:37] [Server thread/INFO]: |_|   \_)_____)_____)  __/ \______)_| |_|____/|_| |_|_| \_|___/ 
+[17:25:37] [Server thread/INFO]:                     |_|                                         
+[17:25:37] [Server thread/INFO]: 
+[17:25:37] [Server thread/INFO]: [KeepChunks] KeepChunks v1.7.3 has been enabled
+[17:25:37] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.1.3
+[17:25:37] [Server thread/INFO]: [Multiverse-Inventories] The following worlds for group 'default' are not loaded: survival_nether, survival, survival_the_end
+[17:25:37] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
+[17:25:37] [Server thread/INFO]: [Multiverse-Inventories] Version 5.1.3 (API v5.1) Enabled - By dumptruckman and benwoo1110
+[17:25:37] [Server thread/INFO]: [NotTooExpensive] Enabling NotTooExpensive v1.3.4
+[17:25:37] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
+[17:25:38] [Server thread/INFO]: [ScheduledStop] Enabling ScheduledStop v1.0.0
+[17:25:38] [Server thread/INFO]: [ScheduledStop] ShutdownTimer aktiviert.
+[17:25:38] [Server thread/INFO]: [spark] Starting background profiler...
+[17:25:38] [Server thread/INFO]: Running delayed init tasks
+[17:25:38] [Server thread/INFO]: Checking for conflicts in groups...
+[17:25:38] [Server thread/INFO]: No group conflicts found!
+[17:25:38] [Server thread/INFO]: Done (18.443s)! For help, type "help"
+[17:25:39] [Server thread/WARN]: [FakePlayerPlugin] [ꜰᴘᴘ] Update available! v1.4.23 → v1.4.28 | Download: https://modrinth.com/plugin/fake-player-plugin-(fpp)
+[17:25:41] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key not set, generate claim code: 93e7fd468064f7aa
+[17:25:41] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:25:41] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/93e7fd468064f7aa
+[17:25:44] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:25:44] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/93e7fd468064f7aa
+[17:25:47] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:25:47] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/93e7fd468064f7aa
+[17:25:50] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:25:50] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/93e7fd468064f7aa
+[17:25:53] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:25:53] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/93e7fd468064f7aa
+[17:25:56] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:25:56] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/93e7fd468064f7aa
+[17:25:59] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:25:59] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/93e7fd468064f7aa
+[17:26:02] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:26:02] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/93e7fd468064f7aa
+[17:26:05] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:26:05] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/93e7fd468064f7aa
+[17:26:08] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:26:08] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/93e7fd468064f7aa
+[17:26:11] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:26:11] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/93e7fd468064f7aa
+[17:26:14] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:26:14] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/93e7fd468064f7aa
+[17:26:17] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[17:26:17] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/93e7fd468064f7aa

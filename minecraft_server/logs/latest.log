@@ -215,3 +215,7 @@
 [22:46:41] [Server thread/INFO]: NotJxlly issued server command: /mv tp flatworld
 [22:46:50] [Server thread/INFO]: [NotJxlly: Set own game mode to Spectator Mode]
 [22:46:55] [Server thread/INFO]: NotJxlly issued server command: /tps
+[22:47:18] [Server thread/INFO]: NotJxlly issued server command: /mv load Island
+[22:47:19] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:island'...
+[22:47:19] [Server thread/INFO]: Prepared spawn area in 0 ms
+[22:47:24] [Server thread/INFO]: NotJxlly issued server command: /mv tp Island

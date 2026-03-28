@@ -156,3 +156,52 @@
 [12:24:56] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
 [12:24:56] [Server thread/INFO]: NotJxlly joined the game
 [12:24:56] [Server thread/INFO]: NotJxlly[/127.0.0.1:35354] logged in with entity id 460 at ([WeltMitKurosh]-2942.2350846362006, 47.0, 6910.759411111938)
+[12:25:37] [Server thread/INFO]: NotJxlly issued server command: /stop
+[12:25:37] [Server thread/INFO]: [NotJxlly: Stopping the server]
+[12:25:37] [Server thread/INFO]: Stopping server
+[12:25:37] [Server thread/INFO]: [ScheduledStop] Disabling ScheduledStop v1.0.0
+[12:25:37] [Server thread/INFO]: [ScheduledStop] ShutdownTimer deaktiviert.
+[12:25:37] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
+[12:25:37] [Server thread/INFO]: [NotTooExpensive] Disabling NotTooExpensive v1.3.4
+[12:25:37] [Server thread/INFO]: [DummyPlayers] Disabling DummyPlayers v1.0
+[12:25:37] [Server thread/INFO]: [DummyPlayers] All dummies removed. Plugin disabled!
+[12:25:37] [Server thread/INFO]: [PVDC] Disabling PlayerViewDistanceController v2.3.3
+[12:25:37] [Server thread/INFO]: [PVDC] Plugin shut down!
+[12:25:37] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v5.1.3
+[12:25:37] [Server thread/INFO]: [KeepChunks] Disabling KeepChunks v1.7.3
+[12:25:37] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.3.0
+[12:25:37] [Server thread/INFO]: Saving players
+[12:25:37] [nioEventLoopGroup-2-4/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to minecraft server
+[12:25:37] [Server thread/INFO]: NotJxlly lost connection: Server closed
+[12:25:37] [Server thread/INFO]: NotJxlly left the game
+[12:25:37] [Server thread/INFO]: Saving worlds
+[12:25:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WeltMitKurosh]'/minecraft:overworld
+[12:25:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WeltMitKurosh'
+[12:25:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WeltMitKurosh'
+[12:25:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WeltMitKurosh'
+[12:25:39] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] control channel shutdown
+[12:25:45] [Server thread/INFO]: [ChunkHolderManager] Saved 4128 block chunks, 4128 entity chunks, 0 poi chunks in world 'WeltMitKurosh' in 7.51s
+[12:25:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WeltMitKurosh'
+[12:25:45] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WeltMitKurosh'
+[12:25:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WeltMitKurosh_nether]'/minecraft:the_nether
+[12:25:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WeltMitKurosh_nether'
+[12:25:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WeltMitKurosh_nether'
+[12:25:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WeltMitKurosh_nether'
+[12:25:45] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'WeltMitKurosh_nether' in 0.00s
+[12:25:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WeltMitKurosh_nether'
+[12:25:45] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WeltMitKurosh_nether'
+[12:25:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WeltMitKurosh_the_end]'/minecraft:the_end
+[12:25:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WeltMitKurosh_the_end'
+[12:25:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WeltMitKurosh_the_end'
+[12:25:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WeltMitKurosh_the_end'
+[12:25:45] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'WeltMitKurosh_the_end' in 0.00s
+[12:25:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WeltMitKurosh_the_end'
+[12:25:45] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WeltMitKurosh_the_end'
+[12:25:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (WeltMitKurosh): All chunks are saved
+[12:25:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:25:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:25:45] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:25:45] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[12:25:45] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[12:25:45] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[12:25:45] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

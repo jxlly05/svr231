@@ -170,3 +170,5 @@
 [11:56:53] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
 [11:56:53] [Server thread/INFO]: NotJxlly lost connection: Disconnected
 [11:56:53] [Server thread/INFO]: NotJxlly left the game
+[11:58:00] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[11:58:12] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive

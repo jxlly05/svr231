@@ -14,26 +14,28 @@ jobs:
       # 1. Prüfen der Steuerdatei
       - name: Check artifact control file
         id: control
-        run: |
-          URL="https://raw.githubusercontent.com/jxlly05/svr231/refs/heads/main/minecraft_server/artifact-version-id.txt"
-
-          echo "Prüfe Datei: $URL"
-
-          if curl -f -s "$URL" -o control.txt; then
-            VALUE=$(cat control.txt)
-            echo "Datei gefunden: $VALUE"
-
-            if [ "$VALUE" = "none" ]; then
-              echo "artifact_state=none" >> $GITHUB_OUTPUT
+          run: |
+            URL="https://raw.githubusercontent.com/jxlly05/svr231/refs/heads/main/minecraft_server/artifact-version-id.txt"
+        
+            echo "Prüfe Datei: $URL"
+        
+            if curl -f -s "$URL" -o control.txt; then
+              VALUE=$(cat control.txt | tr -d '\r\n ')
+        
+              echo "Datei gefunden: '$VALUE'"
+        
+              if [ "$VALUE" = "none" ]; then
+                echo "artifact_state=none" >> $GITHUB_OUTPUT
+              else
+                echo "artifact_state=exists" >> $GITHUB_OUTPUT
+                echo "artifact_id=$VALUE" >> $GITHUB_OUTPUT
+              fi
+        
             else
-              echo "artifact_state=exists" >> $GITHUB_OUTPUT
-              echo "artifact_id=$VALUE" >> $GITHUB_OUTPUT
+              echo "Datei existiert nicht → none"
+              echo "none" > control.txt
+              echo "artifact_state=none" >> $GITHUB_OUTPUT
             fi
-          else
-            echo "Datei existiert nicht → initialisieren mit none"
-            echo "none" > control.txt
-            echo "artifact_state=none" >> $GITHUB_OUTPUT
-          fi
 
       # 2. Artifact laden (nur wenn vorhanden)
       - name: Try download artifact

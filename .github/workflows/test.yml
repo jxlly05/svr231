@@ -7,21 +7,24 @@ permissions:
   contents: write
 
 jobs:
-  check-runner-region-and-start-server:
+  start-server:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Steuerdatei prüfen
+      # 1. Repo auschecken (WICHTIG!)
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Steuerdatei prüfen
       - name: Check artifact control file
         id: control
         run: |
-          URL="https://raw.githubusercontent.com/jxlly05/svr231/refs/heads/main/minecraft_server/artifact-version-id.txt"
+          FILE="minecraft_server/artifact-version-id.txt"
 
-          echo "Prüfe Datei: $URL"
+          echo "Prüfe Datei: $FILE"
 
-          if curl -f -s "$URL" -o control.txt; then
-            VALUE=$(tr -d '\r\n ' < control.txt)
-
+          if [ -f "$FILE" ]; then
+            VALUE=$(tr -d '\r\n ' < "$FILE")
             echo "Datei gefunden: [$VALUE]"
 
             if [ "$VALUE" = "none" ]; then
@@ -31,13 +34,12 @@ jobs:
               echo "artifact_id=$VALUE" >> $GITHUB_OUTPUT
             fi
           else
-            echo "Datei existiert nicht → erstelle none"
-            echo "none" > control.txt
+            echo "Datei existiert nicht"
             echo "artifact_state=none" >> $GITHUB_OUTPUT
           fi
 
-      # 2. Artifact laden (wenn vorhanden)
-      - name: Try download artifact
+      # 3. Artifact laden
+      - name: Download artifact
         if: steps.control.outputs.artifact_state == 'exists'
         uses: actions/download-artifact@v4
         with:
@@ -45,31 +47,26 @@ jobs:
           path: minecraft_server
         continue-on-error: true
 
-      # 3. Fallback: Repo klonen
-      - name: Fallback to git clone
+      # 4. Fallback: KEIN git clone!
+      - name: Fallback setup
         if: steps.control.outputs.artifact_state != 'exists'
         run: |
-          echo "Kein gültiges Artifact → klone Repository"
-          git config --global protocol.version 2
-          git clone --depth 1 https://github.com/jxlly05/svr231.git .
+          echo "Kein Artifact → verwende Repo-Stand (kein clone nötig)"
 
-      # 4. Java installieren
+      # 5. Java installieren
       - name: Setup Java 21
         uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: 21
 
-      # 5. Server + Autosave
-      - name: Start AutoSave & Minecraft Server
+      # 6. Server starten + Autosave
+      - name: Start Server + Autosave
         run: |
-          echo "[Autosave] Starte Hintergrundprozess..."
+          echo "Starte Autosave..."
 
           {
             while true; do
-              cd "$GITHUB_WORKSPACE"
-
-              # während Laufzeit immer auf "none" setzen
               echo "none" > minecraft_server/artifact-version-id.txt
 
               git config user.name "github-actions"
@@ -79,7 +76,7 @@ jobs:
               git commit -m "Autosave" >/dev/null 2>&1 || true
               git push origin HEAD:main --force >/dev/null 2>&1 || true
 
-              echo "[Autosave] gespeichert"
+              echo "Autosave done"
               sleep 60
             done
           } &
@@ -87,51 +84,29 @@ jobs:
 
           cd minecraft_server
 
-          java -Xms14G -Xmx14G \
-          -XX:+UseG1GC \
-          -XX:+ParallelRefProcEnabled \
-          -XX:MaxGCPauseMillis=200 \
-          -XX:+UnlockExperimentalVMOptions \
-          -XX:+DisableExplicitGC \
-          -XX:+AlwaysPreTouch \
-          -XX:G1NewSizePercent=30 \
-          -XX:G1MaxNewSizePercent=40 \
-          -XX:G1HeapRegionSize=8M \
-          -XX:G1ReservePercent=20 \
-          -XX:G1HeapWastePercent=5 \
-          -XX:G1MixedGCCountTarget=4 \
-          -XX:InitiatingHeapOccupancyPercent=15 \
-          -XX:G1MixedGCLiveThresholdPercent=90 \
-          -XX:G1RSetUpdatingPauseTimePercent=5 \
-          -XX:SurvivorRatio=32 \
-          -XX:+PerfDisableSharedMem \
-          -XX:MaxTenuringThreshold=1 \
-          -Dusing.aikars.flags=https://mcflags.emc.gs \
-          -Daikars.new.flags=true \
-          -jar paper.jar --nogui
+          java -Xms14G -Xmx14G -jar paper.jar --nogui
 
-          echo "[Autosave] Stoppe Hintergrundprozess..."
           kill "$AUTOSAVE_PID" 2>/dev/null || true
 
-      # 6. Artifact hochladen
-      - name: Upload Minecraft Server Artifact
+      # 7. Artifact hochladen
+      - name: Upload artifact
         id: upload
         uses: actions/upload-artifact@v4
         with:
           name: minecraft-server
           path: minecraft_server
 
-      # 7. Artifact-ID in Datei schreiben
-      - name: Write artifact ID to file
+      # 8. Artifact-ID speichern
+      - name: Write artifact id
         run: |
           echo "${{ steps.upload.outputs.artifact-id }}" > minecraft_server/artifact-version-id.txt
 
-      # 8. Finaler Push
-      - name: Final push
+      # 9. Push Änderungen
+      - name: Push changes
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
           git add minecraft_server
-          git commit -m "Final state" || echo "No changes"
-          git push origin HEAD:main --force
+          git commit -m "Update state" || echo "No changes"
+          git push origin HEAD:main

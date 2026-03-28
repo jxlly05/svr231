@@ -192,3 +192,5 @@
 [18:24:36] [Server thread/WARN]: [Multiverse-Core] The destination in FirstSpawnLocation in config is invalid
 [18:24:36] [Server thread/INFO]: NotJxlly joined the game
 [18:24:36] [Server thread/INFO]: NotJxlly[/94.134.105.163:3245] logged in with entity id 947 at ([WeltMitKurosh]-3051.600964898006, 70.0, 6781.576248017671)
+[18:26:30] [Server thread/INFO]: NotJxlly issued server command: /ping
+[18:26:47] [Server thread/INFO]: NotJxlly issued server command: /fakeplayer

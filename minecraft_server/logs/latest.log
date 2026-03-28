@@ -132,3 +132,5 @@
 [12:44:19] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
 [12:44:19] [Thread-5/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:84c:16:0:0:0:1, error : java.net.SocketException: Network is unreachable
 [12:44:20] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[12:48:20] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[12:48:33] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive

@@ -203,3 +203,7 @@
 [15:10:04] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [15:14:05] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [15:18:06] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:18:41] [Server thread/INFO]: NotJxlly issued server command: /mv load Island
+[15:18:42] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:island'...
+[15:18:42] [Server thread/INFO]: Prepared spawn area in 0 ms
+[15:18:45] [Server thread/INFO]: NotJxlly issued server command: /mv tp Island

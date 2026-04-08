@@ -326,15 +326,15 @@ jobs:
           done
 
       - name: Restart workflow
-      if: ${{ success() }}
-      env:
-        GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}
-        WORKFLOW_FILE: server.yml
-      run: |
-        echo "🔁 Starte Workflow neu..."
-    
-        curl -s -X POST \
-          -H "Accept: application/vnd.github+json" \
-          -H "Authorization: Bearer $GITHUB_PAT" \
-          https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/$WORKFLOW_FILE/dispatches \
-          -d "{\"ref\":\"${GITHUB_REF_NAME}\"}"
+        if: ${{ success() }}
+        env:
+          GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}
+          WORKFLOW_FILE: server.yml
+        run: |
+          echo "🔁 Starte Workflow neu..."
+      
+          curl -s -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $GITHUB_PAT" \
+            https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/$WORKFLOW_FILE/dispatches \
+            -d "{\"ref\":\"${GITHUB_REF_NAME}\"}"

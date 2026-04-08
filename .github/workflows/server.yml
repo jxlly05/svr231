@@ -241,14 +241,17 @@ jobs:
           
           SERVER_PID=$!
           
+          # >>> WICHTIG: Pipe dauerhaft offen halten
+          exec 3>mcpipe
+          
           # Countdown + Stop im Hintergrund
           {
             for ((i=120; i>=1; i--)); do
-              echo "say Server stoppt in $i Sekunden" > mcpipe
+              echo "say Server stoppt in $i Sekunden" >&3
               sleep 1
             done
-            echo "say Stoppe Server..." > mcpipe
-            echo "stop" > mcpipe
+            echo "say Stoppe Server..." >&3
+            echo "stop" >&3
           } &
           
           # Warten bis Server beendet ist

@@ -61,7 +61,7 @@ jobs:
             -d "{\"ref\":\"${GITHUB_REF_NAME}\"}"
     
           echo "Workflow restart triggered. Exiting current run."
-          exit 78
+          exit 0
     
       # 1. Datei prüfen und bedingt Klonen oder Artefakt laden
       - name: Check Artifact Status and Prepare Files
@@ -245,7 +245,7 @@ jobs:
           exec 3>mcpipe
           
           # Gesamtzeit: 5,5 Stunden = 19800 Sekunden
-          TOTAL_TIME=60
+          TOTAL_TIME=120
           
           # Countdown im Hintergrund
           {
@@ -325,16 +325,32 @@ jobs:
             attempt=$((attempt + 1))
           done
 
-      - name: Restart workflow
+      - name: Restart workflow after 5h 25m
         if: ${{ success() }}
         env:
           GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}
           WORKFLOW_FILE: server.yml
         run: |
-          echo "🔁 Starte Workflow neu..."
+          echo "⏱ Prüfe Laufzeit des Runners..."
       
-          curl -s -X POST \
-            -H "Accept: application/vnd.github+json" \
-            -H "Authorization: Bearer $GITHUB_PAT" \
-            https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/$WORKFLOW_FILE/dispatches \
-            -d "{\"ref\":\"${GITHUB_REF_NAME}\"}"
+          START_TIME=$(date -d "$GITHUB_RUN_STARTED_AT" +%s)
+          NOW=$(date +%s)
+      
+          ELAPSED=$((NOW - START_TIME))
+      
+          # 5h 25min = 19500 Sekunden
+          LIMIT=19500
+      
+          echo "Vergangene Zeit: $ELAPSED Sekunden"
+      
+          if [ "$ELAPSED" -ge "$LIMIT" ]; then
+            echo "🔁 >5h25m erreicht — starte Workflow neu..."
+      
+            curl -s -X POST \
+              -H "Accept: application/vnd.github+json" \
+              -H "Authorization: Bearer $GITHUB_PAT" \
+              https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/$WORKFLOW_FILE/dispatches \
+              -d "{\"ref\":\"${GITHUB_REF_NAME}\"}"
+          else
+            echo "⏭ Noch unter 5h25m — kein Restart notwendig."
+          fi

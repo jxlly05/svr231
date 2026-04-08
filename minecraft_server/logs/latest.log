@@ -1,187 +1,188 @@
-[13:31:51] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-LTS; Eclipse Adoptium Temurin-21.0.10+7) on Linux 6.17.0-1010-azure (amd64)
-[13:31:51] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-127-main@bd74bf6 (2026-03-10T02:55:23Z) for Minecraft 1.21.11
-[13:31:51] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[13:31:52] [Paper Plugin Remapper Thread - 1/INFO]: [ReobfServer] Remapping server...
-[13:31:59] [Paper Plugin Remapper Thread - 1/INFO]: [ReobfServer] Done remapping server in 7572ms.
-[13:31:59] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/multiverse-inventories-5.1.3.jar'...
-[13:31:59] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/NotTooExpensive.jar'...
-[13:31:59] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/playit-minecraft-plugin.jar'...
-[13:31:59] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Remapping plugin 'plugins/KeepChunks-1.7.3.jar'...
-[13:32:00] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Done remapping plugin 'plugins/KeepChunks-1.7.3.jar' in 266ms.
-[13:32:00] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Remapping plugin 'plugins/fpp-1.4.23.jar'...
-[13:32:00] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/NotTooExpensive.jar' in 275ms.
-[13:32:00] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/multiverse-core-5.3.0.jar'...
-[13:32:00] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Done remapping plugin 'plugins/fpp-1.4.23.jar' in 300ms.
-[13:32:00] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Remapping plugin 'plugins/scheduledstop-1.0.0.jar'...
-[13:32:00] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Done remapping plugin 'plugins/scheduledstop-1.0.0.jar' in 154ms.
-[13:32:00] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/multiverse-inventories-5.1.3.jar' in 866ms.
-[13:32:01] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/playit-minecraft-plugin.jar' in 1204ms.
-[13:32:01] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/multiverse-core-5.3.0.jar' in 1514ms.
-[13:32:01] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
-[13:32:01] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+[13:45:26] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-LTS; Eclipse Adoptium Temurin-21.0.10+7) on Linux 6.17.0-1008-azure (amd64)
+[13:45:26] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-127-main@bd74bf6 (2026-03-10T02:55:23Z) for Minecraft 1.21.11
+[13:45:27] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:45:27] [Paper Plugin Remapper Thread - 1/INFO]: [ReobfServer] Remapping server...
+[13:45:34] [Paper Plugin Remapper Thread - 1/INFO]: [ReobfServer] Done remapping server in 6617ms.
+[13:45:34] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/fpp-1.4.23.jar'...
+[13:45:34] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/multiverse-inventories-5.1.3.jar'...
+[13:45:34] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Remapping plugin 'plugins/multiverse-core-5.3.0.jar'...
+[13:45:34] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/KeepChunks-1.7.3.jar'...
+[13:45:34] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/KeepChunks-1.7.3.jar' in 287ms.
+[13:45:34] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/NotTooExpensive.jar'...
+[13:45:34] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/NotTooExpensive.jar' in 87ms.
+[13:45:34] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/playit-minecraft-plugin.jar'...
+[13:45:34] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/fpp-1.4.23.jar' in 389ms.
+[13:45:34] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/scheduledstop-1.0.0.jar'...
+[13:45:34] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/scheduledstop-1.0.0.jar' in 121ms.
+[13:45:35] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/multiverse-inventories-5.1.3.jar' in 754ms.
+[13:45:35] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/playit-minecraft-plugin.jar' in 976ms.
+[13:45:35] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Done remapping plugin 'plugins/multiverse-core-5.3.0.jar' in 1446ms.
+[13:45:36] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[13:45:36] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
  - FakePlayerPlugin (1.4.23), KeepChunks (1.7.3), Multiverse-Core (5.3.0), Multiverse-Inventories (5.1.3), NotTooExpensive (1.3.4), ScheduledStop (1.0.0), playit-gg (0.2.0)
-[13:32:07] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[13:32:10] [ServerMain/INFO]: Loaded 1470 recipes
-[13:32:10] [ServerMain/INFO]: Loaded 1584 advancements
-[13:32:10] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[13:32:10] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 464.1ms
-[13:32:10] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[13:32:10] [Server thread/INFO]: Loading properties
-[13:32:10] [Server thread/INFO]: This server is running Paper version 1.21.11-127-main@bd74bf6 (2026-03-10T02:55:23Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[13:32:10] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[13:32:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:32:11] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:32:12] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[13:32:12] [Server thread/INFO]: Default game type: ADVENTURE
-[13:32:12] [Server thread/INFO]: Generating keypair
-[13:32:12] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:32:12] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[13:32:12] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[13:32:12] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.3.0
-[13:32:12] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v5.1.3
-[13:32:12] [Server thread/INFO]: [NotTooExpensive] Loading server plugin NotTooExpensive v1.3.4
-[13:32:12] [Server thread/INFO]: [KeepChunks] Loading server plugin KeepChunks v1.7.3
-[13:32:12] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
-[13:32:12] [Server thread/INFO]: [FakePlayerPlugin] Loading server plugin FakePlayerPlugin v1.4.23
-[13:32:12] [Server thread/INFO]: [ScheduledStop] Loading server plugin ScheduledStop v1.0.0
-[13:32:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:32:12] [Server thread/INFO]: Preparing level "WeltMitKurosh"
-[13:32:12] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
-[13:32:12] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
-[13:32:14] [Server thread/INFO]: Loading 308 persistent chunks for world 'minecraft:overworld'...
-[13:32:14] [Server thread/INFO]: Preparing spawn area: 3%
-[13:32:14] [Server thread/INFO]: Preparing spawn area: 3%
-[13:32:15] [Server thread/INFO]: Preparing spawn area: 3%
-[13:32:16] [Server thread/INFO]: Prepared spawn area in 2817 ms
-[13:32:16] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[13:32:16] [Server thread/INFO]: Preparing spawn area: 100%
-[13:32:16] [Server thread/INFO]: Prepared spawn area in 8 ms
-[13:32:16] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[13:32:16] [Server thread/INFO]: Prepared spawn area in 0 ms
-[13:32:16] [Server thread/INFO]: Done preparing level "WeltMitKurosh" (4.088s)
-[13:32:16] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.3.0
-[13:32:18] [Server thread/INFO]: [Multiverse-Core] API service loaded!
-[13:32:18] [Server thread/INFO]: [Multiverse-Core] Version 5.3.0 (API v5.3) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
-[13:32:18] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
-[13:32:18] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.1.3
-[13:32:18] [Server thread/INFO]: [Multiverse-Inventories] The following worlds for group 'default' are not loaded: survival_nether, survival, survival_the_end
-[13:32:18] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
-[13:32:18] [Server thread/INFO]: [Multiverse-Inventories] Version 5.1.3 (API v5.1) Enabled - By dumptruckman and benwoo1110
-[13:32:18] [Server thread/INFO]: [NotTooExpensive] Enabling NotTooExpensive v1.3.4
-[13:32:18] [Server thread/INFO]: [KeepChunks] Enabling KeepChunks v1.7.3
-[13:32:18] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:18] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:18] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:18] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:18] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:18] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:18] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:18] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[13:32:19] [Server thread/INFO]: 
-[13:32:19] [Server thread/INFO]:  _     _                   _______ _                 _          
-[13:32:19] [Server thread/INFO]: (_)   | |                 (_______) |               | |  v1.7.3
-[13:32:19] [Server thread/INFO]:  _____| |_____ _____ ____  _      | |__  _   _ ____ | |  _  ___ 
-[13:32:19] [Server thread/INFO]: |  _   _) ___ | ___ |  _ \| |     |  _ \| | | |  _ \| |_/ )/___)
-[13:32:19] [Server thread/INFO]: | |  \ \| ____| ____| |_| | |_____| | | | |_| | | | |  _ (|___ |
-[13:32:19] [Server thread/INFO]: |_|   \_)_____)_____)  __/ \______)_| |_|____/|_| |_|_| \_|___/ 
-[13:32:19] [Server thread/INFO]:                     |_|                                         
-[13:32:19] [Server thread/INFO]: 
-[13:32:19] [Server thread/INFO]: [KeepChunks] KeepChunks v1.7.3 has been enabled
-[13:32:19] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.2.0
-[13:32:19] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
-[13:32:19] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
-[13:32:19] [Server thread/INFO]: [FakePlayerPlugin] Enabling FakePlayerPlugin v1.4.23
-[13:32:19] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Loading Config ────────────────────────────────
-[13:32:19] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Loading Skin Repository ───────────────────────
-[13:32:19] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Connecting Database ───────────────────────────
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Database connected via SQLite (plugins/FakePlayerPlugin/data/fpp.db).
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Initialising Subsystems ───────────────────────
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Registering Commands ──────────────────────────
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Registering Listeners ─────────────────────────
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics: Initialising FastStats (token=376511af...)
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics: extracted faststats-core.jar (35 KB)
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics: extracted faststats-bukkit.jar (8 KB)
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics: [1/3] Creating ErrorTracker...
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics:       ErrorTracker ✔
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics: [2/3] Building BukkitMetrics...
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics:       BukkitMetrics built ✔
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics: [3/3] Calling ready()...
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics: FastStats connected and reporting ✔
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ══════════════════════════════════════════════════
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   ꜰᴀᴋᴇ ᴘʟᴀʏᴇʀ ᴘʟᴜɢɪɴ  v1.4.23
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Author  : El_Pepes
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Link    : https://modrinth.com/plugin/fake-player-plugin-(fpp)
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ──────────────────────────────────────────────────
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Configuration ─────────────────────────────────
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Skin mode ......... auto (guaranteed → Notch)
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Name pool ......... 297 names
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Msg pool .......... 989 messages
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Max bots .......... 1000
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Config version .... v25 ✔
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Subsystems ────────────────────────────────────
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✔] Server compat ..... OK
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✔] Database .......... SQLite (local)
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✔] Physical bodies ... enabled
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✔] Persistence ....... enabled
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✔] Chunk loading ..... enabled
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✘] Bot swap .......... disabled
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✘] Fake chat ......... disabled
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✘] LuckPerms ......... not installed
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✔] Metrics ........... reporting
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ──────────────────────────────────────────────────
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Plugin started successfully! Type /fpp for help.
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Started in 546 ms
-[13:32:20] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ══════════════════════════════════════════════════
-[13:32:20] [Server thread/INFO]: [ScheduledStop] Enabling ScheduledStop v1.0.0
-[13:32:20] [Server thread/INFO]: [ScheduledStop] ShutdownTimer aktiviert.
-[13:32:20] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret verified, ready to connect
-[13:32:20] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] keys setup complete, ready to connect
-[13:32:20] [Server thread/INFO]: [spark] Starting background profiler...
-[13:32:20] [Thread-5/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :/[2602:fbaf:860:1:0:0:0:1]:5525, error : java.net.SocketException: Network is unreachable
-[13:32:20] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
-[13:32:20] [Server thread/INFO]: Running delayed init tasks
-[13:32:20] [Server thread/INFO]: Checking for conflicts in groups...
-[13:32:20] [Server thread/INFO]: No group conflicts found!
-[13:32:21] [Server thread/INFO]: [gg.playit.minecraft.PlayitPipelineInjector] injected playit header decoder into server channel: [id: 0xedabe568, L:/[0:0:0:0:0:0:0:0]:25565]
-[13:32:21] [Server thread/INFO]: [gg.playit.minecraft.PlayitBukkit] playit header decoder injected into server pipeline
-[13:32:21] [Server thread/INFO]: Done (30.772s)! For help, type "help"
-[13:32:21] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 1 build(s) behind ***
-[13:32:21] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[13:32:21] [Server thread/ERROR]: Command exception: /say Server stoppt in 120 Sekunden
+[13:45:42] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[13:45:44] [ServerMain/INFO]: Loaded 1470 recipes
+[13:45:44] [ServerMain/INFO]: Loaded 1584 advancements
+[13:45:44] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[13:45:44] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 499.5ms
+[13:45:45] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[13:45:45] [Server thread/INFO]: Loading properties
+[13:45:45] [Server thread/INFO]: This server is running Paper version 1.21.11-127-main@bd74bf6 (2026-03-10T02:55:23Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[13:45:45] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[13:45:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:45:45] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:45:46] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[13:45:47] [Server thread/INFO]: Default game type: ADVENTURE
+[13:45:47] [Server thread/INFO]: Generating keypair
+[13:45:47] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:45:47] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[13:45:47] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[13:45:47] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.3.0
+[13:45:47] [Server thread/INFO]: [FakePlayerPlugin] Loading server plugin FakePlayerPlugin v1.4.23
+[13:45:47] [Server thread/INFO]: [KeepChunks] Loading server plugin KeepChunks v1.7.3
+[13:45:47] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v5.1.3
+[13:45:47] [Server thread/INFO]: [NotTooExpensive] Loading server plugin NotTooExpensive v1.3.4
+[13:45:47] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
+[13:45:47] [Server thread/INFO]: [ScheduledStop] Loading server plugin ScheduledStop v1.0.0
+[13:45:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:45:47] [Server thread/INFO]: Preparing level "WeltMitKurosh"
+[13:45:47] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[13:45:47] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
+[13:45:48] [Server thread/INFO]: Loading 308 persistent chunks for world 'minecraft:overworld'...
+[13:45:48] [Server thread/INFO]: Preparing spawn area: 3%
+[13:45:49] [Server thread/INFO]: Preparing spawn area: 3%
+[13:45:49] [Server thread/INFO]: Preparing spawn area: 3%
+[13:45:50] [Server thread/INFO]: Preparing spawn area: 3%
+[13:45:51] [Server thread/INFO]: Prepared spawn area in 3134 ms
+[13:45:51] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[13:45:51] [Server thread/INFO]: Preparing spawn area: 100%
+[13:45:51] [Server thread/INFO]: Prepared spawn area in 1 ms
+[13:45:51] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[13:45:51] [Server thread/INFO]: Prepared spawn area in 0 ms
+[13:45:51] [Server thread/INFO]: Done preparing level "WeltMitKurosh" (4.327s)
+[13:45:51] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.3.0
+[13:45:53] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[13:45:53] [Server thread/INFO]: [Multiverse-Core] Version 5.3.0 (API v5.3) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[13:45:53] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] Enabling FakePlayerPlugin v1.4.23
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Loading Config ────────────────────────────────
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Loading Skin Repository ───────────────────────
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Connecting Database ───────────────────────────
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Database connected via SQLite (plugins/FakePlayerPlugin/data/fpp.db).
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Initialising Subsystems ───────────────────────
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Registering Commands ──────────────────────────
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Registering Listeners ─────────────────────────
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics: Initialising FastStats (token=376511af...)
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics: extracted faststats-core.jar (35 KB)
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics: extracted faststats-bukkit.jar (8 KB)
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics: [1/3] Creating ErrorTracker...
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics:       ErrorTracker ✔
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics: [2/3] Building BukkitMetrics...
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics:       BukkitMetrics built ✔
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics: [3/3] Calling ready()...
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Metrics: FastStats connected and reporting ✔
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ══════════════════════════════════════════════════
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   ꜰᴀᴋᴇ ᴘʟᴀʏᴇʀ ᴘʟᴜɢɪɴ  v1.4.23
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Author  : El_Pepes
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Link    : https://modrinth.com/plugin/fake-player-plugin-(fpp)
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ──────────────────────────────────────────────────
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Configuration ─────────────────────────────────
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Skin mode ......... auto (guaranteed → Notch)
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Name pool ......... 297 names
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Msg pool .......... 989 messages
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Max bots .......... 1000
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Config version .... v25 ✔
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ── Subsystems ────────────────────────────────────
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✔] Server compat ..... OK
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✔] Database .......... SQLite (local)
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✔] Physical bodies ... enabled
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✔] Persistence ....... enabled
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✔] Chunk loading ..... enabled
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✘] Bot swap .......... disabled
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✘] Fake chat ......... disabled
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✘] LuckPerms ......... not installed
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   [✔] Metrics ........... reporting
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ──────────────────────────────────────────────────
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Plugin started successfully! Type /fpp for help.
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Started in 621 ms
+[13:45:53] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ══════════════════════════════════════════════════
+[13:45:53] [Server thread/INFO]: [KeepChunks] Enabling KeepChunks v1.7.3
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:53] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
+[13:45:54] [Server thread/INFO]: 
+[13:45:54] [Server thread/INFO]:  _     _                   _______ _                 _          
+[13:45:54] [Server thread/INFO]: (_)   | |                 (_______) |               | |  v1.7.3
+[13:45:54] [Server thread/INFO]:  _____| |_____ _____ ____  _      | |__  _   _ ____ | |  _  ___ 
+[13:45:54] [Server thread/INFO]: |  _   _) ___ | ___ |  _ \| |     |  _ \| | | |  _ \| |_/ )/___)
+[13:45:54] [Server thread/INFO]: | |  \ \| ____| ____| |_| | |_____| | | | |_| | | | |  _ (|___ |
+[13:45:54] [Server thread/INFO]: |_|   \_)_____)_____)  __/ \______)_| |_|____/|_| |_|_| \_|___/ 
+[13:45:54] [Server thread/INFO]:                     |_|                                         
+[13:45:54] [Server thread/INFO]: 
+[13:45:54] [Server thread/INFO]: [KeepChunks] KeepChunks v1.7.3 has been enabled
+[13:45:54] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.1.3
+[13:45:54] [Server thread/INFO]: [Multiverse-Inventories] The following worlds for group 'default' are not loaded: survival_nether, survival, survival_the_end
+[13:45:54] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
+[13:45:54] [Server thread/INFO]: [Multiverse-Inventories] Version 5.1.3 (API v5.1) Enabled - By dumptruckman and benwoo1110
+[13:45:54] [Server thread/INFO]: [NotTooExpensive] Enabling NotTooExpensive v1.3.4
+[13:45:54] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.2.0
+[13:45:55] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
+[13:45:55] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[13:45:55] [Server thread/INFO]: [ScheduledStop] Enabling ScheduledStop v1.0.0
+[13:45:55] [Server thread/INFO]: [ScheduledStop] ShutdownTimer aktiviert.
+[13:45:55] [Server thread/INFO]: [spark] Starting background profiler...
+[13:45:56] [Server thread/INFO]: Running delayed init tasks
+[13:45:56] [Server thread/INFO]: Checking for conflicts in groups...
+[13:45:56] [Server thread/INFO]: No group conflicts found!
+[13:45:56] [Server thread/INFO]: [gg.playit.minecraft.PlayitPipelineInjector] injected playit header decoder into server channel: [id: 0x53f10ad1, L:/[0:0:0:0:0:0:0:0]:25565]
+[13:45:56] [Server thread/INFO]: [gg.playit.minecraft.PlayitBukkit] playit header decoder injected into server pipeline
+[13:45:56] [Server thread/INFO]: Done (30.835s)! For help, type "help"
+[13:45:56] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret verified, ready to connect
+[13:45:56] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] keys setup complete, ready to connect
+[13:45:56] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 1 build(s) behind ***
+[13:45:56] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[13:45:56] [Thread-5/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :/[2602:fbaf:860:1:0:0:0:1]:5525, error : java.net.SocketException: Network is unreachable
+[13:45:56] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[13:45:57] [Server thread/ERROR]: Command exception: /say Server stoppt in 120 Sekunden
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getGameRules()" because the return value of "net.minecraft.commands.CommandSourceStack.getLevel()" is null
 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:462) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.commands.Commands.performCommand(Commands.java:374) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
@@ -196,8 +197,8 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.Server
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1335) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[13:32:21] [Server thread/INFO]: An unexpected error occurred trying to execute that command
-[13:32:21] [Server thread/ERROR]: Command exception: /say Server stoppt in 119 Sekunden
+[13:45:57] [Server thread/INFO]: An unexpected error occurred trying to execute that command
+[13:45:57] [Server thread/ERROR]: Command exception: /say Server stoppt in 119 Sekunden
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getGameRules()" because the return value of "net.minecraft.commands.CommandSourceStack.getLevel()" is null
 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:462) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.commands.Commands.performCommand(Commands.java:374) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
@@ -212,8 +213,8 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.Server
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1335) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[13:32:21] [Server thread/INFO]: An unexpected error occurred trying to execute that command
-[13:32:21] [Server thread/ERROR]: Command exception: /say Server stoppt in 118 Sekunden
+[13:45:57] [Server thread/INFO]: An unexpected error occurred trying to execute that command
+[13:45:57] [Server thread/ERROR]: Command exception: /say Server stoppt in 118 Sekunden
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getGameRules()" because the return value of "net.minecraft.commands.CommandSourceStack.getLevel()" is null
 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:462) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.commands.Commands.performCommand(Commands.java:374) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
@@ -228,8 +229,8 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.Server
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1335) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[13:32:21] [Server thread/INFO]: An unexpected error occurred trying to execute that command
-[13:32:21] [Server thread/ERROR]: Command exception: /say Server stoppt in 117 Sekunden
+[13:45:57] [Server thread/INFO]: An unexpected error occurred trying to execute that command
+[13:45:57] [Server thread/ERROR]: Command exception: /say Server stoppt in 117 Sekunden
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getGameRules()" because the return value of "net.minecraft.commands.CommandSourceStack.getLevel()" is null
 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:462) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.commands.Commands.performCommand(Commands.java:374) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
@@ -244,8 +245,8 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.Server
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1335) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[13:32:21] [Server thread/INFO]: An unexpected error occurred trying to execute that command
-[13:32:21] [Server thread/ERROR]: Command exception: /say Server stoppt in 116 Sekunden
+[13:45:57] [Server thread/INFO]: An unexpected error occurred trying to execute that command
+[13:45:57] [Server thread/ERROR]: Command exception: /say Server stoppt in 116 Sekunden
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getGameRules()" because the return value of "net.minecraft.commands.CommandSourceStack.getLevel()" is null
 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:462) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.commands.Commands.performCommand(Commands.java:374) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
@@ -260,8 +261,8 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.Server
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1335) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[13:32:21] [Server thread/INFO]: An unexpected error occurred trying to execute that command
-[13:32:21] [Server thread/ERROR]: Command exception: /say Server stoppt in 115 Sekunden
+[13:45:57] [Server thread/INFO]: An unexpected error occurred trying to execute that command
+[13:45:57] [Server thread/ERROR]: Command exception: /say Server stoppt in 115 Sekunden
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getGameRules()" because the return value of "net.minecraft.commands.CommandSourceStack.getLevel()" is null
 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:462) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.commands.Commands.performCommand(Commands.java:374) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
@@ -276,8 +277,8 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.Server
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1335) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[13:32:21] [Server thread/INFO]: An unexpected error occurred trying to execute that command
-[13:32:21] [Server thread/ERROR]: Command exception: /say Server stoppt in 114 Sekunden
+[13:45:57] [Server thread/INFO]: An unexpected error occurred trying to execute that command
+[13:45:57] [Server thread/ERROR]: Command exception: /say Server stoppt in 114 Sekunden
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getGameRules()" because the return value of "net.minecraft.commands.CommandSourceStack.getLevel()" is null
 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:462) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.commands.Commands.performCommand(Commands.java:374) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
@@ -292,8 +293,8 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.Server
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1335) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[13:32:21] [Server thread/INFO]: An unexpected error occurred trying to execute that command
-[13:32:21] [Server thread/ERROR]: Command exception: /say Server stoppt in 113 Sekunden
+[13:45:57] [Server thread/INFO]: An unexpected error occurred trying to execute that command
+[13:45:57] [Server thread/ERROR]: Command exception: /say Server stoppt in 113 Sekunden
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getGameRules()" because the return value of "net.minecraft.commands.CommandSourceStack.getLevel()" is null
 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:462) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.commands.Commands.performCommand(Commands.java:374) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
@@ -308,8 +309,8 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.Server
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1335) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[13:32:21] [Server thread/INFO]: An unexpected error occurred trying to execute that command
-[13:32:21] [Server thread/ERROR]: Command exception: /say Server stoppt in 112 Sekunden
+[13:45:57] [Server thread/INFO]: An unexpected error occurred trying to execute that command
+[13:45:57] [Server thread/ERROR]: Command exception: /say Server stoppt in 112 Sekunden
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getGameRules()" because the return value of "net.minecraft.commands.CommandSourceStack.getLevel()" is null
 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:462) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.commands.Commands.performCommand(Commands.java:374) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
@@ -324,8 +325,8 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.Server
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1335) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[13:32:21] [Server thread/INFO]: An unexpected error occurred trying to execute that command
-[13:32:21] [Server thread/ERROR]: Command exception: /say Server stoppt in 111 Sekunden
+[13:45:57] [Server thread/INFO]: An unexpected error occurred trying to execute that command
+[13:45:57] [Server thread/ERROR]: Command exception: /say Server stoppt in 111 Sekunden
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getGameRules()" because the return value of "net.minecraft.commands.CommandSourceStack.getLevel()" is null
 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:462) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.commands.Commands.performCommand(Commands.java:374) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
@@ -340,8 +341,8 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.Server
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1335) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[13:32:21] [Server thread/INFO]: An unexpected error occurred trying to execute that command
-[13:32:21] [Server thread/ERROR]: Command exception: /say Server stoppt in 110 Sekunden
+[13:45:57] [Server thread/INFO]: An unexpected error occurred trying to execute that command
+[13:45:57] [Server thread/ERROR]: Command exception: /say Server stoppt in 110 Sekunden
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getGameRules()" because the return value of "net.minecraft.commands.CommandSourceStack.getLevel()" is null
 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:462) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.commands.Commands.performCommand(Commands.java:374) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
@@ -356,8 +357,8 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.Server
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1335) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[13:32:21] [Server thread/INFO]: An unexpected error occurred trying to execute that command
-[13:32:21] [Server thread/ERROR]: Command exception: /say Server stoppt in 109 Sekunden
+[13:45:57] [Server thread/INFO]: An unexpected error occurred trying to execute that command
+[13:45:57] [Server thread/ERROR]: Command exception: /say Server stoppt in 109 Sekunden
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getGameRules()" because the return value of "net.minecraft.commands.CommandSourceStack.getLevel()" is null
 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:462) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.commands.Commands.performCommand(Commands.java:374) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
@@ -372,8 +373,8 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.Server
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1335) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[13:32:21] [Server thread/INFO]: An unexpected error occurred trying to execute that command
-[13:32:21] [Server thread/ERROR]: Command exception: /say Server stoppt in 108 Sekunden
+[13:45:57] [Server thread/INFO]: An unexpected error occurred trying to execute that command
+[13:45:57] [Server thread/ERROR]: Command exception: /say Server stoppt in 108 Sekunden
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getGameRules()" because the return value of "net.minecraft.commands.CommandSourceStack.getLevel()" is null
 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:462) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.commands.Commands.performCommand(Commands.java:374) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
@@ -388,8 +389,8 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.Server
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1335) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[13:32:21] [Server thread/INFO]: An unexpected error occurred trying to execute that command
-[13:32:21] [Server thread/ERROR]: Command exception: /say Server stoppt in 107 Sekunden
+[13:45:57] [Server thread/INFO]: An unexpected error occurred trying to execute that command
+[13:45:57] [Server thread/ERROR]: Command exception: /say Server stoppt in 107 Sekunden
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getGameRules()" because the return value of "net.minecraft.commands.CommandSourceStack.getLevel()" is null
 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:462) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.commands.Commands.performCommand(Commands.java:374) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
@@ -404,8 +405,8 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.Server
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1335) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[13:32:21] [Server thread/INFO]: An unexpected error occurred trying to execute that command
-[13:32:21] [Server thread/ERROR]: Command exception: /say Server stoppt in 106 Sekunden
+[13:45:57] [Server thread/INFO]: An unexpected error occurred trying to execute that command
+[13:45:57] [Server thread/ERROR]: Command exception: /say Server stoppt in 106 Sekunden
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getGameRules()" because the return value of "net.minecraft.commands.CommandSourceStack.getLevel()" is null
 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:462) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.commands.Commands.performCommand(Commands.java:374) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
@@ -420,8 +421,8 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.Server
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1335) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[13:32:21] [Server thread/INFO]: An unexpected error occurred trying to execute that command
-[13:32:21] [Server thread/ERROR]: Command exception: /say Server stoppt in 105 Sekunden
+[13:45:57] [Server thread/INFO]: An unexpected error occurred trying to execute that command
+[13:45:57] [Server thread/ERROR]: Command exception: /say Server stoppt in 105 Sekunden
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getGameRules()" because the return value of "net.minecraft.commands.CommandSourceStack.getLevel()" is null
 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:462) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.commands.Commands.performCommand(Commands.java:374) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
@@ -436,8 +437,8 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.Server
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1335) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[13:32:21] [Server thread/INFO]: An unexpected error occurred trying to execute that command
-[13:32:21] [Server thread/ERROR]: Command exception: /say Server stoppt in 104 Sekunden
+[13:45:57] [Server thread/INFO]: An unexpected error occurred trying to execute that command
+[13:45:57] [Server thread/ERROR]: Command exception: /say Server stoppt in 104 Sekunden
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getGameRules()" because the return value of "net.minecraft.commands.CommandSourceStack.getLevel()" is null
 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:462) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.commands.Commands.performCommand(Commands.java:374) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
@@ -452,8 +453,8 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.Server
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1335) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[13:32:21] [Server thread/INFO]: An unexpected error occurred trying to execute that command
-[13:32:21] [Server thread/ERROR]: Command exception: /say Server stoppt in 103 Sekunden
+[13:45:57] [Server thread/INFO]: An unexpected error occurred trying to execute that command
+[13:45:57] [Server thread/ERROR]: Command exception: /say Server stoppt in 103 Sekunden
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getGameRules()" because the return value of "net.minecraft.commands.CommandSourceStack.getLevel()" is null
 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:462) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.commands.Commands.performCommand(Commands.java:374) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
@@ -468,8 +469,8 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.Server
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1335) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[13:32:21] [Server thread/INFO]: An unexpected error occurred trying to execute that command
-[13:32:21] [Server thread/ERROR]: Command exception: /say Server stoppt in 102 Sekunden
+[13:45:57] [Server thread/INFO]: An unexpected error occurred trying to execute that command
+[13:45:57] [Server thread/ERROR]: Command exception: /say Server stoppt in 102 Sekunden
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getGameRules()" because the return value of "net.minecraft.commands.CommandSourceStack.getLevel()" is null
 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:462) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.commands.Commands.performCommand(Commands.java:374) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
@@ -484,8 +485,8 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.Server
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1335) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[13:32:21] [Server thread/INFO]: An unexpected error occurred trying to execute that command
-[13:32:21] [Server thread/ERROR]: Command exception: /say Server stoppt in 101 Sekunden
+[13:45:57] [Server thread/INFO]: An unexpected error occurred trying to execute that command
+[13:45:57] [Server thread/ERROR]: Command exception: /say Server stoppt in 101 Sekunden
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getGameRules()" because the return value of "net.minecraft.commands.CommandSourceStack.getLevel()" is null
 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:462) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.commands.Commands.performCommand(Commands.java:374) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
@@ -500,8 +501,8 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.Server
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1335) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[13:32:21] [Server thread/INFO]: An unexpected error occurred trying to execute that command
-[13:32:21] [Server thread/ERROR]: Command exception: /say Server stoppt in 100 Sekunden
+[13:45:57] [Server thread/INFO]: An unexpected error occurred trying to execute that command
+[13:45:57] [Server thread/ERROR]: Command exception: /say Server stoppt in 100 Sekunden
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getGameRules()" because the return value of "net.minecraft.commands.CommandSourceStack.getLevel()" is null
 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:462) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.commands.Commands.performCommand(Commands.java:374) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
@@ -516,8 +517,8 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.Server
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1335) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[13:32:21] [Server thread/INFO]: An unexpected error occurred trying to execute that command
-[13:32:21] [Server thread/ERROR]: Command exception: /say Server stoppt in 99 Sekunden
+[13:45:57] [Server thread/INFO]: An unexpected error occurred trying to execute that command
+[13:45:57] [Server thread/ERROR]: Command exception: /say Server stoppt in 99 Sekunden
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getGameRules()" because the return value of "net.minecraft.commands.CommandSourceStack.getLevel()" is null
 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:462) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.commands.Commands.performCommand(Commands.java:374) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
@@ -532,8 +533,8 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.Server
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1335) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[13:32:21] [Server thread/INFO]: An unexpected error occurred trying to execute that command
-[13:32:21] [Server thread/ERROR]: Command exception: /say Server stoppt in 98 Sekunden
+[13:45:57] [Server thread/INFO]: An unexpected error occurred trying to execute that command
+[13:45:57] [Server thread/ERROR]: Command exception: /say Server stoppt in 98 Sekunden
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getGameRules()" because the return value of "net.minecraft.commands.CommandSourceStack.getLevel()" is null
 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:462) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.commands.Commands.performCommand(Commands.java:374) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
@@ -548,8 +549,8 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.Server
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1335) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[13:32:21] [Server thread/INFO]: An unexpected error occurred trying to execute that command
-[13:32:21] [Server thread/ERROR]: Command exception: /say Server stoppt in 97 Sekunden
+[13:45:57] [Server thread/INFO]: An unexpected error occurred trying to execute that command
+[13:45:57] [Server thread/ERROR]: Command exception: /say Server stoppt in 97 Sekunden
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getGameRules()" because the return value of "net.minecraft.commands.CommandSourceStack.getLevel()" is null
 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:462) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.commands.Commands.performCommand(Commands.java:374) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
@@ -564,8 +565,8 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.Server
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1335) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[13:32:21] [Server thread/INFO]: An unexpected error occurred trying to execute that command
-[13:32:21] [Server thread/ERROR]: Command exception: /say Server stoppt in 96 Sekunden
+[13:45:57] [Server thread/INFO]: An unexpected error occurred trying to execute that command
+[13:45:57] [Server thread/ERROR]: Command exception: /say Server stoppt in 96 Sekunden
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getGameRules()" because the return value of "net.minecraft.commands.CommandSourceStack.getLevel()" is null
 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:462) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.commands.Commands.performCommand(Commands.java:374) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
@@ -580,8 +581,8 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.Server
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1335) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[13:32:21] [Server thread/INFO]: An unexpected error occurred trying to execute that command
-[13:32:21] [Server thread/ERROR]: Command exception: /say Server stoppt in 95 Sekunden
+[13:45:57] [Server thread/INFO]: An unexpected error occurred trying to execute that command
+[13:45:57] [Server thread/ERROR]: Command exception: /say Server stoppt in 95 Sekunden
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getGameRules()" because the return value of "net.minecraft.commands.CommandSourceStack.getLevel()" is null
 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:462) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.commands.Commands.performCommand(Commands.java:374) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
@@ -596,130 +597,114 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.Server
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1335) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[13:32:21] [Server thread/INFO]: An unexpected error occurred trying to execute that command
-[13:32:21] [Server thread/WARN]: [FakePlayerPlugin] [ꜰᴘᴘ] Update available! v1.4.23 → v1.5.17 | Download: https://modrinth.com/plugin/fake-player-plugin-(fpp)
-[13:32:22] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] found minecraft java tunnel: phones-alternatively.gl.joinmc.link
-[13:32:22] [Thread-5/INFO]: playit.gg: tunnel setup
-[13:32:22] [Thread-5/INFO]: playit.gg: phones-alternatively.gl.joinmc.link
-[13:32:24] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Restoring 1 bot(s) from YAML fallback...
-[13:32:27] [Server thread/INFO]: BastiGHG joined the game
-[13:32:49] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:31593, peerAddr=94.134.105.138:17634, claimAddress=69.9.181.2:43784, claimToken=[44, 0, 111, -109, -71, -35, 19, 123, 105, 94, -122, 105, -118, 68, -30, -37, 108, 127, 101, -85, 8, 105, -42, 89, 1, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 90, -87, 66, 0, 0, 0, 0, 0, 54, 94, -111, 11, 61, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 41, 40, 0, -122, 6, 33, 112, 104, 111, 110, 101, 115, 45, 97, 108, 116, 101, 114, 110, 97, 116, 105, 118, 101, 108, 121, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 123, 105, 1, -16, 69, 24, 65, 27, 105, 58, 96, -106, 34, -45, 50, -119, -53, -66, 69], tunnelServerId=0, tunnelId=3563153, dataCenterId=36, portOffset=0}
-[13:32:49] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[13:32:49] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.181.2:43784 to claim client
-[13:32:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[13:32:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[13:32:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[13:32:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[13:32:49] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[13:32:49] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /94.134.105.138:17634
-[13:32:49] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[13:32:50] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:31593, peerAddr=94.134.105.138:17639, claimAddress=69.9.181.2:43784, claimToken=[44, 0, 111, -109, -71, -35, 19, 123, 105, 94, -122, 105, -118, 68, -25, 63, 90, 53, -54, -85, 8, 105, -42, 89, 2, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 90, -87, 66, 0, 0, 0, 0, 0, 54, 94, -111, 72, -94, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 2, 0, 5, 0, 41, 40, 0, -122, 6, 33, 112, 104, 111, 110, 101, 115, 45, 97, 108, 116, 101, 114, 110, 97, 116, 105, 118, 101, 108, 121, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 123, 105, 2, 52, -102, -37, 0, -69, -75, 78, -59, -46, 18, 24, -72, -124, -120, -127, -46], tunnelServerId=0, tunnelId=3563153, dataCenterId=36, portOffset=0}
-[13:32:50] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[13:32:50] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.181.2:43784 to claim client
-[13:32:50] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[13:32:50] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[13:32:50] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[13:32:50] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[13:32:50] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[13:32:50] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /94.134.105.138:17639
-[13:32:50] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[13:32:51] [User Authenticator #0/INFO]: UUID of player NotJxlly is f34b2cf3-af89-4012-87db-df6e2ab0d3aa
-[13:32:52] [Server thread/WARN]: [Multiverse-Core] The destination in FirstSpawnLocation in config is invalid
-[13:32:52] [Server thread/INFO]: NotJxlly joined the game
-[13:32:52] [Server thread/INFO]: NotJxlly[/94.134.105.138:17639] logged in with entity id 602 at ([WeltMitKurosh]-2920.9539645597215, 64.0, 6740.550081465544)
-[13:35:24] [Server thread/INFO]: NotJxlly issued server command: /say hallo
-[13:35:24] [Async Chat Thread - #2/INFO]: [NotJxlly] hallo
-[13:35:26] [Async Chat Thread - #1/INFO]: <NotJxlly> d
-[13:35:56] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[13:35:56] [Server thread/INFO]: NotJxlly lost connection: Disconnected
-[13:35:56] [Server thread/INFO]: NotJxlly left the game
-[13:35:57] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:31593, peerAddr=94.134.105.138:17673, claimAddress=69.9.181.2:43784, claimToken=[44, 0, 111, -109, -71, -35, 19, 123, 105, 94, -122, 105, -118, 69, 9, 116, 95, 0, 34, -85, 8, 105, -42, 89, -67, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 90, -87, 66, 0, 0, 0, 0, 0, 54, 94, -111, 119, -6, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 2, 0, 17, 0, 41, 40, 0, -122, 6, 33, 112, 104, 111, 110, 101, 115, 45, 97, 108, 116, 101, 114, 110, 97, 116, 105, 118, 101, 108, 121, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 123, 105, 1, -122, -113, -23, -21, 46, -23, -53, 113, -5, 95, 70, 4, 31, 86, -21, 120], tunnelServerId=0, tunnelId=3563153, dataCenterId=36, portOffset=0}
-[13:35:57] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[13:35:57] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.181.2:43784 to claim client
-[13:35:57] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[13:35:57] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[13:35:57] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[13:35:57] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[13:35:57] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[13:35:57] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /94.134.105.138:17673
-[13:35:57] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[13:35:58] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:31593, peerAddr=94.134.105.138:17680, claimAddress=69.9.181.2:43784, claimToken=[44, 0, 111, -109, -71, -35, 19, 123, 105, 94, -122, 105, -118, 69, 16, 127, -21, -102, 55, -85, 8, 105, -42, 89, -66, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 90, -87, 66, 0, 0, 0, 0, 0, 54, 94, -111, 89, 15, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 2, 0, 11, 0, 41, 40, 0, -122, 6, 33, 112, 104, 111, 110, 101, 115, 45, 97, 108, 116, 101, 114, 110, 97, 116, 105, 118, 101, 108, 121, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 123, 105, 2, -47, -69, -80, 10, -118, 77, -111, 1, 22, -82, -15, -76, 87, -70, -27, 98], tunnelServerId=0, tunnelId=3563153, dataCenterId=36, portOffset=0}
-[13:35:58] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[13:35:58] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.181.2:43784 to claim client
-[13:35:58] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[13:35:58] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[13:35:58] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[13:35:58] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[13:35:58] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[13:35:58] [Netty Epoll IO #0/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /94.134.105.138:17680
-[13:35:58] [Netty Epoll IO #0/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[13:35:59] [User Authenticator #1/INFO]: UUID of player NotJxlly is f34b2cf3-af89-4012-87db-df6e2ab0d3aa
-[13:35:59] [Server thread/WARN]: [Multiverse-Core] The destination in FirstSpawnLocation in config is invalid
-[13:36:00] [Server thread/INFO]: NotJxlly joined the game
-[13:36:00] [Server thread/INFO]: NotJxlly[/94.134.105.138:17680] logged in with entity id 1887 at ([WeltMitKurosh]-2967.0315334770357, 74.0, 6749.887073547435)
-[13:36:02] [Server thread/INFO]: NotJxlly issued server command: /stop
-[13:36:02] [Server thread/INFO]: [NotJxlly: Stopping the server]
-[13:36:02] [Server thread/INFO]: Stopping server
-[13:36:02] [Server thread/INFO]: [ScheduledStop] Disabling ScheduledStop v1.0.0
-[13:36:02] [Server thread/INFO]: [ScheduledStop] ShutdownTimer deaktiviert.
-[13:36:02] [Server thread/INFO]: [FakePlayerPlugin] Disabling FakePlayerPlugin v1.4.23
-[13:36:02] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Saved bot list to active-bots.yml.
-[13:36:02] [Server thread/INFO]: BastiGHG left the game
-[13:36:02] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Database connection closed.
-[13:36:02] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ══════════════════════════════════════════════════
-[13:36:02] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   ꜰᴀᴋᴇ ᴘʟᴀʏᴇʀ ᴘʟᴜɢɪɴ  —  shutting down
-[13:36:02] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ──────────────────────────────────────────────────
-[13:36:02] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Bots removed ...... 1
-[13:36:02] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   DB sessions ....... flushed ✔
-[13:36:02] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Session uptime .... 3m 42s
-[13:36:02] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ══════════════════════════════════════════════════
-[13:36:02] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Goodbye! ꜰᴀᴋᴇ ᴘʟᴀʏᴇʀ ᴘʟᴜɢɪɴ has been disabled.
-[13:36:02] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ══════════════════════════════════════════════════
-[13:36:02] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.2.0
-[13:36:02] [Server thread/INFO]: [KeepChunks] Disabling KeepChunks v1.7.3
-[13:36:02] [Server thread/INFO]: [NotTooExpensive] Disabling NotTooExpensive v1.3.4
-[13:36:02] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v5.1.3
-[13:36:02] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.3.0
-[13:36:02] [Server thread/INFO]: Saving players
-[13:36:02] [Server thread/INFO]: NotJxlly lost connection: Server closed
-[13:36:02] [Server thread/INFO]: NotJxlly left the game
-[13:36:02] [nioEventLoopGroup-2-4/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to minecraft server
-[13:36:02] [Server thread/INFO]: Saving worlds
-[13:36:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WeltMitKurosh]'/minecraft:overworld
-[13:36:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WeltMitKurosh'
-[13:36:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WeltMitKurosh'
-[13:36:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WeltMitKurosh'
-[13:36:03] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:31593, peerAddr=94.134.105.138:17686, claimAddress=69.9.181.2:43784, claimToken=[44, 0, 111, -109, -71, -35, 19, 123, 105, 94, -122, 105, -118, 69, 22, 64, 67, -66, -113, -85, 8, 105, -42, 89, -61, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 90, -87, 66, 0, 0, 0, 0, 0, 54, 94, -111, -19, 103, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 2, 0, 3, 0, 41, 40, 0, -122, 6, 33, 112, 104, 111, 110, 101, 115, 45, 97, 108, 116, 101, 114, 110, 97, 116, 105, 118, 101, 108, 121, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 123, 105, 1, -34, 111, 60, -92, -25, -125, 15, 98, 59, -102, -93, 52, 21, 62, -67, -59], tunnelServerId=0, tunnelId=3563153, dataCenterId=36, portOffset=0}
-[13:36:03] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[13:36:03] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.181.2:43784 to claim client
-[13:36:03] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] control channel shutdown
-[13:36:03] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[13:36:03] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[13:36:03] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[13:36:03] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[13:36:03] [nioEventLoopGroup-2-2/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to connect to local minecraft server
-[13:36:11] [Server thread/INFO]: [ChunkHolderManager] Saved 4985 block chunks, 4985 entity chunks, 1 poi chunks in world 'WeltMitKurosh' in 8.74s
-[13:36:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WeltMitKurosh'
-[13:36:11] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WeltMitKurosh'
-[13:36:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WeltMitKurosh_nether]'/minecraft:the_nether
-[13:36:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WeltMitKurosh_nether'
-[13:36:11] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WeltMitKurosh_nether'
-[13:36:11] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WeltMitKurosh_nether'
-[13:36:11] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'WeltMitKurosh_nether' in 0.00s
-[13:36:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WeltMitKurosh_nether'
-[13:36:11] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WeltMitKurosh_nether'
-[13:36:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WeltMitKurosh_the_end]'/minecraft:the_end
-[13:36:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WeltMitKurosh_the_end'
-[13:36:11] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WeltMitKurosh_the_end'
-[13:36:11] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WeltMitKurosh_the_end'
-[13:36:11] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'WeltMitKurosh_the_end' in 0.00s
-[13:36:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WeltMitKurosh_the_end'
-[13:36:11] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WeltMitKurosh_the_end'
-[13:36:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (WeltMitKurosh): All chunks are saved
-[13:36:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:36:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:36:11] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[13:36:11] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[13:36:11] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[13:36:11] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[13:36:11] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[13:45:57] [Server thread/INFO]: An unexpected error occurred trying to execute that command
+[13:45:57] [Server thread/ERROR]: Command exception: /say Server stoppt in 94 Sekunden
+java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getGameRules()" because the return value of "net.minecraft.commands.CommandSourceStack.getLevel()" is null
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:462) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:374) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:362) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
+	at net.minecraft.commands.Commands.performPrefixedCommand(Commands.java:353) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:594) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
+	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:550) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1833) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1611) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
+	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:427) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
+	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1667) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1335) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-127-bd74bf6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:45:57] [Server thread/INFO]: An unexpected error occurred trying to execute that command
+[13:45:57] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 93 Sekunden
+[13:45:57] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 90 Sekunden
+[13:45:57] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 88 Sekunden
+[13:45:57] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 87 Sekunden
+[13:45:57] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 86 Sekunden
+[13:45:57] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 85 Sekunden
+[13:45:57] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 89 Sekunden
+[13:45:57] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 92 Sekunden
+[13:45:57] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 91 Sekunden
+[13:45:57] [Server thread/WARN]: [FakePlayerPlugin] [ꜰᴘᴘ] Update available! v1.4.23 → v1.5.17 | Download: https://modrinth.com/plugin/fake-player-plugin-(fpp)
+[13:45:57] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 84 Sekunden
+[13:45:57] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] found minecraft java tunnel: phones-alternatively.gl.joinmc.link
+[13:45:57] [Thread-5/INFO]: playit.gg: tunnel setup
+[13:45:57] [Thread-5/INFO]: playit.gg: phones-alternatively.gl.joinmc.link
+[13:45:58] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 83 Sekunden
+[13:45:59] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 82 Sekunden
+[13:46:00] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Restoring 1 bot(s) from YAML fallback...
+[13:46:00] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 81 Sekunden
+[13:46:01] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 80 Sekunden
+[13:46:02] [Server thread/INFO]: BastiGHG joined the game
+[13:46:02] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 79 Sekunden
+[13:46:03] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:31593, peerAddr=94.134.105.138:17599, claimAddress=69.9.181.2:43784, claimToken=[44, 0, 111, -109, -71, -35, 19, 123, 105, 94, -122, 105, -118, 68, -65, 19, -123, 8, 93, -85, 8, 105, -42, 92, 27, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 90, -87, 66, 0, 0, 0, 0, 0, 54, 94, -111, 70, 53, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 41, 40, 0, -122, 6, 33, 112, 104, 111, 110, 101, 115, 45, 97, 108, 116, 101, 114, 110, 97, 116, 105, 118, 101, 108, 121, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 123, 105, 2, -61, 114, -3, -18, -43, -127, -32, 1, -22, -4, 125, -55, -26, 71, -127, 89], tunnelServerId=0, tunnelId=3563153, dataCenterId=36, portOffset=0}
+[13:46:03] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[13:46:03] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.181.2:43784 to claim client
+[13:46:03] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[13:46:03] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[13:46:03] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[13:46:03] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[13:46:03] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[13:46:03] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /94.134.105.138:17599
+[13:46:03] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[13:46:03] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 78 Sekunden
+[13:46:04] [User Authenticator #0/INFO]: UUID of player NotJxlly is f34b2cf3-af89-4012-87db-df6e2ab0d3aa
+[13:46:04] [Server thread/WARN]: [Multiverse-Core] The destination in FirstSpawnLocation in config is invalid
+[13:46:04] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 77 Sekunden
+[13:46:05] [Server thread/INFO]: NotJxlly joined the game
+[13:46:05] [Server thread/INFO]: NotJxlly[/94.134.105.138:17599] logged in with entity id 561 at ([WeltMitKurosh]-2967.0315334770357, 74.0, 6749.887073547435)
+[13:46:05] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 76 Sekunden
+[13:46:06] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 75 Sekunden
+[13:46:07] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 74 Sekunden
+[13:46:08] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 73 Sekunden
+[13:46:09] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 72 Sekunden
+[13:46:10] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 71 Sekunden
+[13:46:11] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 70 Sekunden
+[13:46:12] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 69 Sekunden
+[13:46:13] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 68 Sekunden
+[13:46:14] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 67 Sekunden
+[13:46:15] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 66 Sekunden
+[13:46:16] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 65 Sekunden
+[13:46:17] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 64 Sekunden
+[13:46:18] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 63 Sekunden
+[13:46:19] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 62 Sekunden
+[13:46:20] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 61 Sekunden
+[13:46:21] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 60 Sekunden
+[13:46:22] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 59 Sekunden
+[13:46:23] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 58 Sekunden
+[13:46:24] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 57 Sekunden
+[13:46:25] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 56 Sekunden
+[13:46:26] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 55 Sekunden
+[13:46:27] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 54 Sekunden
+[13:46:28] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 53 Sekunden
+[13:46:29] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 52 Sekunden
+[13:46:30] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 51 Sekunden
+[13:46:31] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 50 Sekunden
+[13:46:32] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 49 Sekunden
+[13:46:33] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 48 Sekunden
+[13:46:34] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 47 Sekunden
+[13:46:35] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 46 Sekunden
+[13:46:36] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 45 Sekunden
+[13:46:37] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 44 Sekunden
+[13:46:38] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 43 Sekunden
+[13:46:39] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 42 Sekunden
+[13:46:40] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 41 Sekunden
+[13:46:41] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 40 Sekunden
+[13:46:42] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 39 Sekunden
+[13:46:43] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 38 Sekunden
+[13:46:44] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 37 Sekunden
+[13:46:45] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 36 Sekunden
+[13:46:46] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 35 Sekunden
+[13:46:47] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 34 Sekunden
+[13:46:48] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 33 Sekunden
+[13:46:49] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 32 Sekunden
+[13:46:50] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 31 Sekunden
+[13:46:51] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 30 Sekunden
+[13:46:52] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 29 Sekunden
+[13:46:53] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 28 Sekunden
+[13:46:54] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 27 Sekunden
+[13:46:55] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 26 Sekunden
+[13:46:56] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 25 Sekunden
+[13:46:57] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 24 Sekunden
+[13:46:58] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 23 Sekunden
+[13:46:59] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 22 Sekunden
+[13:47:00] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 21 Sekunden
+[13:47:01] [Server thread/INFO]: [Not Secure] [Server] Server stoppt in 20 Sekunden

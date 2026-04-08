@@ -191,3 +191,85 @@
 [14:50:00] [Server thread/INFO]: [Not Secure] [Server] Server wird in 30 Sekunden neugestartet
 [14:50:01] [Server thread/INFO]: [Not Secure] [Server] Server wird in 29 Sekunden neugestartet
 [14:50:02] [Server thread/INFO]: [Not Secure] [Server] Server wird in 28 Sekunden neugestartet
+[14:50:03] [Server thread/INFO]: [Not Secure] [Server] Server wird in 27 Sekunden neugestartet
+[14:50:04] [Server thread/INFO]: [Not Secure] [Server] Server wird in 26 Sekunden neugestartet
+[14:50:05] [Server thread/INFO]: [Not Secure] [Server] Server wird in 25 Sekunden neugestartet
+[14:50:06] [Server thread/INFO]: [Not Secure] [Server] Server wird in 24 Sekunden neugestartet
+[14:50:07] [Server thread/INFO]: [Not Secure] [Server] Server wird in 23 Sekunden neugestartet
+[14:50:08] [Server thread/INFO]: [Not Secure] [Server] Server wird in 22 Sekunden neugestartet
+[14:50:09] [Server thread/INFO]: [Not Secure] [Server] Server wird in 21 Sekunden neugestartet
+[14:50:10] [Server thread/INFO]: [Not Secure] [Server] Server wird in 20 Sekunden neugestartet
+[14:50:11] [Server thread/INFO]: [Not Secure] [Server] Server wird in 19 Sekunden neugestartet
+[14:50:12] [Server thread/INFO]: [Not Secure] [Server] Server wird in 18 Sekunden neugestartet
+[14:50:13] [Server thread/INFO]: [Not Secure] [Server] Server wird in 17 Sekunden neugestartet
+[14:50:14] [Server thread/INFO]: [Not Secure] [Server] Server wird in 16 Sekunden neugestartet
+[14:50:15] [Server thread/INFO]: [Not Secure] [Server] Server wird in 15 Sekunden neugestartet
+[14:50:16] [Server thread/INFO]: [Not Secure] [Server] Server wird in 14 Sekunden neugestartet
+[14:50:17] [Server thread/INFO]: [Not Secure] [Server] Server wird in 13 Sekunden neugestartet
+[14:50:18] [Server thread/INFO]: [Not Secure] [Server] Server wird in 12 Sekunden neugestartet
+[14:50:19] [Server thread/INFO]: [Not Secure] [Server] Server wird in 11 Sekunden neugestartet
+[14:50:20] [Server thread/INFO]: [Not Secure] [Server] Server wird in 10 Sekunden neugestartet
+[14:50:21] [Server thread/INFO]: [Not Secure] [Server] Server wird in 9 Sekunden neugestartet
+[14:50:22] [Server thread/INFO]: [Not Secure] [Server] Server wird in 8 Sekunden neugestartet
+[14:50:23] [Server thread/INFO]: [Not Secure] [Server] Server wird in 7 Sekunden neugestartet
+[14:50:24] [Server thread/INFO]: [Not Secure] [Server] Server wird in 6 Sekunden neugestartet
+[14:50:25] [Server thread/INFO]: [Not Secure] [Server] Server wird in 5 Sekunden neugestartet
+[14:50:26] [Server thread/INFO]: [Not Secure] [Server] Server wird in 4 Sekunden neugestartet
+[14:50:27] [Server thread/INFO]: [Not Secure] [Server] Server wird in 3 Sekunden neugestartet
+[14:50:28] [Server thread/INFO]: [Not Secure] [Server] Server wird in 2 Sekunden neugestartet
+[14:50:29] [Server thread/INFO]: [Not Secure] [Server] Server wird in 1 Sekunden neugestartet
+[14:50:30] [Server thread/INFO]: Stopping the server
+[14:50:30] [Server thread/INFO]: [Not Secure] [Server] Starte Server neu...
+[14:50:30] [Server thread/INFO]: Stopping server
+[14:50:30] [Server thread/INFO]: [ScheduledStop] Disabling ScheduledStop v1.0.0
+[14:50:30] [Server thread/INFO]: [ScheduledStop] ShutdownTimer deaktiviert.
+[14:50:30] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.2.0
+[14:50:30] [Server thread/INFO]: [NotTooExpensive] Disabling NotTooExpensive v1.3.4
+[14:50:30] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v5.1.3
+[14:50:30] [Server thread/INFO]: [KeepChunks] Disabling KeepChunks v1.7.3
+[14:50:30] [Server thread/INFO]: [FakePlayerPlugin] Disabling FakePlayerPlugin v1.4.23
+[14:50:30] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Saved bot list to active-bots.yml.
+[14:50:31] [Server thread/INFO]: BastiGHG left the game
+[14:50:31] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] control channel shutdown
+[14:50:31] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Database connection closed.
+[14:50:31] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ══════════════════════════════════════════════════
+[14:50:31] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   ꜰᴀᴋᴇ ᴘʟᴀʏᴇʀ ᴘʟᴜɢɪɴ  —  shutting down
+[14:50:31] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ──────────────────────────────────────────────────
+[14:50:31] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Bots removed ...... 1
+[14:50:31] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   DB sessions ....... flushed ✔
+[14:50:31] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Session uptime .... 1m 26s
+[14:50:31] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ══════════════════════════════════════════════════
+[14:50:31] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Goodbye! ꜰᴀᴋᴇ ᴘʟᴀʏᴇʀ ᴘʟᴜɢɪɴ has been disabled.
+[14:50:31] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ══════════════════════════════════════════════════
+[14:50:31] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.3.0
+[14:50:31] [Server thread/INFO]: Saving players
+[14:50:31] [Server thread/INFO]: Saving worlds
+[14:50:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WeltMitKurosh]'/minecraft:overworld
+[14:50:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WeltMitKurosh'
+[14:50:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WeltMitKurosh'
+[14:50:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WeltMitKurosh'
+[14:50:32] [Server thread/INFO]: [ChunkHolderManager] Saved 497 block chunks, 497 entity chunks, 0 poi chunks in world 'WeltMitKurosh' in 1.43s
+[14:50:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WeltMitKurosh'
+[14:50:32] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WeltMitKurosh'
+[14:50:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WeltMitKurosh_nether]'/minecraft:the_nether
+[14:50:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WeltMitKurosh_nether'
+[14:50:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WeltMitKurosh_nether'
+[14:50:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WeltMitKurosh_nether'
+[14:50:32] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'WeltMitKurosh_nether' in 0.00s
+[14:50:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WeltMitKurosh_nether'
+[14:50:32] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WeltMitKurosh_nether'
+[14:50:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WeltMitKurosh_the_end]'/minecraft:the_end
+[14:50:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WeltMitKurosh_the_end'
+[14:50:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WeltMitKurosh_the_end'
+[14:50:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WeltMitKurosh_the_end'
+[14:50:32] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'WeltMitKurosh_the_end' in 0.00s
+[14:50:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WeltMitKurosh_the_end'
+[14:50:32] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WeltMitKurosh_the_end'
+[14:50:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (WeltMitKurosh): All chunks are saved
+[14:50:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:50:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:50:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:50:32] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[14:50:32] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[14:50:32] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[14:50:32] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

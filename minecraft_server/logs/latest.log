@@ -217,3 +217,77 @@
 [14:59:38] [Server thread/INFO]: [Not Secure] [Server] Server wird in 19 Sekunden neugestartet
 [14:59:39] [Server thread/INFO]: [Not Secure] [Server] Server wird in 18 Sekunden neugestartet
 [14:59:40] [Server thread/INFO]: [Not Secure] [Server] Server wird in 17 Sekunden neugestartet
+[14:59:41] [Server thread/INFO]: [Not Secure] [Server] Server wird in 16 Sekunden neugestartet
+[14:59:42] [Server thread/INFO]: [Not Secure] [Server] Server wird in 15 Sekunden neugestartet
+[14:59:43] [Server thread/INFO]: [Not Secure] [Server] Server wird in 14 Sekunden neugestartet
+[14:59:44] [Server thread/INFO]: [Not Secure] [Server] Server wird in 13 Sekunden neugestartet
+[14:59:45] [Server thread/INFO]: [Not Secure] [Server] Server wird in 12 Sekunden neugestartet
+[14:59:46] [Server thread/INFO]: [Not Secure] [Server] Server wird in 11 Sekunden neugestartet
+[14:59:47] [Server thread/INFO]: [Not Secure] [Server] Server wird in 10 Sekunden neugestartet
+[14:59:48] [Server thread/INFO]: [Not Secure] [Server] Server wird in 9 Sekunden neugestartet
+[14:59:49] [Server thread/INFO]: [Not Secure] [Server] Server wird in 8 Sekunden neugestartet
+[14:59:50] [Server thread/INFO]: [Not Secure] [Server] Server wird in 7 Sekunden neugestartet
+[14:59:51] [Server thread/INFO]: [Not Secure] [Server] Server wird in 6 Sekunden neugestartet
+[14:59:52] [Server thread/INFO]: [Not Secure] [Server] Server wird in 5 Sekunden neugestartet
+[14:59:53] [Server thread/INFO]: [Not Secure] [Server] Server wird in 4 Sekunden neugestartet
+[14:59:54] [Server thread/INFO]: [Not Secure] [Server] Server wird in 3 Sekunden neugestartet
+[14:59:55] [Server thread/INFO]: [Not Secure] [Server] Server wird in 2 Sekunden neugestartet
+[14:59:56] [Server thread/INFO]: [Not Secure] [Server] Server wird in 1 Sekunden neugestartet
+[14:59:57] [Server thread/INFO]: Stopping the server
+[14:59:57] [Server thread/INFO]: [Not Secure] [Server] Starte Server neu...
+[14:59:57] [Server thread/INFO]: Stopping server
+[14:59:57] [Server thread/INFO]: [ScheduledStop] Disabling ScheduledStop v1.0.0
+[14:59:57] [Server thread/INFO]: [ScheduledStop] ShutdownTimer deaktiviert.
+[14:59:57] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.2.0
+[14:59:57] [Server thread/INFO]: [NotTooExpensive] Disabling NotTooExpensive v1.3.4
+[14:59:57] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v5.1.3
+[14:59:57] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] control channel shutdown
+[14:59:57] [Server thread/INFO]: [KeepChunks] Disabling KeepChunks v1.7.3
+[14:59:57] [Server thread/INFO]: [FakePlayerPlugin] Disabling FakePlayerPlugin v1.4.23
+[14:59:57] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Saved bot list to active-bots.yml.
+[14:59:57] [Server thread/INFO]: BastiGHG left the game
+[14:59:57] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] Database connection closed.
+[14:59:57] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ══════════════════════════════════════════════════
+[14:59:57] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   ꜰᴀᴋᴇ ᴘʟᴀʏᴇʀ ᴘʟᴜɢɪɴ  —  shutting down
+[14:59:57] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ──────────────────────────────────────────────────
+[14:59:57] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Bots removed ...... 1
+[14:59:57] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   DB sessions ....... flushed ✔
+[14:59:57] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Session uptime .... 1m 29s
+[14:59:57] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ══════════════════════════════════════════════════
+[14:59:57] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ]   Goodbye! ꜰᴀᴋᴇ ᴘʟᴀʏᴇʀ ᴘʟᴜɢɪɴ has been disabled.
+[14:59:57] [Server thread/INFO]: [FakePlayerPlugin] [ꜰᴘᴘ] ══════════════════════════════════════════════════
+[14:59:57] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.3.0
+[14:59:57] [Server thread/INFO]: Saving players
+[14:59:58] [Server thread/INFO]: NotJxlly lost connection: Server closed
+[14:59:58] [nioEventLoopGroup-2-2/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to minecraft server
+[14:59:58] [Server thread/INFO]: NotJxlly left the game
+[14:59:58] [Server thread/INFO]: Saving worlds
+[14:59:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WeltMitKurosh]'/minecraft:overworld
+[14:59:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WeltMitKurosh'
+[14:59:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WeltMitKurosh'
+[14:59:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WeltMitKurosh'
+[15:00:06] [Server thread/INFO]: [ChunkHolderManager] Saved 4761 block chunks, 4761 entity chunks, 0 poi chunks in world 'WeltMitKurosh' in 8.62s
+[15:00:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WeltMitKurosh'
+[15:00:06] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WeltMitKurosh'
+[15:00:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WeltMitKurosh_nether]'/minecraft:the_nether
+[15:00:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WeltMitKurosh_nether'
+[15:00:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WeltMitKurosh_nether'
+[15:00:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WeltMitKurosh_nether'
+[15:00:06] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'WeltMitKurosh_nether' in 0.00s
+[15:00:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WeltMitKurosh_nether'
+[15:00:06] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WeltMitKurosh_nether'
+[15:00:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WeltMitKurosh_the_end]'/minecraft:the_end
+[15:00:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WeltMitKurosh_the_end'
+[15:00:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WeltMitKurosh_the_end'
+[15:00:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WeltMitKurosh_the_end'
+[15:00:06] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'WeltMitKurosh_the_end' in 0.00s
+[15:00:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WeltMitKurosh_the_end'
+[15:00:06] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WeltMitKurosh_the_end'
+[15:00:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (WeltMitKurosh): All chunks are saved
+[15:00:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:00:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:00:06] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:00:06] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[15:00:06] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[15:00:06] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[15:00:06] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

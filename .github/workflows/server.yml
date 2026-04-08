@@ -61,7 +61,7 @@ jobs:
             -d "{\"ref\":\"${GITHUB_REF_NAME}\"}"
     
           echo "Workflow restart triggered. Exiting current run."
-          exit 1
+          exit 78
     
       # 1. Datei prüfen und bedingt Klonen oder Artefakt laden
       - name: Check Artifact Status and Prepare Files
@@ -241,16 +241,25 @@ jobs:
           
           SERVER_PID=$!
           
-          # >>> WICHTIG: Pipe dauerhaft offen halten
+          # Pipe dauerhaft offen halten
           exec 3>mcpipe
           
-          # Countdown + Stop im Hintergrund
+          # Gesamtzeit: 5,5 Stunden = 19800 Sekunden
+          TOTAL_TIME=60
+          
+          # Countdown im Hintergrund
           {
-            for ((i=120; i>=1; i--)); do
-              echo "say Server stoppt in $i Sekunden" >&3
+            for ((i=TOTAL_TIME; i>=1; i--)); do
+              
+              # Nur in den letzten 30 Sekunden Nachrichten senden
+              if [ $i -le 30 ]; then
+                echo "say Server wird in $i Sekunden neugestartet" >&3
+              fi
+          
               sleep 1
             done
-            echo "say Stoppe Server..." >&3
+          
+            echo "say Starte Server neu..." >&3
             echo "stop" >&3
           } &
           
@@ -315,3 +324,17 @@ jobs:
             fi
             attempt=$((attempt + 1))
           done
+
+      - name: Restart workflow
+      if: ${{ success() }}
+      env:
+        GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}
+        WORKFLOW_FILE: server.yml
+      run: |
+        echo "🔁 Starte Workflow neu..."
+    
+        curl -s -X POST \
+          -H "Accept: application/vnd.github+json" \
+          -H "Authorization: Bearer $GITHUB_PAT" \
+          https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/$WORKFLOW_FILE/dispatches \
+          -d "{\"ref\":\"${GITHUB_REF_NAME}\"}"

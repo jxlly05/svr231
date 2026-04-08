@@ -344,7 +344,7 @@ jobs:
           NOW=$(date -u +%s)
           ELAPSED=$((NOW - START_TIME))
 
-          LIMIT=19500
+          LIMIT=100
 
           echo "Vergangene Zeit: $ELAPSED Sekunden"
 

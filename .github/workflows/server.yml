@@ -16,7 +16,6 @@ jobs:
       - id: set-time
         run: echo "start_time=$(date -u +%s)" >> $GITHUB_OUTPUT
 
-jobs:
   check-runner-region-and-start-server:
     needs: start
     runs-on: ubuntu-latest

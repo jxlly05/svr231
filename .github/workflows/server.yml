@@ -61,7 +61,7 @@ jobs:
             -d "{\"ref\":\"${GITHUB_REF_NAME}\"}"
     
           echo "Workflow restart triggered. Exiting current run."
-          exit 0
+          exit 1
     
       # 1. Datei prüfen und bedingt Klonen oder Artefakt laden
       - name: Check Artifact Status and Prepare Files

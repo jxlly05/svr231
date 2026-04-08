@@ -201,20 +201,44 @@ jobs:
               echo "[World-DL] Alle Welten sind bereits vorhanden. Kein Download nötig."
             fi
           } &
+          
 
+
+          
+          # In Server-Verzeichnis wechseln
+          cd "$GITHUB_WORKSPACE/minecraft_server"
+          
+          # Pipe erstellen für Server-Input
+          mkfifo mcpipe
+          
+          # Minecraft-Server im Hintergrund starten
+          java -Xms14G -Xmx14G \
+          -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 \
+          -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch \
+          -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M \
+          -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 \
+          -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 \
+          -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 \
+          -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 \
+          -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true \
+          -jar paper.jar --nogui < mcpipe &
+          
+          SERVER_PID=$!
+          
+          # Countdown + Stop im Hintergrund
           {
             for ((i=120; i>=1; i--)); do
-              echo "say Noch $i Sekunden" 
+              echo "say Server stoppt in $i Sekunden" > mcpipe
               sleep 1
             done
-            echo "say Stoppe Server..."
-            echo "stop"
+            echo "say Stoppe Server..." > mcpipe
+            echo "stop" > mcpipe
           } &
           
-          # Minecraft-Server starten
-          cd "$GITHUB_WORKSPACE/minecraft_server"
-          java -Xms14G -Xmx14G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -jar paper.jar --nogui
-        
+          # Warten bis Server beendet ist
+          wait $SERVER_PID
+          
+          # Cleanup
           echo "[Autosave] beende Autosave-Prozess..."
           kill "$AUTOSAVE_PID" 2>/dev/null || true
           echo "[Autosave] Autosave vollständig gestoppt."

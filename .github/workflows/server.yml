@@ -11,57 +11,57 @@ jobs:
   check-runner-region-and-start-server:
     runs-on: ubuntu-latest
     steps:
-    - name: Detect runner region
-      id: region
-      run: |
-        set -e
+      - name: Detect runner region
+        id: region
+        run: |
+          set -e
+    
+          IP=$(curl -s https://api.ipify.org)
+          echo "IP: $IP"
+    
+          RESPONSE=$(curl -s "https://ipinfo.io/$IP/region" || true)
+          echo "Raw response: $RESPONSE"
+    
+          # Default-Werte
+          REGION="unknown"
+          RATE_LIMITED="false"
+    
+          # Prüfen auf Rate Limit oder ungültige Antwort
+          if echo "$RESPONSE" | grep -q "429"; then
+            RATE_LIMITED="true"
+          elif echo "$RESPONSE" | grep -q "{"; then
+            # JSON → vermutlich Fehlerantwort
+            RATE_LIMITED="true"
+          elif [ -z "$RESPONSE" ]; then
+            RATE_LIMITED="true"
+          else
+            REGION="$RESPONSE"
+          fi
+    
+          echo "Parsed region: $REGION"
+          echo "Rate limited: $RATE_LIMITED"
+    
+          # NUR saubere Werte in GITHUB_OUTPUT schreiben
+          echo "region=$REGION" >> "$GITHUB_OUTPUT"
+          echo "rate_limited=$RATE_LIMITED" >> "$GITHUB_OUTPUT"
   
-        IP=$(curl -s https://api.ipify.org)
-        echo "IP: $IP"
-  
-        RESPONSE=$(curl -s "https://ipinfo.io/$IP/region" || true)
-        echo "Raw response: $RESPONSE"
-  
-        # Default-Werte
-        REGION="unknown"
-        RATE_LIMITED="false"
-  
-        # Prüfen auf Rate Limit oder ungültige Antwort
-        if echo "$RESPONSE" | grep -q "429"; then
-          RATE_LIMITED="true"
-        elif echo "$RESPONSE" | grep -q "{"; then
-          # JSON → vermutlich Fehlerantwort
-          RATE_LIMITED="true"
-        elif [ -z "$RESPONSE" ]; then
-          RATE_LIMITED="true"
-        else
-          REGION="$RESPONSE"
-        fi
-  
-        echo "Parsed region: $REGION"
-        echo "Rate limited: $RATE_LIMITED"
-  
-        # NUR saubere Werte in GITHUB_OUTPUT schreiben
-        echo "region=$REGION" >> "$GITHUB_OUTPUT"
-        echo "rate_limited=$RATE_LIMITED" >> "$GITHUB_OUTPUT"
-
-        
-    - name: Restart workflow if region not Virginia OR rate limited
-      if: ${{ steps.region.outputs.region != 'Virginia' || steps.region.outputs.rate_limited == 'true' }}
-      env:
-        GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}
-        WORKFLOW_FILE: server.yml
-      run: |
-        echo "❌ Runner not in Virginia OR rate limit detected — restarting workflow..."
-  
-        curl -s -X POST \
-          -H "Accept: application/vnd.github+json" \
-          -H "Authorization: Bearer $GITHUB_PAT" \
-          https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/$WORKFLOW_FILE/dispatches \
-          -d "{\"ref\":\"${GITHUB_REF_NAME}\"}"
-  
-        echo "Workflow restart triggered. Exiting current run."
-        exit 1
+          
+      - name: Restart workflow if region not Virginia OR rate limited
+        if: ${{ steps.region.outputs.region != 'Virginia' || steps.region.outputs.rate_limited == 'true' }}
+        env:
+          GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}
+          WORKFLOW_FILE: server.yml
+        run: |
+          echo "❌ Runner not in Virginia OR rate limit detected — restarting workflow..."
+    
+          curl -s -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $GITHUB_PAT" \
+            https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/$WORKFLOW_FILE/dispatches \
+            -d "{\"ref\":\"${GITHUB_REF_NAME}\"}"
+    
+          echo "Workflow restart triggered. Exiting current run."
+          exit 1
     
       # 1. Datei prüfen und bedingt Klonen oder Artefakt laden
       - name: Check Artifact Status and Prepare Files

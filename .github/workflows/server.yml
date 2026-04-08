@@ -338,6 +338,8 @@ jobs:
         if: ${{ success() }}
         env:
           START_TIME: ${{ needs.start.outputs.start_time }}
+          GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}
+          WORKFLOW_FILE: server.yml
         run: |
           echo "Startzeit (UTC Epoch): $START_TIME"
 

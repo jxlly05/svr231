@@ -254,7 +254,7 @@ jobs:
           exec 3>mcpipe
           
           # Gesamtzeit: 5,5 Stunden = 19800 Sekunden
-          TOTAL_TIME=120
+          TOTAL_TIME=19800
           
           # Countdown im Hintergrund
           {

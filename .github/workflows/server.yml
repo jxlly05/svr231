@@ -44,7 +44,8 @@ jobs:
         # NUR saubere Werte in GITHUB_OUTPUT schreiben
         echo "region=$REGION" >> "$GITHUB_OUTPUT"
         echo "rate_limited=$RATE_LIMITED" >> "$GITHUB_OUTPUT"
-  
+
+        
     - name: Restart workflow if region not Virginia OR rate limited
       if: ${{ steps.region.outputs.region != 'Virginia' || steps.region.outputs.rate_limited == 'true' }}
       env:

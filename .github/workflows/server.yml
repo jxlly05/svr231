@@ -331,26 +331,40 @@ jobs:
           GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}
           WORKFLOW_FILE: server.yml
         run: |
-          echo "⏱ Prüfe Laufzeit des Runners..."
+          echo "⏱ Prüfe Workflow-Laufzeit..."
       
-          START_TIME=$(date -d "$GITHUB_RUN_STARTED_AT" +%s)
-          NOW=$(date +%s)
+          # UTC verwenden für konsistente Berechnung
+          START_TIME=$(date -u -d "$GITHUB_RUN_STARTED_AT" +%s)
+          NOW=$(date -u +%s)
       
           ELAPSED=$((NOW - START_TIME))
       
           # 5h 25min = 19500 Sekunden
           LIMIT=19500
       
+          echo "Startzeit (UTC): $GITHUB_RUN_STARTED_AT"
+          echo "Aktuelle Zeit (UTC): $(date -u -d @$NOW)"
           echo "Vergangene Zeit: $ELAPSED Sekunden"
       
           if [ "$ELAPSED" -ge "$LIMIT" ]; then
             echo "🔁 >5h25m erreicht — starte Workflow neu..."
+      
+            # Optional: Schutz gegen mehrfaches paralleles Dispatch
+            LOCK_FILE="/tmp/workflow_restart.lock"
+      
+            if [ -f "$LOCK_FILE" ]; then
+              echo "⛔ Restart bereits ausgelöst — überspringe"
+              exit 0
+            fi
+      
+            touch "$LOCK_FILE"
       
             curl -s -X POST \
               -H "Accept: application/vnd.github+json" \
               -H "Authorization: Bearer $GITHUB_PAT" \
               https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/$WORKFLOW_FILE/dispatches \
               -d "{\"ref\":\"${GITHUB_REF_NAME}\"}"
+      
           else
             echo "⏭ Noch unter 5h25m — kein Restart notwendig."
           fi

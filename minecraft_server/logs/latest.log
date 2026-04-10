@@ -289,3 +289,4 @@
 [16:01:43] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
 [16:01:43] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /87.179.13.145:54694
 [16:01:43] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[16:02:13] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive

@@ -934,3 +934,31 @@
 [16:50:21] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [16:54:22] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [16:58:22] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[17:01:27] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[17:01:27] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[17:01:27] [Server thread/INFO]: Kurocr7 lost connection: Disconnected
+[17:01:27] [Server thread/INFO]: Kurocr7 left the game
+[17:01:28] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:31593, peerAddr=87.179.13.145:62031, claimAddress=69.9.181.2:43784, claimToken=[44, 0, 111, -109, -71, -35, 19, 123, 105, 87, -77, 13, -111, -14, 79, -16, 45, -120, -34, -85, 8, 105, -39, 44, -24, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 90, -87, 66, 0, 0, 0, 0, 0, 54, 94, -111, -8, -74, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 2, 0, 12, 0, 41, 40, 0, -122, 6, 33, 112, 104, 111, 110, 101, 115, 45, 97, 108, 116, 101, 114, 110, 97, 116, 105, 118, 101, 108, 121, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 123, 105, 1, 120, 19, -85, 109, 81, 57, -107, -117, 71, 88, 40, -10, 7, -117, 50, 95], tunnelServerId=0, tunnelId=3563153, dataCenterId=36, portOffset=0}
+[17:01:28] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[17:01:28] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.181.2:43784 to claim client
+[17:01:28] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[17:01:28] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[17:01:28] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[17:01:28] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[17:01:28] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[17:01:28] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /87.179.13.145:62031
+[17:01:28] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[17:01:30] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:31593, peerAddr=87.179.13.145:62040, claimAddress=69.9.181.2:43784, claimToken=[44, 0, 111, -109, -71, -35, 19, 123, 105, 87, -77, 13, -111, -14, 88, -89, 120, 109, 26, -85, 8, 105, -39, 44, -22, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 90, -87, 66, 0, 0, 0, 0, 0, 54, 94, -111, -56, -14, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 2, 0, 14, 0, 41, 40, 0, -122, 6, 33, 112, 104, 111, 110, 101, 115, 45, 97, 108, 116, 101, 114, 110, 97, 116, 105, 118, 101, 108, 121, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 123, 105, 2, -17, 43, -83, 39, 75, -92, -47, -38, -16, -99, 101, 104, -14, 49, 71, 88], tunnelServerId=0, tunnelId=3563153, dataCenterId=36, portOffset=0}
+[17:01:30] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[17:01:30] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.181.2:43784 to claim client
+[17:01:30] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[17:01:30] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[17:01:30] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[17:01:30] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[17:01:30] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[17:01:30] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /87.179.13.145:62040
+[17:01:30] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[17:01:31] [User Authenticator #4/INFO]: UUID of player Kurocr7 is ea824033-5ac3-4926-91f6-6466b719e237
+[17:01:31] [Server thread/WARN]: [Multiverse-Core] The destination in FirstSpawnLocation in config is invalid
+[17:01:31] [Server thread/INFO]: Kurocr7 joined the game
+[17:01:31] [Server thread/INFO]: Kurocr7[/87.179.13.145:62040] logged in with entity id 35718 at ([WeltMitKurosh]-3057.1472912353574, 65.5, 6775.707862800777)

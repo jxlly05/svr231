@@ -247,3 +247,7 @@
 [15:50:26] [Server thread/WARN]: [Multiverse-Core] The destination in FirstSpawnLocation in config is invalid
 [15:50:26] [Server thread/INFO]: Kurocr7 joined the game
 [15:50:26] [Server thread/INFO]: Kurocr7[/87.179.13.145:57647] logged in with entity id 683 at ([WeltMitKurosh]-3038.5004071357175, 63.0, 6841.706751550305)
+[15:54:10] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:55:48] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[15:55:48] [Server thread/INFO]: Kurocr7 lost connection: Disconnected
+[15:55:48] [Server thread/INFO]: Kurocr7 left the game

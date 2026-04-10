@@ -963,3 +963,7 @@
 [17:01:31] [Server thread/INFO]: Kurocr7 joined the game
 [17:01:31] [Server thread/INFO]: Kurocr7[/87.179.13.145:62040] logged in with entity id 35718 at ([WeltMitKurosh]-3057.1472912353574, 65.5, 6775.707862800777)
 [17:02:24] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[17:05:52] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[17:05:53] [Server thread/INFO]: Kurocr7 lost connection: Disconnected
+[17:05:53] [Server thread/INFO]: Kurocr7 left the game
+[17:06:25] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive

@@ -929,3 +929,4 @@
 [16:39:47] [Server thread/WARN]: [Multiverse-Core] The destination in FirstSpawnLocation in config is invalid
 [16:39:48] [Server thread/INFO]: Kurocr7 joined the game
 [16:39:48] [Server thread/INFO]: Kurocr7[/87.179.13.145:49505] logged in with entity id 16221 at ([WeltMitKurosh]-2916.8555130924965, 64.0, 6941.607018978987)
+[16:42:19] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive

@@ -14,18 +14,17 @@ Island:
     enabled: false
     amount: 0.0
     currency: '@vault-economy'
-  environment: normal
   gamemode: creative
   generator: ''
   hidden: false
   hunger: true
   keep-spawn-in-memory: true
+  meta: {}
   player-limit: -1
   portal-form: all
   pvp: true
   respawn-world: ''
   scale: 1.0
-  seed: 27594263
   spawn-location:
     ==: MVSpawnLocation
     x: -12.5
@@ -75,7 +74,12 @@ Island:
       spawn-limit: '@bukkit'
       exceptions: []
   world-blacklist: []
-  version: 1.2
+  read-only:
+    environment: normal
+    generator-settings: ''
+    legacy-world-name: Island
+    seed: 27594263
+  version: 1.3
 Luebeck:
   adjust-spawn: true
   alias: ''
@@ -92,18 +96,17 @@ Luebeck:
     enabled: false
     amount: 0.0
     currency: '@vault-economy'
-  environment: normal
   gamemode: survival
   generator: ''
   hidden: false
   hunger: true
   keep-spawn-in-memory: true
+  meta: {}
   player-limit: -1
   portal-form: all
   pvp: true
   respawn-world: ''
   scale: 1.0
-  seed: 227290
   spawn-location:
     ==: MVSpawnLocation
     x: -475.0
@@ -153,7 +156,12 @@ Luebeck:
       spawn-limit: '@bukkit'
       exceptions: []
   world-blacklist: []
-  version: 1.2
+  read-only:
+    environment: normal
+    generator-settings: ''
+    legacy-world-name: Luebeck
+    seed: 227290
+  version: 1.3
 Survival:
   adjust-spawn: true
   alias: Survival
@@ -170,18 +178,17 @@ Survival:
     enabled: false
     amount: 0.0
     currency: '@vault-economy'
-  environment: normal
   gamemode: survival
   generator: ''
   hidden: false
   hunger: true
   keep-spawn-in-memory: false
+  meta: {}
   player-limit: -1
   portal-form: all
   pvp: true
   respawn-world: ''
   scale: 1.0
-  seed: -1028979425937811137
   spawn-location:
     ==: MVSpawnLocation
     x: -1143.0219863652005
@@ -231,7 +238,12 @@ Survival:
       spawn-limit: '@bukkit'
       exceptions: []
   world-blacklist: []
-  version: 1.2
+  read-only:
+    environment: normal
+    generator-settings: ''
+    legacy-world-name: Survival
+    seed: -1028979425937811137
+  version: 1.3
 Survival_nether:
   adjust-spawn: true
   alias: Survival_nether
@@ -248,18 +260,17 @@ Survival_nether:
     enabled: false
     amount: 0.0
     currency: '@vault-economy'
-  environment: nether
   gamemode: survival
   generator: ''
   hidden: false
   hunger: true
   keep-spawn-in-memory: false
+  meta: {}
   player-limit: -1
   portal-form: all
   pvp: true
   respawn-world: ''
   scale: 8.0
-  seed: -1028979425937811137
   spawn-location:
     ==: MVSpawnLocation
     x: 4.5
@@ -309,7 +320,12 @@ Survival_nether:
       spawn-limit: '@bukkit'
       exceptions: []
   world-blacklist: []
-  version: 1.2
+  read-only:
+    environment: nether
+    generator-settings: ''
+    legacy-world-name: Survival_nether
+    seed: -1028979425937811137
+  version: 1.3
 Survival_the_end:
   adjust-spawn: true
   alias: Survival_the_end
@@ -326,18 +342,17 @@ Survival_the_end:
     enabled: false
     amount: 0.0
     currency: '@vault-economy'
-  environment: the_end
   gamemode: survival
   generator: ''
   hidden: false
   hunger: true
   keep-spawn-in-memory: false
+  meta: {}
   player-limit: -1
   portal-form: all
   pvp: true
   respawn-world: ''
   scale: 16.0
-  seed: -1028979425937811137
   spawn-location:
     ==: MVSpawnLocation
     x: 0.0
@@ -387,241 +402,12 @@ Survival_the_end:
       spawn-limit: '@bukkit'
       exceptions: []
   world-blacklist: []
-  version: 1.2
-WeltMitKurosh:
-  adjust-spawn: true
-  alias: ''
-  allow-advancement-grant: true
-  allow-flight: false
-  allow-weather: true
-  anchor-respawn: true
-  auto-heal: true
-  auto-load: true
-  bed-respawn: true
-  biome: ''
-  difficulty: normal
-  entry-fee:
-    enabled: false
-    amount: 0.0
-    currency: '@vault-economy'
-  environment: normal
-  gamemode: survival
-  generator: ''
-  hidden: false
-  hunger: true
-  keep-spawn-in-memory: true
-  player-limit: -1
-  portal-form: all
-  pvp: true
-  respawn-world: ''
-  scale: 1.0
-  seed: 6226921648786292205
-  spawn-location:
-    ==: MVSpawnLocation
-    x: 80.0
-    y: 69.0
-    z: 368.0
-    pitch: 0.0
-    yaw: 0.0
-  spawning:
-    monster:
-      spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
-      exceptions: []
-    animal:
-      spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
-      exceptions: []
-    water_animal:
-      spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
-      exceptions: []
-    water_ambient:
-      spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
-      exceptions: []
-    water_underground_creature:
-      spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
-      exceptions: []
-    ambient:
-      spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
-      exceptions: []
-    axolotl:
-      spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
-      exceptions: []
-    misc:
-      spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
-      exceptions: []
-  world-blacklist: []
-  version: 1.2
-WeltMitKurosh_nether:
-  adjust-spawn: true
-  alias: ''
-  allow-advancement-grant: true
-  allow-flight: false
-  allow-weather: true
-  anchor-respawn: true
-  auto-heal: true
-  auto-load: true
-  bed-respawn: true
-  biome: ''
-  difficulty: normal
-  entry-fee:
-    enabled: false
-    amount: 0.0
-    currency: '@vault-economy'
-  environment: nether
-  gamemode: survival
-  generator: ''
-  hidden: false
-  hunger: true
-  keep-spawn-in-memory: true
-  player-limit: -1
-  portal-form: all
-  pvp: true
-  respawn-world: ''
-  scale: 8.0
-  seed: -3167403940608379373
-  spawn-location:
-    ==: MVSpawnLocation
-    x: 1.0
-    y: 32.0
-    z: 12.0
-    pitch: 0.0
-    yaw: 0.0
-  spawning:
-    monster:
-      spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
-      exceptions: []
-    animal:
-      spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
-      exceptions: []
-    water_animal:
-      spawn: true
-      tick-rate: '@unset'
-      spawn-limit: '@unset'
-      exceptions: []
-    water_ambient:
-      spawn: true
-      tick-rate: '@unset'
-      spawn-limit: '@unset'
-      exceptions: []
-    water_underground_creature:
-      spawn: true
-      tick-rate: '@unset'
-      spawn-limit: '@unset'
-      exceptions: []
-    ambient:
-      spawn: true
-      tick-rate: '@unset'
-      spawn-limit: '@unset'
-      exceptions: []
-    axolotl:
-      spawn: true
-      tick-rate: '@unset'
-      spawn-limit: '@unset'
-      exceptions: []
-    misc:
-      spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
-      exceptions: []
-  world-blacklist: []
-  version: 1.2
-WeltMitKurosh_the_end:
-  adjust-spawn: true
-  alias: ''
-  allow-advancement-grant: true
-  allow-flight: false
-  allow-weather: true
-  anchor-respawn: true
-  auto-heal: true
-  auto-load: true
-  bed-respawn: true
-  biome: ''
-  difficulty: normal
-  entry-fee:
-    enabled: false
-    amount: 0.0
-    currency: '@vault-economy'
-  environment: the_end
-  gamemode: survival
-  generator: ''
-  hidden: false
-  hunger: true
-  keep-spawn-in-memory: true
-  player-limit: -1
-  portal-form: all
-  pvp: true
-  respawn-world: ''
-  scale: 16.0
-  seed: -3167403940608379373
-  spawn-location:
-    ==: MVSpawnLocation
-    x: 0.0
-    y: 58.0
-    z: 0.0
-    pitch: 0.0
-    yaw: 0.0
-  spawning:
-    monster:
-      spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
-      exceptions: []
-    animal:
-      spawn: true
-      tick-rate: '@unset'
-      spawn-limit: '@unset'
-      exceptions: []
-    water_animal:
-      spawn: true
-      tick-rate: '@unset'
-      spawn-limit: '@unset'
-      exceptions: []
-    water_ambient:
-      spawn: true
-      tick-rate: '@unset'
-      spawn-limit: '@unset'
-      exceptions: []
-    water_underground_creature:
-      spawn: true
-      tick-rate: '@unset'
-      spawn-limit: '@unset'
-      exceptions: []
-    ambient:
-      spawn: true
-      tick-rate: '@unset'
-      spawn-limit: '@unset'
-      exceptions: []
-    axolotl:
-      spawn: true
-      tick-rate: '@unset'
-      spawn-limit: '@unset'
-      exceptions: []
-    misc:
-      spawn: true
-      tick-rate: '@bukkit'
-      spawn-limit: '@bukkit'
-      exceptions: []
-  world-blacklist: []
-  version: 1.2
+  read-only:
+    environment: the_end
+    generator-settings: ''
+    legacy-world-name: Survival_the_end
+    seed: -1028979425937811137
+  version: 1.3
 flatworld:
   adjust-spawn: true
   alias: flatworld
@@ -638,18 +424,17 @@ flatworld:
     enabled: false
     amount: 0.0
     currency: '@vault-economy'
-  environment: normal
   gamemode: creative
   generator: ''
   hidden: false
   hunger: false
   keep-spawn-in-memory: false
+  meta: {}
   player-limit: -1
   portal-form: all
   pvp: true
   respawn-world: ''
   scale: 1.0
-  seed: -7692904262370356013
   spawn-location:
     ==: MVSpawnLocation
     x: 214.4859702356456
@@ -699,4 +484,255 @@ flatworld:
       spawn-limit: '@bukkit'
       exceptions: []
   world-blacklist: []
-  version: 1.2
+  read-only:
+    environment: normal
+    generator-settings: ''
+    legacy-world-name: flatworld
+    seed: -7692904262370356013
+  version: 1.3
+minecraft:overworld:
+  adjust-spawn: true
+  alias: ''
+  allow-advancement-grant: true
+  allow-flight: false
+  allow-weather: true
+  anchor-respawn: true
+  auto-heal: true
+  auto-load: true
+  bed-respawn: true
+  biome: ''
+  difficulty: normal
+  entry-fee:
+    enabled: false
+    amount: 0.0
+    currency: '@vault-economy'
+  gamemode: survival
+  generator: ''
+  hidden: false
+  hunger: true
+  keep-spawn-in-memory: true
+  meta: {}
+  player-limit: -1
+  portal-form: all
+  pvp: true
+  respawn-world: ''
+  scale: 1.0
+  spawn-location:
+    ==: MVSpawnLocation
+    x: 80.0
+    y: 69.0
+    z: 368.0
+    pitch: 0.0
+    yaw: 0.0
+  spawning:
+    monster:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    animal:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_animal:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_ambient:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_underground_creature:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    ambient:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    axolotl:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    misc:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+  world-blacklist: []
+  read-only:
+    environment: normal
+    generator-settings: ''
+    legacy-world-name: WeltMitKurosh
+    seed: 6226921648786292205
+  version: 1.3
+minecraft:the_end:
+  adjust-spawn: true
+  alias: ''
+  allow-advancement-grant: true
+  allow-flight: false
+  allow-weather: true
+  anchor-respawn: true
+  auto-heal: true
+  auto-load: true
+  bed-respawn: true
+  biome: ''
+  difficulty: normal
+  entry-fee:
+    enabled: false
+    amount: 0.0
+    currency: '@vault-economy'
+  gamemode: survival
+  generator: ''
+  hidden: false
+  hunger: true
+  keep-spawn-in-memory: true
+  meta: {}
+  player-limit: -1
+  portal-form: all
+  pvp: true
+  respawn-world: ''
+  scale: 16.0
+  spawn-location:
+    ==: MVSpawnLocation
+    x: 0.0
+    y: 58.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  spawning:
+    monster:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    animal:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    water_animal:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    water_ambient:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    water_underground_creature:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    ambient:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    axolotl:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    misc:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+  world-blacklist: []
+  read-only:
+    environment: the_end
+    generator-settings: ''
+    legacy-world-name: WeltMitKurosh_the_end
+    seed: -3167403940608379373
+  version: 1.3
+minecraft:the_nether:
+  adjust-spawn: true
+  alias: ''
+  allow-advancement-grant: true
+  allow-flight: false
+  allow-weather: true
+  anchor-respawn: true
+  auto-heal: true
+  auto-load: true
+  bed-respawn: true
+  biome: ''
+  difficulty: normal
+  entry-fee:
+    enabled: false
+    amount: 0.0
+    currency: '@vault-economy'
+  gamemode: survival
+  generator: ''
+  hidden: false
+  hunger: true
+  keep-spawn-in-memory: true
+  meta: {}
+  player-limit: -1
+  portal-form: all
+  pvp: true
+  respawn-world: ''
+  scale: 8.0
+  spawn-location:
+    ==: MVSpawnLocation
+    x: 1.0
+    y: 32.0
+    z: 12.0
+    pitch: 0.0
+    yaw: 0.0
+  spawning:
+    monster:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    animal:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+    water_animal:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    water_ambient:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    water_underground_creature:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    ambient:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    axolotl:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    misc:
+      spawn: true
+      tick-rate: '@bukkit'
+      spawn-limit: '@bukkit'
+      exceptions: []
+  world-blacklist: []
+  read-only:
+    environment: nether
+    generator-settings: ''
+    legacy-world-name: WeltMitKurosh_nether
+    seed: -3167403940608379373
+  version: 1.3

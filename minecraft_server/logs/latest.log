@@ -376,3 +376,77 @@
 [19:33:11] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /94.134.105.141:2143
 [19:33:11] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
 [19:35:12] [Thread-3/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:36:07] [Thread-3/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:31593, peerAddr=94.134.105.141:1899, claimAddress=69.9.181.2:43786, claimToken=[44, 0, 111, -109, -71, -35, 19, 123, 105, 94, -122, 105, -115, 7, 107, -58, 23, -9, 43, -85, 10, 106, -29, -96, 39, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 90, -87, 66, 0, 0, 0, 0, 0, 54, 94, -111, -90, 3, -85, 10, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 2, 0, 7, 0, 41, 40, 0, -120, 6, 33, 112, 104, 111, 110, 101, 115, 45, 97, 108, 116, 101, 114, 110, 97, 116, 105, 118, 101, 108, 121, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 123, 105, 1, -9, 60, 68, -120, 80, -58, 9, 111, 107, 11, -51, -97, -46, 63, 83, 127], tunnelServerId=0, tunnelId=3563153, dataCenterId=36, portOffset=0}
+[19:36:07] [Thread-3/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[19:36:07] [Thread-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.181.2:43786 to claim client
+[19:36:07] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[19:36:07] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[19:36:07] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[19:36:07] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[19:36:07] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[19:36:07] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /94.134.105.141:1899
+[19:36:07] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[19:36:09] [Thread-3/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:31593, peerAddr=94.134.105.141:1907, claimAddress=69.9.181.2:43786, claimToken=[44, 0, -118, -109, -71, -35, 19, 123, 105, 94, -122, 105, -115, 7, 115, 9, 32, 27, -121, -85, 10, 106, -29, -96, 41, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 90, -87, 66, 0, 0, 0, 0, 0, 54, 94, -111, -118, 68, -85, 10, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 2, 0, 5, 0, 68, 40, 0, -120, 6, 33, 112, 104, 111, 110, 101, 115, 45, 97, 108, 116, 101, 114, 110, 97, 116, 105, 118, 101, 108, 121, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 123, 105, 2, 26, 0, 8, 78, 111, 116, 74, 120, 108, 108, 121, -13, 75, 44, -13, -81, -119, 64, 18, -121, -37, -33, 110, 42, -80, -45, -86, -26, -127, -106, 12, -59, -69, -108, 88, -1, 16, -30, -27, -78, 77, 12, -35], tunnelServerId=0, tunnelId=3563153, dataCenterId=36, portOffset=0}
+[19:36:09] [Thread-3/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[19:36:09] [Thread-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.181.2:43786 to claim client
+[19:36:09] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[19:36:09] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[19:36:09] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[19:36:09] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[19:36:09] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[19:36:09] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /94.134.105.141:1907
+[19:36:09] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[19:36:09] [User Authenticator #3/INFO]: UUID of player NotJxlly is f34b2cf3-af89-4012-87db-df6e2ab0d3aa
+[19:36:10] [Server thread/INFO]: NotJxlly joined the game
+[19:36:10] [Server thread/INFO]: NotJxlly[/94.134.105.141:1907] logged in with entity id 15686 at ([minecraft:overworld]-5638.760441593683, 66.0, 4915.355575955679)
+[19:36:18] [Server thread/INFO]: NotJxlly issued server command: /stop
+[19:36:18] [Server thread/INFO]: [NotJxlly: Stopping the server]
+[19:36:18] [Server thread/INFO]: Stopping server
+[19:36:18] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.2.0
+[19:36:18] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v5.3.6
+[19:36:18] [Server thread/INFO]: [Multiverse-Inventories] - Disabled
+[19:36:18] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.8.2
+[19:36:18] [Server thread/INFO]: [Multiverse-Core] - Disabled
+[19:36:18] [Server thread/INFO]: Saving players
+[19:36:18] [Server thread/INFO]: NotJxlly lost connection: Server closed
+[19:36:18] [nioEventLoopGroup-2-2/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to minecraft server
+[19:36:18] [Server thread/INFO]: NotJxlly left the game
+[19:36:18] [Server thread/INFO]: Saving worlds
+[19:36:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WeltMitKurosh]'/minecraft:overworld
+[19:36:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
+[19:36:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
+[19:36:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
+[19:36:19] [Thread-3/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:31593, peerAddr=94.134.105.141:1909, claimAddress=69.9.181.2:43786, claimToken=[44, 0, 111, -109, -71, -35, 19, 123, 105, 94, -122, 105, -115, 7, 117, -16, 18, -28, -115, -85, 10, 106, -29, -96, 51, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 90, -87, 66, 0, 0, 0, 0, 0, 54, 94, -111, -105, 101, -85, 10, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 2, 0, 4, 0, 41, 40, 0, -120, 6, 33, 112, 104, 111, 110, 101, 115, 45, 97, 108, 116, 101, 114, 110, 97, 116, 105, 118, 101, 108, 121, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 123, 105, 1, -25, -5, -107, -59, -90, 108, 98, -83, 62, -98, -55, 2, 79, -28, -26, 24], tunnelServerId=0, tunnelId=3563153, dataCenterId=36, portOffset=0}
+[19:36:19] [Thread-3/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[19:36:19] [Thread-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.181.2:43786 to claim client
+[19:36:19] [Thread-3/INFO]: [gg.playit.minecraft.PlayitManager] control channel shutdown
+[19:36:19] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[19:36:19] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[19:36:19] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[19:36:19] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[19:36:19] [nioEventLoopGroup-2-4/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to connect to local minecraft server
+[19:36:20] [Server thread/INFO]: [ChunkHolderManager] Saved 773 block chunks, 989 entity chunks, 0 poi chunks in world 'minecraft:overworld' in 1.59s
+[19:36:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
+[19:36:20] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
+[19:36:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WeltMitKurosh]'/minecraft:the_nether
+[19:36:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
+[19:36:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
+[19:36:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
+[19:36:20] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0.00s
+[19:36:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
+[19:36:20] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
+[19:36:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WeltMitKurosh]'/minecraft:the_end
+[19:36:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'
+[19:36:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'
+[19:36:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'
+[19:36:20] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0.00s
+[19:36:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_end'
+[19:36:20] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_end'
+[19:36:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:36:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:36:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:36:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:36:20] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[19:36:20] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[19:36:20] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[19:36:20] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

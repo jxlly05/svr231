@@ -141,3 +141,37 @@
 [18:59:49] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting' in progress file ./WeltMitKurosh/players/advancements/f34b2cf3-af89-4012-87db-df6e2ab0d3aa.json - it doesn't exist anymore?
 [18:59:50] [Server thread/INFO]: NotJxlly joined the game
 [18:59:50] [Server thread/INFO]: NotJxlly[/94.134.105.141:1856] logged in with entity id 581 at ([minecraft:overworld]-2993.29729550437, 96.0, 6772.648809052089)
+[19:00:06] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[19:00:06] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[19:00:06] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[19:00:06] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[19:00:06] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[19:00:06] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /94.134.105.141:1849
+[19:00:06] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[19:00:06] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[19:00:06] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[19:00:07] [Server thread/INFO]: NotJxlly issued server command: /seed
+[19:00:40] [Thread-3/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:31593, peerAddr=91.54.182.135:51049, claimAddress=69.9.181.2:43784, claimToken=[44, 0, 111, -109, -71, -35, 19, 123, 105, 91, 54, -74, -121, -57, 105, -85, -122, -24, 95, -85, 8, 106, -29, -105, -40, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 90, -87, 66, 0, 0, 0, 0, 0, 54, 94, -111, -60, 55, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 41, 40, 0, -120, 6, 33, 112, 104, 111, 110, 101, 115, 45, 97, 108, 116, 101, 114, 110, 97, 116, 105, 118, 101, 108, 121, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 123, 105, 1, 49, -28, 98, 99, 30, -123, 25, -18, 40, -23, -104, -10, -122, -9, -127, -107], tunnelServerId=0, tunnelId=3563153, dataCenterId=36, portOffset=0}
+[19:00:40] [Thread-3/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[19:00:40] [Thread-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.181.2:43784 to claim client
+[19:00:40] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[19:00:40] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[19:00:40] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[19:00:40] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[19:00:40] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[19:00:40] [Netty Epoll IO #0/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /91.54.182.135:51049
+[19:00:40] [Netty Epoll IO #0/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[19:00:41] [Thread-3/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:31593, peerAddr=91.54.182.135:51054, claimAddress=69.9.181.2:43784, claimToken=[44, 0, -119, -109, -71, -35, 19, 123, 105, 91, 54, -74, -121, -57, 110, -79, -30, 93, 52, -85, 8, 106, -29, -105, -39, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 90, -87, 66, 0, 0, 0, 0, 0, 54, 94, -111, 77, -14, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 2, 0, 13, 0, 67, 40, 0, -120, 6, 33, 112, 104, 111, 110, 101, 115, 45, 97, 108, 116, 101, 114, 110, 97, 116, 105, 118, 101, 108, 121, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 123, 105, 2, 25, 0, 7, 75, 117, 114, 111, 99, 114, 55, -22, -126, 64, 51, 90, -61, 73, 38, -111, -10, 100, 102, -73, 25, -30, 55, 103, -120, 100, -37, 59, -48, 39, 7, -37, -119, -115, -71, 93, -123, -98, -37], tunnelServerId=0, tunnelId=3563153, dataCenterId=36, portOffset=0}
+[19:00:41] [Thread-3/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[19:00:41] [Thread-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.181.2:43784 to claim client
+[19:00:41] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[19:00:41] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[19:00:41] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[19:00:41] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[19:00:41] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[19:00:41] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /91.54.182.135:51054
+[19:00:41] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[19:00:42] [User Authenticator #1/INFO]: UUID of player Kurocr7 is ea824033-5ac3-4926-91f6-6466b719e237
+[19:00:43] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting' in progress file ./WeltMitKurosh/players/advancements/ea824033-5ac3-4926-91f6-6466b719e237.json - it doesn't exist anymore?
+[19:00:43] [Server thread/INFO]: Kurocr7 joined the game
+[19:00:43] [Server thread/INFO]: Kurocr7[/91.54.182.135:51054] logged in with entity id 1546 at ([minecraft:overworld]-3053.5980797744523, 63.0, 6860.500362113625)

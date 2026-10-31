@@ -24,7 +24,7 @@ settings:
   player-shuffle: 0
   user-cache-size: 1000
   moved-wrongly-threshold: 0.0625
-  moved-too-quickly-multiplier: 10.0
+  moved-too-quickly-multiplier: 10000000000000000000.0
   timeout-time: 60
   restart-on-crash: true
   restart-script: ./start.sh

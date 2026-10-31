@@ -1,112 +1,65 @@
-[08:18:39] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.5+8-LTS; Eclipse Adoptium Temurin-25.0.5+8) on Linux 7.0.0-1017-azure (amd64)
-[08:18:39] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-135-ver/26.2@e4d6dfd (2026-10-25T11:18:00Z) for Minecraft 26.2
-[08:18:39] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[08:18:40] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[08:18:40] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+[08:39:59] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.5+8-LTS; Eclipse Adoptium Temurin-25.0.5+8) on Linux 7.0.0-1017-azure (amd64)
+[08:39:59] [ServerMain/INFO]: [bootstrap] Loading Purpur 26.3-2655-HEAD@5b4c7f0 (2026-10-28T19:57:11Z) for Minecraft 26.3
+[08:40:00] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[08:40:00] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[08:40:00] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
  - Multiverse-Core (5.8.2), Multiverse-Inventories (5.3.6), playit-gg (0.2.0)
-[08:18:45] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[08:18:46] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[08:18:46] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 757.0ms
-[08:18:49] [ServerMain/INFO]: Loaded 1585 recipes
-[08:18:49] [ServerMain/INFO]: Loaded 1688 advancements
-[08:18:49] [Server thread/INFO]: Starting minecraft server version 26.2
-[08:18:49] [Server thread/INFO]: Loading properties
-[08:18:49] [Server thread/INFO]: This server is running Paper version 26.2-135-ver/26.2@e4d6dfd (2026-10-25T11:18:00Z) (Implementing API version 26.2.build.135-stable)
-[08:18:50] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[08:18:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[08:18:50] [Server thread/INFO]: Using 4 threads for Netty based IO
-[08:18:50] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[08:18:51] [Server thread/INFO]: Default game type: ADVENTURE
-[08:18:51] [Server thread/INFO]: Generating keypair
-[08:18:51] [Server thread/INFO]: Starting Minecraft server on *:25565
-[08:18:51] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[08:18:51] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[08:18:51] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.8.2
-[08:18:51] [Server thread/INFO]: [InvLogging] Loading server plugin Multiverse-Inventories v5.3.6
-[08:18:51] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
-[08:18:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[08:18:51] [Server thread/INFO]: Preparing level "WeltMitKurosh"
-[08:18:52] [Server thread/INFO]: Loading 308 persistent chunks for level 'minecraft:overworld'...
-[08:18:52] [Server thread/INFO]: Preparing spawn area: 3%
-[08:18:53] [Server thread/INFO]: Preparing spawn area: 3%
-[08:18:53] [Server thread/INFO]: Preparing spawn area: 3%
-[08:18:55] [Server thread/INFO]: Prepared spawn area in 2789 ms
-[08:18:55] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
-[08:18:55] [Server thread/INFO]: Preparing spawn area: 100%
-[08:18:55] [Server thread/INFO]: Prepared spawn area in 1 ms
-[08:18:55] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
-[08:18:55] [Server thread/INFO]: Prepared spawn area in 0 ms
-[08:18:55] [Server thread/INFO]: Done preparing level "WeltMitKurosh" (3.765s)
-[08:18:55] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.8.2
-[08:18:56] [Server thread/INFO]: Keep spawn in memory feature has been removed by Minecraft in 1.21.9+ and will no longer have any effect when set to true.
-[08:18:56] [Server thread/INFO]: Keep spawn in memory feature has been removed by Minecraft in 1.21.9+ and will no longer have any effect when set to true.
-[08:18:56] [Server thread/INFO]: Keep spawn in memory feature has been removed by Minecraft in 1.21.9+ and will no longer have any effect when set to true.
-[08:18:57] [Server thread/INFO]: [Multiverse-Core] API service loaded!
-[08:18:57] [Server thread/INFO]: [Multiverse-Core] Version 5.8.2 (API v5.8) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
-[08:18:57] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
-[08:18:57] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.3.6
-[08:18:57] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
-[08:18:57] [Server thread/INFO]: [Multiverse-Inventories] Version 5.3.6 (API v5.3) Enabled - By dumptruckman and benwoo1110
-[08:18:57] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.2.0
-[08:18:58] [Thread-3/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
-[08:18:58] [Thread-3/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
-[08:18:58] [Server thread/INFO]: [spark] Starting background profiler...
-[08:18:58] [Thread-3/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret verified, ready to connect
-[08:18:58] [Thread-3/INFO]: [gg.playit.minecraft.PlayitManager] keys setup complete, ready to connect
-[08:18:59] [Thread-3/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :/[2602:fbaf:830:0:0:0:0:1]:5525, error : java.net.SocketException: Network is unreachable
-[08:18:59] [Thread-3/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
-[08:18:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WeltMitKurosh]'/minecraft:overworld
-[08:19:00] [Thread-3/INFO]: [gg.playit.minecraft.PlayitManager] found minecraft java tunnel: subset-squatted.tun.ply.gg
-[08:19:00] [Thread-3/INFO]: playit.gg: tunnel setup
-[08:19:00] [Thread-3/INFO]: playit.gg: subset-squatted.tun.ply.gg
-[08:19:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WeltMitKurosh]'/minecraft:the_nether
-[08:19:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WeltMitKurosh]'/minecraft:the_end
-[08:19:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[08:19:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[08:19:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[08:19:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[08:19:00] [Server thread/INFO]: Running delayed init tasks
-[08:19:00] [Server thread/INFO]: [gg.playit.minecraft.PlayitPipelineInjector] injected playit header decoder into server channel: [id: 0x0693d592, L:/[0:0:0:0:0:0:0:0]:25565]
-[08:19:00] [Server thread/INFO]: [gg.playit.minecraft.PlayitBukkit] playit header decoder injected into server pipeline
-[08:19:00] [Server thread/INFO]: Done (23.799s)! For help, type "help"
-[08:19:01] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
-[08:19:01] [Paper Async Task Handler Thread - 1/WARN]: You are running the latest build for your Minecraft version (26.2)
-[08:19:01] [Paper Async Task Handler Thread - 1/WARN]: However, you are 2 releases behind the latest stable release (26.3)!
-[08:19:01] [Paper Async Task Handler Thread - 1/WARN]: It is recommended that you update as soon as possible
-[08:19:01] [Paper Async Task Handler Thread - 1/WARN]: https://papermc.io/downloads/paper
-[08:19:01] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
-[08:23:01] [Thread-3/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[08:27:02] [Thread-3/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[08:29:32] [Thread-3/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:31593, peerAddr=94.134.105.166:20086, claimAddress=69.9.181.2:43786, claimToken=[44, 0, 111, -109, -71, -35, 19, 123, 105, 94, -122, 105, -90, 78, 118, 56, -89, 6, -29, -85, 10, 106, -27, -90, -20, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 90, -87, 66, 0, 0, 0, 0, 0, 54, 94, -111, -13, -69, -85, 10, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 2, 0, 6, 0, 41, 40, 0, -119, 6, 33, 112, 104, 111, 110, 101, 115, 45, 97, 108, 116, 101, 114, 110, 97, 116, 105, 118, 101, 108, 121, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 123, 105, 1, 12, 98, -39, -87, 16, 117, -15, 6, -26, -79, 77, -107, 79, 22, -88, 76], tunnelServerId=0, tunnelId=3563153, dataCenterId=36, portOffset=0}
-[08:29:32] [Thread-3/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[08:29:32] [Thread-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.181.2:43786 to claim client
-[08:29:32] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[08:29:32] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[08:29:32] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[08:29:32] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[08:29:32] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[08:29:32] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /94.134.105.166:20086
-[08:29:32] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[08:30:34] [Thread-3/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:31593, peerAddr=94.134.105.166:20252, claimAddress=69.9.181.2:43786, claimToken=[44, 0, 111, -109, -71, -35, 19, 123, 105, 94, -122, 105, -90, 79, 28, 90, -54, 67, -66, -85, 10, 106, -27, -89, 42, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 90, -87, 66, 0, 0, 0, 0, 0, 54, 94, -111, 101, -106, -85, 10, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 2, 0, 15, 0, 41, 40, 0, -119, 6, 33, 112, 104, 111, 110, 101, 115, 45, 97, 108, 116, 101, 114, 110, 97, 116, 105, 118, 101, 108, 121, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 123, 105, 1, -52, -41, -90, 79, 108, 24, -93, -40, 67, 3, 111, -77, 4, 115, -95, -119], tunnelServerId=0, tunnelId=3563153, dataCenterId=36, portOffset=0}
-[08:30:34] [Thread-3/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[08:30:34] [Thread-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.181.2:43786 to claim client
-[08:30:54] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[08:30:54] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[08:30:54] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[08:30:54] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[08:30:54] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[08:30:54] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /94.134.105.166:20252
-[08:30:54] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[08:30:54] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[08:30:54] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[08:31:04] [Thread-3/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[08:31:11] [Thread-3/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:31593, peerAddr=94.134.105.166:20298, claimAddress=69.9.181.2:43786, claimToken=[44, 0, 111, -109, -71, -35, 19, 123, 105, 94, -122, 105, -90, 79, 74, -49, 19, 122, 85, -85, 10, 106, -27, -89, 79, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 90, -87, 66, 0, 0, 0, 0, 0, 54, 94, -111, -80, 45, -85, 10, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 2, 0, 15, 0, 41, 40, 0, -119, 6, 33, 112, 104, 111, 110, 101, 115, 45, 97, 108, 116, 101, 114, 110, 97, 116, 105, 118, 101, 108, 121, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 123, 105, 1, -39, 34, -73, 88, 88, 123, -76, -4, 0, -125, 19, 45, 61, 58, 4, 109], tunnelServerId=0, tunnelId=3563153, dataCenterId=36, portOffset=0}
-[08:31:11] [Thread-3/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[08:31:11] [Thread-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.181.2:43786 to claim client
-[08:31:11] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[08:31:11] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[08:31:11] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[08:31:11] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[08:31:11] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[08:31:11] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /94.134.105.166:20298
-[08:31:11] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[08:40:04] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[08:40:04] [ServerMain/INFO]: [com.destroystokyo.paper.profile.PaperServicesDiscoveryService] Environment: Environment[discoveryUrl=https://discovery.minecraftservices.com/minecraft/client, name=PROD]
+[08:40:04] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 571.7ms
+[08:40:06] [Worker-Main-1/INFO]: Loaded 1866 advancements
+[08:40:07] [Server thread/INFO]: Starting minecraft server version 26.3
+[08:40:07] [Server thread/INFO]: Loading properties
+[08:40:07] [Server thread/INFO]: This server is running Purpur version 26.3-2655-HEAD@5b4c7f0 (2026-10-28T19:57:11Z) (Implementing API version 26.3.build.2655-stable)
+[08:40:08] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[08:40:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:40:08] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:40:08] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[08:40:09] [Server thread/INFO]: Default game type: ADVENTURE
+[08:40:09] [Server thread/INFO]: Generating keypair
+[08:40:09] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:40:09] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[08:40:09] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[08:40:09] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.8.2
+[08:40:09] [Server thread/INFO]: [InvLogging] Loading server plugin Multiverse-Inventories v5.3.6
+[08:40:09] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
+[08:40:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:40:09] [Server thread/INFO]: Preparing level "WeltMitKurosh"
+[08:40:10] [Server thread/INFO]: Loading 308 persistent chunks for level 'minecraft:overworld'...
+[08:40:10] [Server thread/INFO]: Preparing spawn area: 3%
+[08:40:10] [Server thread/INFO]: Preparing spawn area: 3%
+[08:40:11] [Server thread/INFO]: Preparing spawn area: 3%
+[08:40:12] [Server thread/INFO]: Prepared spawn area in 2266 ms
+[08:40:12] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[08:40:12] [Server thread/INFO]: Prepared spawn area in 0 ms
+[08:40:12] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[08:40:12] [Server thread/INFO]: Prepared spawn area in 0 ms
+[08:40:12] [Server thread/INFO]: Done preparing level "WeltMitKurosh" (3.180s)
+[08:40:12] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.8.2
+[08:40:13] [Server thread/INFO]: Keep spawn in memory feature has been removed by Minecraft in 1.21.9+ and will no longer have any effect when set to true.
+[08:40:13] [Server thread/INFO]: Keep spawn in memory feature has been removed by Minecraft in 1.21.9+ and will no longer have any effect when set to true.
+[08:40:13] [Server thread/INFO]: Keep spawn in memory feature has been removed by Minecraft in 1.21.9+ and will no longer have any effect when set to true.
+[08:40:13] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[08:40:13] [Server thread/INFO]: [Multiverse-Core] Version 5.8.2 (API v5.8) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[08:40:13] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[08:40:13] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.3.6
+[08:40:13] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
+[08:40:13] [Server thread/INFO]: [Multiverse-Inventories] Version 5.3.6 (API v5.3) Enabled - By dumptruckman and benwoo1110
+[08:40:13] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.2.0
+[08:40:14] [Thread-2/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
+[08:40:14] [Thread-2/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[08:40:14] [Server thread/INFO]: [spark] Starting background profiler...
+[08:40:14] [Thread-2/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret verified, ready to connect
+[08:40:14] [Thread-2/INFO]: [gg.playit.minecraft.PlayitManager] keys setup complete, ready to connect
+[08:40:15] [Thread-2/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :/[2602:fbaf:830:0:0:0:0:1]:5525, error : java.net.SocketException: Network is unreachable
+[08:40:15] [Thread-2/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[08:40:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WeltMitKurosh]'/minecraft:overworld
+[08:40:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WeltMitKurosh]'/minecraft:the_nether
+[08:40:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WeltMitKurosh]'/minecraft:the_end
+[08:40:16] [Server thread/INFO]: Running delayed init tasks
+[08:40:16] [Server thread/INFO]: [gg.playit.minecraft.PlayitPipelineInjector] injected playit header decoder into server channel: [id: 0x67c3147b, L:/[0:0:0:0:0:0:0:0]:25565]
+[08:40:16] [Server thread/INFO]: [gg.playit.minecraft.PlayitBukkit] playit header decoder injected into server pipeline
+[08:40:16] [Server thread/INFO]: Done (17.742s)! For help, type "help"
+[08:40:16] [Thread-2/INFO]: [gg.playit.minecraft.PlayitManager] found minecraft java tunnel: subset-squatted.tun.ply.gg
+[08:40:16] [Thread-2/INFO]: playit.gg: tunnel setup
+[08:40:16] [Thread-2/INFO]: playit.gg: subset-squatted.tun.ply.gg
